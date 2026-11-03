@@ -1,0 +1,36 @@
+{
+  "title": "Table 2. Regional anchors and prospective access conditions. *",
+  "columns": [
+    "Setting",
+    "Source and CO2 cohort",
+    "H2 reference",
+    "Evidence and access"
+  ],
+  "rows": [
+    [
+      "ARA",
+      "Industrial portfolio, 2.5 Mt/y [21]",
+      "21.90 kt/y [25]",
+      "Refinery-committed design"
+    ],
+    [
+      "Teesside–Endurance",
+      "Gas-fired power, 2 Mt/y [22]",
+      "8.847 kt/y [26]",
+      "Historical design, assumed operation"
+    ],
+    [
+      "US Gulf Coast",
+      "Ammonia stream, 2 Mt/y [23]",
+      "20.00 kt/y",
+      "Author resource quota"
+    ],
+    [
+      "Yulin, China",
+      "Coal-to-ethylene-glycol streams, 0.4 Mt/y [24]",
+      "8.630 kt/y [27]",
+      "Published source and H2 designs"
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

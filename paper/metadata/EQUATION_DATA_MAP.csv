@@ -1,0 +1,4 @@
+﻿main_equation,SI_equations,files,purpose
+1,S3,model/allocation.py; metadata/EQUATIONS.csv,Complete-service lifecycle abatement
+2,S18,data/controls/FULL_CONTROL_SOLUTIONS.json; model/allocation.py,Additional utilisation gain versus independently reoptimised storage-only control
+3,S16–S17,model/allocation.py; model/REGISTERED_PROTOCOL.json,Feasible set and source-normalised resource ceiling

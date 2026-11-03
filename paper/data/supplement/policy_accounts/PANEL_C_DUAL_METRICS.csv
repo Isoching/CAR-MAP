@@ -1,0 +1,5 @@
+case_id,region,target,rate_USD_eligible_feed_t,fiscal_cap_USD_source_t,actual_public_USD_source_t,abatement_tCO2e_y,resource_USD_per_tCO2e,fiscal_USD_per_tCO2e,deployment_status
+C0015,ARA,storage,800.0,20.0,19.9999998,61061.70939689218,147.7443286791545,818.8437564858742,positive net abatement
+C0075,ARA,utilization,800.0,20.0,19.9999998,88941.64650976927,429.1470331616384,562.1663355929446,positive net abatement
+C0105,ARA,fuel,800.0,20.0,19.999999799999998,67904.35064430404,720.2681104367405,736.3298378613404,positive net abatement
+C0135,ARA,hydrogen,800.0,20.0,19.9999998,88941.64650976927,440.22515157611605,562.1663355929446,positive net abatement

@@ -1,0 +1,41 @@
+{
+  "title": "Table S13. Route-entry-calibrated support at a 1% premium. ",
+  "columns": [
+    "Mechanism",
+    "Entry rate",
+    "Applied rate",
+    "Abatement",
+    "Resources"
+  ],
+  "rows": [
+    [
+      "Storage",
+      "144.3",
+      "145.8",
+      "134.0",
+      "19.80"
+    ],
+    [
+      "CO2 use",
+      "610.7",
+      "616.8",
+      "46.14",
+      "19.80"
+    ],
+    [
+      "Qualified H2",
+      "626.5",
+      "632.7",
+      "44.98",
+      "19.80"
+    ],
+    [
+      "Fuel",
+      "782.5",
+      "790.4",
+      "27.49",
+      "19.80"
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

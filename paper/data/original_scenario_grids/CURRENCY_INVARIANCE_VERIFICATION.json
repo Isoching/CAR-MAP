@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "date": "2026-10-25",
+  "USD_per_EUR": 1.1513227272727276,
+  "flat_result_rows": 6821,
+  "results": {
+    "COMMON_BUDGET_FRONTIERS.csv": {
+      "rows": 80,
+      "max_physical_difference": 3.6088749766349792e-09,
+      "max_financial_difference_USD": 2.384185791015625e-07
+    },
+    "COMMON_PRICE_FRONTIERS.csv": {
+      "rows": 80,
+      "max_physical_difference": 1.862645149230957e-09,
+      "max_financial_difference_USD": 1.7881393432617188e-07
+    },
+    "ENGINEERING_SENSITIVITY.csv": {
+      "rows": 892,
+      "max_physical_difference": 7.939524948596954e-08,
+      "max_financial_difference_USD": 3.635883331298828e-06
+    },
+    "RESOURCE_AND_MARKET_CONTROLS.csv": {
+      "rows": 201,
+      "max_physical_difference": 1.6298145055770874e-08,
+      "max_financial_difference_USD": 1.2458376943413896e-06
+    },
+    "SWITCHING_SURFACES.csv": {
+      "rows": 5456,
+      "max_physical_difference": 1.4435499906539917e-08,
+      "max_financial_difference_USD": 6.258487701416016e-07
+    },
+    "MATCHED_PAYMENT_MECHANISMS.csv": {
+      "rows": 60,
+      "max_physical_difference": 0.001611029263585806,
+      "max_financial_difference_USD": 0.046434229239821434
+    },
+    "INSTITUTIONAL_QUALIFICATION_GATES.csv": {
+      "rows": 46,
+      "max_physical_difference": 9.313225746154785e-10,
+      "max_financial_difference_USD": 1.1920928955078125e-07
+    },
+    "UK_SUPPORTED_GENERATION_DESIGN.csv": {
+      "rows": 6,
+      "max_physical_difference": 0.0,
+      "max_financial_difference_USD": 1.1920928955078125e-07
+    }
+  },
+  "central_flow_comparisons": [
+    {
+      "region": "ARA",
+      "label": "private_neutral",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "ARA",
+      "label": "private_regional",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "ARA",
+      "label": "common_budget50",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "UK",
+      "label": "private_neutral",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "UK",
+      "label": "private_regional",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "UK",
+      "label": "common_budget50",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "US",
+      "label": "private_neutral",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "US",
+      "label": "private_regional",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "US",
+      "label": "common_budget50",
+      "max_flow_difference_t": 4.656612873077393e-10
+    },
+    {
+      "region": "CN",
+      "label": "private_neutral",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "CN",
+      "label": "private_regional",
+      "max_flow_difference_t": 0.0
+    },
+    {
+      "region": "CN",
+      "label": "common_budget50",
+      "max_flow_difference_t": 0.0
+    }
+  ],
+  "central_LP_coefficient_comparisons": 12,
+  "default_and_grid_conversion": "PASS",
+  "boundary_and_module_checks": "PASS",
+  "policy_same_period_USD85_check": 85.0,
+  "physical_tolerance": "0.05 in each reported physical unit, within the existing replay precision",
+  "max_difference_explanation": "Largest difference 0.001611 MWh and USD0.046435 in matched payment mechanisms lies within the inherited lexicographic objective tolerance. No feasibility change or change in the reported allocation conclusion.",
+  "classification": "Paired numerical currency-invariance verification"
+}

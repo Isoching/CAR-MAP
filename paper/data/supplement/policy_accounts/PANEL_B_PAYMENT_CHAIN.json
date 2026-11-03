@@ -1,0 +1,13 @@
+{
+  "case_id": "B006105",
+  "ceiling": 57.566136363636375,
+  "paid": 43.49410710183683,
+  "received": 36.969991036561304,
+  "upstream": 6.524116065275526,
+  "unspent": 14.072029261799543,
+  "unit": "USD2026-09/t fixed source CO2",
+  "eligible_H2_share": 1,
+  "realization": 1,
+  "passthrough": 0.85,
+  "rate_USD_eligible_feed_t": 800
+}

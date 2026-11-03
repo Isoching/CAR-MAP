@@ -1,0 +1,5203 @@
+[
+  {
+    "label": "private_neutral",
+    "region": "ARA",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "portfolio::storage",
+      "portfolio::fuel",
+      "portfolio::fuel_qualified",
+      "portfolio::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.860894617196701,
+        8.81112457994327,
+        8.81112457994327,
+        8.81112457994327,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.14569513864087144,
+        0.7948095226146925,
+        0.7948095226146925,
+        0.6233084966497883,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9769873601201413,
+        -1.0842966819312208,
+        -1.0842966819312208,
+        -1.4202202256701981,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.14569513864087144,
+        0.7948095226146925,
+        0.7948095226146925,
+        0.6233084966497883,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.860894617196701,
+        8.81112457994327,
+        8.81112457994327,
+        8.81112457994327,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.860894617196701,
+        -8.81112457994327,
+        -8.81112457994327,
+        -8.81112457994327,
+        54.5
+      ]
+    ],
+    "b": [
+      2500.0,
+      2500.0,
+      2500.0,
+      1200.0,
+      21.9,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      21.9,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::portfolio",
+      "qualified_native_gas::portfolio",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 4191.291495198902,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 2500000.0,
+    "electricity_price": 70.64842559228472,
+    "electricity_GHG": 0.0186,
+    "nominal_H2_t": 21900.0,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "portfolio": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "private_regional",
+    "region": "ARA",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "regional",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "portfolio::storage",
+      "portfolio::fuel",
+      "portfolio::fuel_qualified",
+      "portfolio::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.860894617196701,
+        8.81112457994327,
+        8.81112457994327,
+        8.81112457994327,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.14569513864087144,
+        0.7948095226146925,
+        0.7948095226146925,
+        0.6233084966497883,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9769873601201413,
+        -1.0842966819312208,
+        -1.0842966819312208,
+        -1.4202202256701981,
+        0.0
+      ],
+      "tax_increment": [
+        -0.09419790078971296,
+        -0.004368573614335685,
+        -0.050533955528151264,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.05149723785115848,
+        0.7904409490003568,
+        0.7442755670865413,
+        0.6233084966497883,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.860894617196701,
+        8.81112457994327,
+        8.81112457994327,
+        8.81112457994327,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.860894617196701,
+        -8.81112457994327,
+        -8.81112457994327,
+        -8.81112457994327,
+        54.5
+      ],
+      [
+        0.0,
+        0.12481802945326292,
+        -2.2313166577467367,
+        0.0,
+        0.0
+      ]
+    ],
+    "b": [
+      2500.0,
+      2500.0,
+      2500.0,
+      1200.0,
+      21.9,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      21.9,
+      0.0,
+      0.0,
+      -65.67593964334704
+    ],
+    "constraint_names": [
+      "source_access::portfolio",
+      "qualified_native_gas::portfolio",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2",
+      "FuelEU2030_strict_no_pooling"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year",
+      "ktCO2e_regulatory/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 4191.291495198902,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 276.36682055973387,
+    "fixed_source_t": 2500000.0,
+    "electricity_price": 70.64842559228472,
+    "electricity_GHG": 0.0186,
+    "nominal_H2_t": 21900.0,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "portfolio": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "common_budget_reference",
+    "region": "ARA",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "portfolio::storage",
+      "portfolio::fuel",
+      "portfolio::fuel_qualified",
+      "portfolio::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.860894617196701,
+        8.81112457994327,
+        8.81112457994327,
+        8.81112457994327,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.14569513864087144,
+        0.7948095226146925,
+        0.7948095226146925,
+        0.6233084966497883,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9769873601201413,
+        -1.0842966819312208,
+        -1.0842966819312208,
+        -1.4202202256701981,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.14569513864087144,
+        0.7948095226146925,
+        0.7948095226146925,
+        0.6233084966497883,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.860894617196701,
+        8.81112457994327,
+        8.81112457994327,
+        8.81112457994327,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.860894617196701,
+        -8.81112457994327,
+        -8.81112457994327,
+        -8.81112457994327,
+        54.5
+      ]
+    ],
+    "b": [
+      2500.0,
+      2500.0,
+      2500.0,
+      1200.0,
+      21.9,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      21.9,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::portfolio",
+      "qualified_native_gas::portfolio",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 4191.291495198902,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 2500000.0,
+    "electricity_price": 70.64842559228472,
+    "electricity_GHG": 0.0186,
+    "nominal_H2_t": 21900.0,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "portfolio": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "private_neutral",
+    "region": "UK",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "NGCC::storage",
+      "NGCC::fuel",
+      "NGCC::fuel_qualified",
+      "NGCC::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.9545958775072959,
+        8.904969735028553,
+        8.904969735028553,
+        8.904969735028553,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.20393178678146331,
+        1.222115333112069,
+        1.222115333112069,
+        1.0506143071471647,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9752445166783643,
+        -1.0825511620466346,
+        -1.0825511620466346,
+        -1.4184747057856117,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.20393178678146331,
+        1.222115333112069,
+        1.222115333112069,
+        1.0506143071471647,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.9545958775072959,
+        8.904969735028553,
+        8.904969735028553,
+        8.904969735028553,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.9545958775072959,
+        -8.904969735028553,
+        -8.904969735028553,
+        -8.904969735028553,
+        54.5
+      ]
+    ],
+    "b": [
+      2000.0,
+      2000.0,
+      2000.0,
+      1200.0,
+      8.84679633027523,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      8.84679633027523,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::NGCC",
+      "qualified_native_gas::NGCC",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 3691.291495198903,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 2000000.0,
+    "electricity_price": 117.74737598714123,
+    "electricity_GHG": 0.0186,
+    "nominal_H2_t": 8846.79633027523,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "NGCC": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "private_regional",
+    "region": "UK",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "regional",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "NGCC::storage",
+      "NGCC::fuel",
+      "NGCC::fuel_qualified",
+      "NGCC::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.9545958775072959,
+        8.904969735028553,
+        8.904969735028553,
+        8.904969735028553,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.20393178678146331,
+        1.222115333112069,
+        1.222115333112069,
+        1.0506143071471647,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9752445166783643,
+        -1.0825511620466346,
+        -1.0825511620466346,
+        -1.4184747057856117,
+        0.0
+      ],
+      "tax_increment": [
+        -0.07221508340543399,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.1317167033760293,
+        1.222115333112069,
+        1.222115333112069,
+        1.0506143071471647,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.9545958775072959,
+        8.904969735028553,
+        8.904969735028553,
+        8.904969735028553,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.9545958775072959,
+        -8.904969735028553,
+        -8.904969735028553,
+        -8.904969735028553,
+        54.5
+      ]
+    ],
+    "b": [
+      2000.0,
+      2000.0,
+      2000.0,
+      1200.0,
+      8.84679633027523,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      8.84679633027523,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::NGCC",
+      "qualified_native_gas::NGCC",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 3691.291495198903,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 144.43016681086797,
+    "fixed_source_t": 2000000.0,
+    "electricity_price": 117.74737598714123,
+    "electricity_GHG": 0.0186,
+    "nominal_H2_t": 8846.79633027523,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "NGCC": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "common_budget_reference",
+    "region": "UK",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "NGCC::storage",
+      "NGCC::fuel",
+      "NGCC::fuel_qualified",
+      "NGCC::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.9545958775072959,
+        8.904969735028553,
+        8.904969735028553,
+        8.904969735028553,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.20393178678146331,
+        1.222115333112069,
+        1.222115333112069,
+        1.0506143071471647,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9752445166783643,
+        -1.0825511620466346,
+        -1.0825511620466346,
+        -1.4184747057856117,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.20393178678146331,
+        1.222115333112069,
+        1.222115333112069,
+        1.0506143071471647,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.9545958775072959,
+        8.904969735028553,
+        8.904969735028553,
+        8.904969735028553,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.9545958775072959,
+        -8.904969735028553,
+        -8.904969735028553,
+        -8.904969735028553,
+        54.5
+      ]
+    ],
+    "b": [
+      2000.0,
+      2000.0,
+      2000.0,
+      1200.0,
+      8.84679633027523,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      8.84679633027523,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::NGCC",
+      "qualified_native_gas::NGCC",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 3691.291495198903,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 2000000.0,
+    "electricity_price": 117.74737598714123,
+    "electricity_GHG": 0.0186,
+    "nominal_H2_t": 8846.79633027523,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "NGCC": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "private_neutral",
+    "region": "US",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "ammonia::storage",
+      "ammonia::fuel",
+      "ammonia::fuel_qualified",
+      "ammonia::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.12362134842101424,
+        8.075254873634693,
+        8.075254873634693,
+        8.075254873634693,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.05361265058679346,
+        0.6543661179771976,
+        0.6543661179771976,
+        0.48286509201229333,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9908177578810311,
+        -1.1056340999277932,
+        -1.1056340999277932,
+        -1.4415576436667705,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.05361265058679346,
+        0.6543661179771976,
+        0.6543661179771976,
+        0.48286509201229333,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12362134842101424,
+        8.075254873634693,
+        8.075254873634693,
+        8.075254873634693,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.12362134842101424,
+        -8.075254873634693,
+        -8.075254873634693,
+        -8.075254873634693,
+        54.5
+      ]
+    ],
+    "b": [
+      2000.0,
+      2000.0,
+      2000.0,
+      1200.0,
+      20.0,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      20.0,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::ammonia",
+      "qualified_native_gas::ammonia",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 3691.291495198903,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 2000000.0,
+    "electricity_price": 63.774214989646396,
+    "electricity_GHG": 0.017652631578947368,
+    "nominal_H2_t": 20000.0,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "ammonia": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "private_regional",
+    "region": "US",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "regional",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "ammonia::storage",
+      "ammonia::fuel",
+      "ammonia::fuel_qualified",
+      "ammonia::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.12362134842101424,
+        8.075254873634693,
+        8.075254873634693,
+        8.075254873634693,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.05361265058679346,
+        0.6543661179771976,
+        0.6543661179771976,
+        0.48286509201229333,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9908177578810311,
+        -1.1056340999277932,
+        -1.1056340999277932,
+        -1.4415576436667705,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.085,
+        0.0,
+        0.0,
+        0.0,
+        3.2800000000000002
+      ],
+      "received": [
+        0.085,
+        0.0,
+        0.0,
+        0.0,
+        3.2800000000000002
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        -0.03138734941320655,
+        0.6543661179771976,
+        0.6543661179771976,
+        0.48286509201229333,
+        -3.1648677272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12362134842101424,
+        8.075254873634693,
+        8.075254873634693,
+        8.075254873634693,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.12362134842101424,
+        -8.075254873634693,
+        -8.075254873634693,
+        -8.075254873634693,
+        54.5
+      ],
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -0.0
+      ]
+    ],
+    "b": [
+      2000.0,
+      2000.0,
+      2000.0,
+      1200.0,
+      20.0,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      20.0,
+      0.0,
+      0.0,
+      -12.5
+    ],
+    "constraint_names": [
+      "source_access::ammonia",
+      "qualified_native_gas::ammonia",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2",
+      "45Q_industrial_minimum_capture"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year",
+      "ktCO2/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 3691.291495198903,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 2000000.0,
+    "electricity_price": 63.774214989646396,
+    "electricity_GHG": 0.017652631578947368,
+    "nominal_H2_t": 20000.0,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": true,
+    "source_masks": {
+      "ammonia": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "common_budget_reference",
+    "region": "US",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "ammonia::storage",
+      "ammonia::fuel",
+      "ammonia::fuel_qualified",
+      "ammonia::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.12362134842101424,
+        8.075254873634693,
+        8.075254873634693,
+        8.075254873634693,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.05361265058679346,
+        0.6543661179771976,
+        0.6543661179771976,
+        0.48286509201229333,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9908177578810311,
+        -1.1056340999277932,
+        -1.1056340999277932,
+        -1.4415576436667705,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.05361265058679346,
+        0.6543661179771976,
+        0.6543661179771976,
+        0.48286509201229333,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12362134842101424,
+        8.075254873634693,
+        8.075254873634693,
+        8.075254873634693,
+        0.0
+      ],
+      [
+        0.0,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.1366547142857143,
+        0.0
+      ],
+      [
+        0.0,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.7128571428571429,
+        0.0
+      ],
+      [
+        0.0,
+        6.383635714285714,
+        6.383635714285714,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        -0.1366547142857143,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1366547142857143,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.12362134842101424,
+        -8.075254873634693,
+        -8.075254873634693,
+        -8.075254873634693,
+        54.5
+      ]
+    ],
+    "b": [
+      2000.0,
+      2000.0,
+      2000.0,
+      1200.0,
+      20.0,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      20.0,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::ammonia",
+      "qualified_native_gas::ammonia",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 3691.291495198903,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 2000000.0,
+    "electricity_price": 63.774214989646396,
+    "electricity_GHG": 0.017652631578947368,
+    "nominal_H2_t": 20000.0,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "ammonia": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "private_neutral",
+    "region": "CN",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "EG_high::storage",
+      "EG_high::fuel",
+      "EG_high::fuel_qualified",
+      "EG_high::chemical",
+      "EG_low::storage",
+      "EG_low::fuel",
+      "EG_low::fuel_qualified",
+      "EG_low::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.021868460086244743,
+        7.669436959414527,
+        7.669436959414527,
+        7.669436959414527,
+        0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.028938031346688518,
+        0.378821047626589,
+        0.378821047626589,
+        0.2138501208467212,
+        0.045396533538202825,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9926139641308986,
+        -1.0651956729269108,
+        -1.0651956729269108,
+        -1.388328540651779,
+        -0.9895370399668022,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.028938031346688518,
+        0.378821047626589,
+        0.378821047626589,
+        0.2138501208467212,
+        0.045396533538202825,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.021868460086244743,
+        7.669436959414527,
+        7.669436959414527,
+        7.669436959414527,
+        0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.140571428571428,
+        6.140571428571428,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.13145142857142858,
+        -0.13145142857142858,
+        -0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.021868460086244743,
+        -7.669436959414527,
+        -7.669436959414527,
+        -7.669436959414527,
+        -0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        54.5
+      ]
+    ],
+    "b": [
+      100.0,
+      100.0,
+      300.0,
+      300.0,
+      400.0,
+      1200.0,
+      8.6304,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      8.6304,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::EG_high",
+      "qualified_native_gas::EG_high",
+      "source_access::EG_low",
+      "qualified_native_gas::EG_low",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 2091.2914951989023,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 400000.0,
+    "electricity_price": 32.828925539637964,
+    "electricity_GHG": 0.017652631578947368,
+    "nominal_H2_t": 8630.4,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "EG_high": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EG_low": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "private_regional",
+    "region": "CN",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "regional",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "EG_high::storage",
+      "EG_high::fuel",
+      "EG_high::fuel_qualified",
+      "EG_high::chemical",
+      "EG_low::storage",
+      "EG_low::fuel",
+      "EG_low::fuel_qualified",
+      "EG_low::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.021868460086244743,
+        7.669436959414527,
+        7.669436959414527,
+        7.669436959414527,
+        0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.028938031346688518,
+        0.378821047626589,
+        0.378821047626589,
+        0.2138501208467212,
+        0.045396533538202825,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9926139641308986,
+        -1.0651956729269108,
+        -1.0651956729269108,
+        -1.388328540651779,
+        -0.9895370399668022,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.028938031346688518,
+        0.378821047626589,
+        0.378821047626589,
+        0.2138501208467212,
+        0.045396533538202825,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.021868460086244743,
+        7.669436959414527,
+        7.669436959414527,
+        7.669436959414527,
+        0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.140571428571428,
+        6.140571428571428,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.13145142857142858,
+        -0.13145142857142858,
+        -0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.021868460086244743,
+        -7.669436959414527,
+        -7.669436959414527,
+        -7.669436959414527,
+        -0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        54.5
+      ]
+    ],
+    "b": [
+      100.0,
+      100.0,
+      300.0,
+      300.0,
+      400.0,
+      1200.0,
+      8.6304,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      8.6304,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::EG_high",
+      "qualified_native_gas::EG_high",
+      "source_access::EG_low",
+      "qualified_native_gas::EG_low",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 2091.2914951989023,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 400000.0,
+    "electricity_price": 32.828925539637964,
+    "electricity_GHG": 0.017652631578947368,
+    "nominal_H2_t": 8630.4,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "EG_high": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EG_low": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "label": "common_budget_reference",
+    "region": "CN",
+    "scenario": {
+      "engineering": {
+        "real_discount": 0.08,
+        "reference_hours": 8000.0,
+        "intercooler_K": 313.15,
+        "eta_isentropic": 0.8,
+        "eta_motor": 0.95,
+        "stage_max_ratio": 2.0,
+        "interstage_pressure_loss": 0.01,
+        "chiller_evaporating_K": 273.15,
+        "chiller_condensing_K": 313.15,
+        "chiller_eta_isentropic": 0.75,
+        "installation_factor": 3.0,
+        "equipment_cost_multiplier": 1.0,
+        "synthesis_cost_multiplier": 1.0,
+        "electrolyser_cost_multiplier": 1.0,
+        "osbl_fraction": 0.1,
+        "water_USD2026_per_m3": 2.302645454545455,
+        "grid_connection_USD2026_per_kW": 115.13227272727275,
+        "h2_kWh_kg": 54.5,
+        "hydrogen_package": "complete80bar",
+        "capture_heat_mode": "electric",
+        "capture_cost_multiplier": 1.0,
+        "capture_heat_multiplier": 1.0,
+        "UK_additional_CO2_fan_fraction": 0.0,
+        "boiler_nonpower_vom_fraction": 0.0,
+        "dryer_electricity_MWh_tCO2": 0.004,
+        "storage_nonenergy_GHG_tCO2e_t": 0.007,
+        "utilization_nonenergy_GHG_tCO2e_t": 0.002,
+        "capture_retained_fraction": 0.55,
+        "storage_cost_multiplier": 1.0,
+        "collection_tariff_multiplier": 1.0,
+        "purity_recovery_high": 0.96,
+        "qualification_cost_USD2026_per_t": 11.513227272727276,
+        "qualification_energy_MWh_per_t": 0.02,
+        "preserve_native_pressure": true,
+        "cn_low_inlet_Pa": 28200.0,
+        "cn_full_pilot_cost": false,
+        "cn_pilot_life": 25.0,
+        "cn_pilot_capex_multiplier": 1.0,
+        "h2_local_epc": false
+      },
+      "policy": "neutral",
+      "electricity_price": null,
+      "electricity_GHG": null,
+      "backup_share": 0.0,
+      "network_GHG": 0.0046,
+      "product_delivery_GHG": 0.02,
+      "methanol_fuel_nonCO2": 0.0491,
+      "power_GWh": 1200.0,
+      "hydrogen_share": 1.0,
+      "source_share": 1.0,
+      "storage_share": 1.0,
+      "quality_share": 1.0,
+      "chemical_demand_t": 300000.0,
+      "shaft_service_GJ": 5000000.0,
+      "methanol_engine_efficiency": 0.45,
+      "hfo_engine_efficiency": 0.45,
+      "methanol_capacity_t": 100000.0,
+      "conventional_meoh_production_GHG": 0.85,
+      "conventional_meoh_price": 529.8631919421355,
+      "hfo_price": 588.736879935706,
+      "new_product_delivery_cost": 23.026454545454552,
+      "certification_cost_per_tH2": 115.13227272727275,
+      "hydrogen_qualification_share": 1.0,
+      "certification_ok": true,
+      "regulatory_h2_CI": 0.4,
+      "us_construction_before2028": true,
+      "us_capture_construction_before2033": true,
+      "us_capture_service_year": 2029,
+      "us_hydrogen_service_year": 2029,
+      "us_pwa": true,
+      "us_same_h2_facility_45q": false,
+      "credit_realization": 1.0,
+      "hydrogen_credit_passthrough": 1.0,
+      "fiscal_budget_per_source_t": null,
+      "payment_target": "none",
+      "payment_rate": 0.0,
+      "sde_base_rate": null,
+      "force_fuel_compliance": false,
+      "destination_locked": false,
+      "budget_per_source_t": 57.566136363636375,
+      "relative_scale": false,
+      "uk_supported_rate": null,
+      "uk_generation_CO2_t": null
+    },
+    "names": [
+      "EG_high::storage",
+      "EG_high::fuel",
+      "EG_high::fuel_qualified",
+      "EG_high::chemical",
+      "EG_low::storage",
+      "EG_low::fuel",
+      "EG_low::fuel_qualified",
+      "EG_low::chemical",
+      "qualified_H2"
+    ],
+    "vectors": {
+      "power": [
+        0.021868460086244743,
+        7.669436959414527,
+        7.669436959414527,
+        7.669436959414527,
+        0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hydrogen": [
+        0.0,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "methanol": [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chemical": [
+        0.0,
+        0.0,
+        0.0,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fuel": [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stored": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_captured": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "qualified_fuel_hydrogen": [
+        0.0,
+        0.0,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gross_increment": [
+        0.028938031346688518,
+        0.378821047626589,
+        0.378821047626589,
+        0.2138501208467212,
+        0.045396533538202825,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "ghg_increment": [
+        -0.9926139641308986,
+        -1.0651956729269108,
+        -1.0651956729269108,
+        -1.388328540651779,
+        -0.9895370399668022,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tax_increment": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fiscal": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "received": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "supplier_retained": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certification_resource": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ],
+      "private_increment": [
+        0.028938031346688518,
+        0.378821047626589,
+        0.378821047626589,
+        0.2138501208467212,
+        0.045396533538202825,
+        0.0,
+        0.0,
+        0.0,
+        0.11513227272727275
+      ]
+    },
+    "bounds": [
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        null
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "A": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.021868460086244743,
+        7.669436959414527,
+        7.669436959414527,
+        7.669436959414527,
+        0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.6857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.140571428571428,
+        6.140571428571428,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.13145142857142858,
+        -0.13145142857142858,
+        -0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.13145142857142858,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -0.021868460086244743,
+        -7.669436959414527,
+        -7.669436959414527,
+        -7.669436959414527,
+        -0.19617245268562375,
+        0.0,
+        0.0,
+        0.0,
+        54.5
+      ]
+    ],
+    "b": [
+      100.0,
+      100.0,
+      300.0,
+      300.0,
+      400.0,
+      1200.0,
+      8.6304,
+      100.0,
+      300.0,
+      5000.0,
+      0.0,
+      8.6304,
+      0.0,
+      0.0
+    ],
+    "constraint_names": [
+      "source_access::EG_high",
+      "qualified_native_gas::EG_high",
+      "source_access::EG_low",
+      "qualified_native_gas::EG_low",
+      "storage_access",
+      "electricity",
+      "hydrogen",
+      "methanol_reference_capacity",
+      "chemical_service",
+      "shaft_service",
+      "qualified_H2_is_actually_used",
+      "qualified_H2_access",
+      "qualified_fuel_uses_qualified_hydrogen",
+      "annual_renewable_volume_for_qualified_H2"
+    ],
+    "constraint_units": [
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "ktCO2/year",
+      "GWh/year",
+      "ktH2/year",
+      "ktMeOH/year",
+      "ktMeOH/year",
+      "TJshaft/year",
+      "ktH2/year",
+      "ktH2/year",
+      "ktH2/year",
+      "GWh/year"
+    ],
+    "currency": "USD",
+    "price_basis": "2026-09",
+    "baseline_GHG_kt": 2091.2914951989023,
+    "baseline_resource_MUSD": 320.4779918585545,
+    "baseline_tax_MUSD": 0.0,
+    "fixed_source_t": 400000.0,
+    "electricity_price": 32.828925539637964,
+    "electricity_GHG": 0.017652631578947368,
+    "nominal_H2_t": 8630.4,
+    "eligibility": {
+      "regulatory_H2_assumed_qualified": true,
+      "actual_project_qualification": null,
+      "DPA_actual_rate": null,
+      "DPA_actual_payment": null,
+      "SDE_actual_payment": null,
+      "CB_scope": "New-route reference, actual project dispatch and full welfare not inferred"
+    },
+    "claim_45q": false,
+    "source_masks": {
+      "EG_high": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EG_low": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "title": "Table 3. Conditions governing allocation and policy conclusions. * ",
+  "columns": [
+    "Comparison",
+    "Quantitative evidence",
+    "Decision implication"
+  ],
+  "rows": [
+    [
+      "High-coal supply",
+      "European gain 0.80–3.81%, capture −21.33 to −25.85%",
+      "Capture throughput differs from mitigation"
+    ],
+    [
+      "Lower-coal supply",
+      "ARA/UK increment zero at 2.6–3.8 tCO2e/t",
+      "Document the displaced producer"
+    ],
+    [
+      "Equal electricity intensity",
+      "US/CN gains unchanged at 0.48 MWh/t source",
+      "Separate access from source engineering"
+    ],
+    [
+      "Uniform versus calibrated payments",
+      "Storage/use: 24.42/35.58 versus 134.0/46.14 kgCO2e/t",
+      "Fiscal ranking depends on rate calibration"
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

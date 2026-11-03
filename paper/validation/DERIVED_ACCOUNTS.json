@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "published_retention_scenarios": 3,
+  "max_retention_reconstruction_error_pct": 1.4210854715202004e-14,
+  "cohort_delay_scenarios": 216,
+  "max_cohort_reconstruction_error_tCO2e": 1.4901161193847656e-08,
+  "max_shortfall_reconstruction_error_tCO2e": 1.30385160446167e-08,
+  "authorisation_payment_reconciliation_error_USD_per_source_t": 0.0,
+  "public_recipient_reconciliation_error_USD_per_source_t": 2.6645352591003757e-15,
+  "matched_outlay_coordinates": 4,
+  "max_actual_payment_error_USD_per_source_t": 0,
+  "max_private_resource_fiscal_identity_error_USD_per_source_t": 3.552713678800501e-15,
+  "scope": "Reconstruction from retained published endpoints and solved annual-state/financial inputs. No new forecasts, optimisation or Monte Carlo samples."
+}

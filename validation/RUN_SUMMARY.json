@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "completed_utc": "2026-11-03T19:58:47.554955+00:00",
+  "python": "3.12.7",
+  "platform": "macOS-15.7.7-arm64-arm-64bit",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "CoolProp": "8.0.0",
+    "openpyxl": "3.1.5"
+  },
+  "preparation": {
+    "status": "PASS",
+    "compressed_files_verified": 6,
+    "files_restored": 0,
+    "original_zip_verified": true
+  },
+  "completed_steps": [
+    "validate_archive.py",
+    "replay_matrix_examples.py",
+    "check_derived_accounts.py",
+    "run_control_calculations.py",
+    "compare_controls.py",
+    "export_control_matrices.py"
+  ],
+  "elapsed_seconds": 21.32,
+  "scope": "Frozen-payload integrity, 40 matrix examples and derived accounts. Full mode additionally regenerates and compares all 1700 V7 control solutions and reconstructs their matrices; this is not a regeneration of every original figure grid or figure artwork."
+}

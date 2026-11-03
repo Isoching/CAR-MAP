@@ -1,0 +1,5 @@
+{
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09",
+  "status": 200,
+  "sha256": "a6851699f26c567b3e2e1477da78b19a444f418941d7cdede98b87b0b0e90bbe"
+}

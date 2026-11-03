@@ -1,0 +1,5 @@
+﻿model_id,region,conventional_inventory_tCO2e_per_tMeOH,state,storage_abatement_tCO2e_per_year,chemical_abatement_tCO2e_per_year,fuel_abatement_tCO2e_per_year,qualification_abatement_tCO2e_per_year,total_abatement_tCO2e_per_year,annual_abatement_pct_of_ready,stored_tCO2_per_year,raw_CO2_to_methanol_t_per_year,chemical_methanol_t_per_year,fuel_methanol_t_per_year,annual_reconstruction_residual_tCO2e
+ARA_4.81_ready,ARA,4.81,ready,701781.6531671329,280082.9585937317,0.0,0.0,981864.6117608645,100.00000000000004,718311.9063903078,66008.503346349,47054.63309975451,0.0,3.4924596548080444e-10
+ARA_4.81_hydrogen_late,ARA,4.81,hydrogen_late,974083.6806160368,0.0,0.0,0.0,974083.6806160368,99.20753522923359,997027.9252090349,0.0,0.0,0.0,1.1641532182693481e-10
+ARA_4.81_storage_late,ARA,4.81,storage_late,0.0,577878.7164505792,0.0,0.0,577878.7164505792,58.85523416657399,0.0,136191.46762849722,97085.06049517161,0.0,1.1641532182693481e-10
+ARA_4.81_both_late,ARA,4.81,both_late,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,856 @@
+[
+  {
+    "file": "model/allocation.py",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/allocation.py",
+    "source_sha256": "67f6eaae0345b61669bd055abcc093a4a09468e44e071a5141effa642e615004",
+    "packaged_sha256": "67f6eaae0345b61669bd055abcc093a4a09468e44e071a5141effa642e615004",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/engineering.py",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/engineering.py",
+    "source_sha256": "2e432722f3072054f0e48c39b5a69af7696741a386c5354bf8cc8802da7b2553",
+    "packaged_sha256": "2e432722f3072054f0e48c39b5a69af7696741a386c5354bf8cc8802da7b2553",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/MONEY_LOOKUP.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/MONEY_LOOKUP.json",
+    "source_sha256": "2c14e9b01d1ff5bc5aafc796af951f1b016519cad5413603a5a6c1de5ad71963",
+    "packaged_sha256": "2c14e9b01d1ff5bc5aafc796af951f1b016519cad5413603a5a6c1de5ad71963",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/MONETARY_PARAMETER_REGISTER.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/MONETARY_PARAMETER_REGISTER.csv",
+    "source_sha256": "cf827bd32bdb8274b9453c6714e62af61ce966d015be43e94ea5e56835ca4127",
+    "packaged_sha256": "cf827bd32bdb8274b9453c6714e62af61ce966d015be43e94ea5e56835ca4127",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/EFFECTIVE_MODULE_COEFFICIENTS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/EFFECTIVE_MODULE_COEFFICIENTS.csv",
+    "source_sha256": "fc8a3c0d3d38f3215cbb2d7b7381906471f943d54aabb31135dad908e739897f",
+    "packaged_sha256": "fc8a3c0d3d38f3215cbb2d7b7381906471f943d54aabb31135dad908e739897f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/REGISTERED_PROTOCOL.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/REGISTERED_PROTOCOL.json",
+    "source_sha256": "265a8055df52a0b6d91c1ae964bd14157de7d8c1e201d342e95ae3cc4eaf2218",
+    "packaged_sha256": "265a8055df52a0b6d91c1ae964bd14157de7d8c1e201d342e95ae3cc4eaf2218",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/RUNTIME.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/RUNTIME.json",
+    "source_sha256": "ed3a682d5679add585355b1e61b7d38437a6185fae18e2a1b196252a857f1f99",
+    "packaged_sha256": "ed3a682d5679add585355b1e61b7d38437a6185fae18e2a1b196252a857f1f99",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/requirements.txt",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/requirements.txt",
+    "source_sha256": "1b9b76694acd96a050da47570b1bea00b17e17070d16442368ce76ef3d4ad85c",
+    "packaged_sha256": "1b9b76694acd96a050da47570b1bea00b17e17070d16442368ce76ef3d4ad85c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/inputs/ARA_engineering.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/inputs/ARA_engineering.json",
+    "source_sha256": "85faa6004517439202450c5eb294ef0aeb3a86100bd0f2596b993ffc47c222db",
+    "packaged_sha256": "85faa6004517439202450c5eb294ef0aeb3a86100bd0f2596b993ffc47c222db",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/inputs/CN_engineering.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/inputs/CN_engineering.json",
+    "source_sha256": "5f2bd7e6736cbfddbb59b9380d096a521755f6055ce83599e30c7f560e93dd8b",
+    "packaged_sha256": "5f2bd7e6736cbfddbb59b9380d096a521755f6055ce83599e30c7f560e93dd8b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/inputs/UK_engineering.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/inputs/UK_engineering.json",
+    "source_sha256": "62460b452b6f971c921572051eab6d2e7112b182a64b10dd59e2528a60f79f70",
+    "packaged_sha256": "62460b452b6f971c921572051eab6d2e7112b182a64b10dd59e2528a60f79f70",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "model/inputs/US_engineering.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/model/inputs/US_engineering.json",
+    "source_sha256": "8cd2f4545d937e5170fc3d5521af0bd2ccd4c80dcf6713d1328e2236677f8822",
+    "packaged_sha256": "8cd2f4545d937e5170fc3d5521af0bd2ccd4c80dcf6713d1328e2236677f8822",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/SOURCE_INPUT_LEDGER_USD.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/SOURCE_INPUT_LEDGER_USD.csv",
+    "source_sha256": "fad7be03bb862665aeb43048f9449bf995d8ebc5c6d09235fd8c332a2e379c14",
+    "packaged_sha256": "d3c83f8df0da0cfd9ac92e79510d61eda120aee2f01a96c8348ee9640011f690",
+    "transformation": "Removed an obsolete temporary screenshot path from one source locator. All values, published page/table locators and source URLs retained."
+  },
+  {
+    "file": "data/evidence/TIME_EVIDENCE_LEDGER.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Tables/source_data/TIME_EVIDENCE_LEDGER.csv",
+    "source_sha256": "aeab562f1e15381f5216db7f07f62435756960d4accfd3dabdacaf8713240168",
+    "packaged_sha256": "aeab562f1e15381f5216db7f07f62435756960d4accfd3dabdacaf8713240168",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/ECB_USD_EUR_2026_09.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/ECB_USD_EUR_2026_09.csv",
+    "source_sha256": "d51c84f8d31b0d042f7d6e7b2a801da3e38ef9a4f10d0f111ca1b0624f9473d7",
+    "packaged_sha256": "d51c84f8d31b0d042f7d6e7b2a801da3e38ef9a4f10d0f111ca1b0624f9473d7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/HICP_FRESH_SOURCE.json",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/HICP_FRESH_SOURCE.json",
+    "source_sha256": "dbac29833f841aa33393a50fd714ebc5d29d9933c35af48bf38710b8c20281c6",
+    "packaged_sha256": "dbac29833f841aa33393a50fd714ebc5d29d9933c35af48bf38710b8c20281c6",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/MONEY_SOURCE_REPLAY.json",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/MONEY_SOURCE_REPLAY.json",
+    "source_sha256": "c134ea0bb43fe285d67f577f0fc21db4e92a04399e9caa0fb065fef2f5ed359c",
+    "packaged_sha256": "c134ea0bb43fe285d67f577f0fc21db4e92a04399e9caa0fb065fef2f5ed359c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/ecb_CNY_fresh.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/ecb_CNY_fresh.csv",
+    "source_sha256": "10c5c72e30fb5882117b3359b9bda6d3ef7b4f880845f149ce10681622bc33d3",
+    "packaged_sha256": "10c5c72e30fb5882117b3359b9bda6d3ef7b4f880845f149ce10681622bc33d3",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/ecb_GBP_fresh.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/ecb_GBP_fresh.csv",
+    "source_sha256": "7ec6a0f43b2609c7effc0b89295d982de094caa94954961ac5871f2baeaaea96",
+    "packaged_sha256": "7ec6a0f43b2609c7effc0b89295d982de094caa94954961ac5871f2baeaaea96",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/ecb_USD_fresh.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/ecb_USD_fresh.csv",
+    "source_sha256": "db35d2c0df5b348f8870697a88f763255617b3a051e87c4fbe8111e36260c40f",
+    "packaged_sha256": "db35d2c0df5b348f8870697a88f763255617b3a051e87c4fbe8111e36260c40f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/ecb_annual_fresh.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/ecb_annual_fresh.csv",
+    "source_sha256": "066dcff288cdc3498bf2224fbe7795b68fc053e7a15b4dde4fc65e74ae50cd8c",
+    "packaged_sha256": "066dcff288cdc3498bf2224fbe7795b68fc053e7a15b4dde4fc65e74ae50cd8c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/hicp_EA_TOTAL_fresh.json",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/hicp_EA_TOTAL_fresh.json",
+    "source_sha256": "a6851699f26c567b3e2e1477da78b19a444f418941d7cdede98b87b0b0e90bbe",
+    "packaged_sha256": "a6851699f26c567b3e2e1477da78b19a444f418941d7cdede98b87b0b0e90bbe",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/evidence/monetary_sources/hicp_fresh.json",
+    "source_record": "model_revision_V4_4_USD_20261025/sources/hicp_fresh.json",
+    "source_sha256": "ef94f44152206518dc7bf43afa9dbd7180fa78d927894d9333248e921e9c9e5c",
+    "packaged_sha256": "ef94f44152206518dc7bf43afa9dbd7180fa78d927894d9333248e921e9c9e5c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure1/RESOURCE_PLOT_INPUTS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure1/data/RESOURCE_PLOT_INPUTS.csv",
+    "source_sha256": "d9b2ee09aed9a5c88ff35275400d738a1083192165e3fa7dda0223685e43bbe3",
+    "packaged_sha256": "d9b2ee09aed9a5c88ff35275400d738a1083192165e3fa7dda0223685e43bbe3",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure1/SANKEY_FLOW_DATA.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure1/data/SANKEY_FLOW_DATA.csv",
+    "source_sha256": "f90723e73c6baff4b3fddabf60cdc679c0b7badbf3e2b0ca078bec5c76eca443",
+    "packaged_sha256": "f90723e73c6baff4b3fddabf60cdc679c0b7badbf3e2b0ca078bec5c76eca443",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure1/frontier_solves.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure1/data/frontier_solves.csv",
+    "source_sha256": "db557e2a128d5e3d57e649c6cadb295c96372788e3a9fbf1ca5e11d182582184",
+    "packaged_sha256": "db557e2a128d5e3d57e649c6cadb295c96372788e3a9fbf1ca5e11d182582184",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure1/physical_commitments.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure1/data/physical_commitments.json",
+    "source_sha256": "16b5c8aa44b8e8a2c018895f636aaa250c1a333abb33cff5349cf8ee3661b0be",
+    "packaged_sha256": "16b5c8aa44b8e8a2c018895f636aaa250c1a333abb33cff5349cf8ee3661b0be",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure1/route_coefficients.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure1/data/route_coefficients.csv",
+    "source_sha256": "5fe51981c086df02265abbd7853fee09e9e145944c407cf2b4d6f62c87d3efe7",
+    "packaged_sha256": "5fe51981c086df02265abbd7853fee09e9e145944c407cf2b4d6f62c87d3efe7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/ALL_SOLUTIONS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/ALL_SOLUTIONS.json",
+    "source_sha256": "7029b2c37c63b9474764a86c015784b3faacb05f3f5c1a3549dcff6dc765d5f7",
+    "packaged_sha256": "7029b2c37c63b9474764a86c015784b3faacb05f3f5c1a3549dcff6dc765d5f7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/COMMON_AND_REGIONAL_CONDITIONS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/COMMON_AND_REGIONAL_CONDITIONS.json",
+    "source_sha256": "9133f2fff4ec1a260cf9e623fed896169e598c4ffc23577390ff315415689c04",
+    "packaged_sha256": "9133f2fff4ec1a260cf9e623fed896169e598c4ffc23577390ff315415689c04",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/CORE_COMPARISONS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/CORE_COMPARISONS.csv",
+    "source_sha256": "5dcc8d59aba02720bd0f87d8ff3284239d2ef1e2daaa23752651e532138635ff",
+    "packaged_sha256": "5dcc8d59aba02720bd0f87d8ff3284239d2ef1e2daaa23752651e532138635ff",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/EXPORTED_LP_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/EXPORTED_LP_MODELS.json",
+    "source_sha256": "45eb30819eb8e5dbd5c5eb5f385863faefec8ecee134b55081ecd65517c5aaca",
+    "packaged_sha256": "45eb30819eb8e5dbd5c5eb5f385863faefec8ecee134b55081ecd65517c5aaca",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_B_ALLOCATION.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_B_ALLOCATION.csv",
+    "source_sha256": "ae58362bb727d83ab19cf5dae1b8f81a85e221c7ea7865c72e6dd3780cba79d4",
+    "packaged_sha256": "ae58362bb727d83ab19cf5dae1b8f81a85e221c7ea7865c72e6dd3780cba79d4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_B_DISPLAY_DATA.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_B_DISPLAY_DATA.csv",
+    "source_sha256": "7fabc6fa5db48d719e2fb38d1bb9c5561c6f8e4b2ce69c62794bcb748a662039",
+    "packaged_sha256": "7fabc6fa5db48d719e2fb38d1bb9c5561c6f8e4b2ce69c62794bcb748a662039",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_CD_DIAGNOSTICS_AUDIT.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_CD_DIAGNOSTICS_AUDIT.json",
+    "source_sha256": "8171a77dfc30973502e76d92efb0e93a05cfa370c74534925cd80074fd08d00e",
+    "packaged_sha256": "8171a77dfc30973502e76d92efb0e93a05cfa370c74534925cd80074fd08d00e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_C_GAIN_ONSET_BRACKETS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_C_GAIN_ONSET_BRACKETS.csv",
+    "source_sha256": "0c3d9b4120783b2ff3f0f3bf22af6639977cb2126d33feba347f758b74a6c3ff",
+    "packaged_sha256": "0c3d9b4120783b2ff3f0f3bf22af6639977cb2126d33feba347f758b74a6c3ff",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_C_GAIN_SUMMARY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_C_GAIN_SUMMARY.csv",
+    "source_sha256": "4bd5abd21a0e009695d7f4310fe83114f4fb9359cd9f1bf0ec94e76e0da793c4",
+    "packaged_sha256": "4bd5abd21a0e009695d7f4310fe83114f4fb9359cd9f1bf0ec94e76e0da793c4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_C_INDEPENDENT_REPLAYS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_C_INDEPENDENT_REPLAYS.json.gz",
+    "source_sha256": "79b817db92da60cc8984fc7c6e540214391474f12ed432ae561841d1be99feff",
+    "packaged_sha256": "d3a47944c48dccfecfbd5915004cd5987ec86016c72d8c875cef8daaba8773c3",
+    "transformation": "Lossless gzip decompression"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_C_INVENTORY_RESPONSE.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_C_INVENTORY_RESPONSE.csv",
+    "source_sha256": "dee09c12ac57eb4bf46a71f4b1089721fa72ce83f889a88e294cfb02bbb0e475",
+    "packaged_sha256": "dee09c12ac57eb4bf46a71f4b1089721fa72ce83f889a88e294cfb02bbb0e475",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_C_LP_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_C_LP_MODELS.json.gz",
+    "source_sha256": "d0295923e14bbfe8f9c2e6a80b4b44e6b8c4d1ed86b9af00cf01f31b69b6fac1",
+    "packaged_sha256": "00f11502e991f292703de992769a92538b68a699695debc3496a868b17ec7543",
+    "transformation": "Lossless gzip decompression"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_C_SCAN_AUDIT.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_C_SCAN_AUDIT.json",
+    "source_sha256": "3c262fd19a7c0f3bc719df116fe802708d04cd1b0903bae7501a44417e9d2864",
+    "packaged_sha256": "3c262fd19a7c0f3bc719df116fe802708d04cd1b0903bae7501a44417e9d2864",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_C_SOLUTIONS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_C_SOLUTIONS.json.gz",
+    "source_sha256": "fca802cc0417798764bd59301828ae9f0571d7f04d400d3e7e59d744a0bba26e",
+    "packaged_sha256": "b9e8a3f25ff084c648824f0e1c5cd308867f061f6e05f5c06dfd23a95f867c25",
+    "transformation": "Lossless gzip decompression"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_D_CONSTRAINT_DIAGNOSTICS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_D_CONSTRAINT_DIAGNOSTICS.csv",
+    "source_sha256": "d13a9bd4783e92d901c078ad188f0eca641a00f862105d3e865786350b4917e3",
+    "packaged_sha256": "d13a9bd4783e92d901c078ad188f0eca641a00f862105d3e865786350b4917e3",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/PANEL_D_PLATEAU_BRACKETS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/PANEL_D_PLATEAU_BRACKETS.csv",
+    "source_sha256": "2e266dfd1c8b724391046979a1118827240402ea6f532598f2c14f49ef50a7a0",
+    "packaged_sha256": "2e266dfd1c8b724391046979a1118827240402ea6f532598f2c14f49ef50a7a0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure2/STORAGE_ACCESS_SWEEP.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/Figure2_restored/data/STORAGE_ACCESS_SWEEP.csv",
+    "source_sha256": "c9823c7db8a41eaca34a7ddd0978ad5263cc846940b6328684953adf48033400",
+    "packaged_sha256": "c9823c7db8a41eaca34a7ddd0978ad5263cc846940b6328684953adf48033400",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/ALL_SOLUTIONS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/ALL_SOLUTIONS.json",
+    "source_sha256": "ff34c67d24875baf6614286eee358c83ca5f8887e2b760c9ed9dc979542322ef",
+    "packaged_sha256": "ff34c67d24875baf6614286eee358c83ca5f8887e2b760c9ed9dc979542322ef",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/ANNUAL_STATES.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/ANNUAL_STATES.csv",
+    "source_sha256": "435353923d44b63ee2988c1e800c7af2d46f4eebefb6587e1be79b7680a02c46",
+    "packaged_sha256": "435353923d44b63ee2988c1e800c7af2d46f4eebefb6587e1be79b7680a02c46",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/DELAY_SENSITIVITY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/DELAY_SENSITIVITY.csv",
+    "source_sha256": "82d9777ca8f99dae0045395ccd811674f1c4836675e032289a0a64d896c98e1a",
+    "packaged_sha256": "82d9777ca8f99dae0045395ccd811674f1c4836675e032289a0a64d896c98e1a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/EXPORTED_LP_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/EXPORTED_LP_MODELS.json",
+    "source_sha256": "2e7d7af8bb7fea838478c134aaac1273752b4d8ebc022ad16f52683668122c8a",
+    "packaged_sha256": "2e7d7af8bb7fea838478c134aaac1273752b4d8ebc022ad16f52683668122c8a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/GEOLOGICAL_ENDPOINTS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/GEOLOGICAL_ENDPOINTS.csv",
+    "source_sha256": "c0be66dd5831478794ff515f78fbc2a9570eca7720b9846de7aab4b56f23f381",
+    "packaged_sha256": "c0be66dd5831478794ff515f78fbc2a9570eca7720b9846de7aab4b56f23f381",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/HYDROGEN_PIPELINE.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/HYDROGEN_PIPELINE.csv",
+    "source_sha256": "46fb252fccf2c19ea27d761fc23ea6e638e846fb2408d558041f9c55e25426e2",
+    "packaged_sha256": "46fb252fccf2c19ea27d761fc23ea6e638e846fb2408d558041f9c55e25426e2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/PANEL_B_CONNECTION_STATES.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/PANEL_B_CONNECTION_STATES.csv",
+    "source_sha256": "2ee0b1fc355fc3d7a0e7f1774efc144ed058e73501f141601bdb6f074f640b45",
+    "packaged_sha256": "2ee0b1fc355fc3d7a0e7f1774efc144ed058e73501f141601bdb6f074f640b45",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/PANEL_C_DELAY_SHORTFALL.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/PANEL_C_DELAY_SHORTFALL.csv",
+    "source_sha256": "ee7aa015c8650731a63a992f68f4757ce1d47ff993cdbee6cb1aac5a37d2398f",
+    "packaged_sha256": "ee7aa015c8650731a63a992f68f4757ce1d47ff993cdbee6cb1aac5a37d2398f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/STATE_FLOW_CONTRIBUTIONS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/STATE_FLOW_CONTRIBUTIONS.csv",
+    "source_sha256": "96106da2a41f1a54e86ec11373c87a140d31fd2f8fc08793eef694277b1e4e43",
+    "packaged_sha256": "96106da2a41f1a54e86ec11373c87a140d31fd2f8fc08793eef694277b1e4e43",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/STATE_ROUTE_CONTRIBUTIONS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/STATE_ROUTE_CONTRIBUTIONS.csv",
+    "source_sha256": "6e74770fae66c09472e2138f9542621efcedb2c2925521d53c21b69b0959dadc",
+    "packaged_sha256": "6e74770fae66c09472e2138f9542621efcedb2c2925521d53c21b69b0959dadc",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure3/YEARLY_COHORT_LCA.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure3/data/YEARLY_COHORT_LCA.csv",
+    "source_sha256": "42888ab7629aca3e211c02ce3af2b98420033f19b82a5d04dbd0820f2c902d3f",
+    "packaged_sha256": "42888ab7629aca3e211c02ce3af2b98420033f19b82a5d04dbd0820f2c902d3f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_c/MATCHED_ACTUAL_SPENDING_FOUR_REGIONS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/data/MATCHED_ACTUAL_SPENDING_FOUR_REGIONS.csv",
+    "source_sha256": "f4670eaf853492439eb34a2bc82c5e69bbc1c3ee70641b0d887f2830c6a062ab",
+    "packaged_sha256": "f4670eaf853492439eb34a2bc82c5e69bbc1c3ee70641b0d887f2830c6a062ab",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_c/PANEL_C_ALL_POLICY_LP_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/data/PANEL_C_ALL_POLICY_LP_MODELS.jsonl.gz",
+    "source_sha256": "01371ca7942ecb4f6a0fed31dd24ed262bb069773a31279565fa216d555664af",
+    "packaged_sha256": "47b339aacbd0c20d00792c372c687386c39779deafc1abeff77f2c1688c2963d",
+    "transformation": "Lossless decompression and conversion of 600 JSON Lines records to a JSON array"
+  },
+  {
+    "file": "data/main/Figure4/panel_c/PANEL_C_ARA_MATCHED_ACTUAL.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/data/PANEL_C_ARA_MATCHED_ACTUAL.csv",
+    "source_sha256": "efb9f11c1fc53b1068020551dbf23c2bc19be2460390bf60a403df0a71424044",
+    "packaged_sha256": "efb9f11c1fc53b1068020551dbf23c2bc19be2460390bf60a403df0a71424044",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_c/PANEL_C_DISPLAY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/data/PANEL_C_DISPLAY.csv",
+    "source_sha256": "ba9343ff1c5fbc9a231bdcd2ec4efba334991d6c5e71f19ea814d36c864a5b26",
+    "packaged_sha256": "ba9343ff1c5fbc9a231bdcd2ec4efba334991d6c5e71f19ea814d36c864a5b26",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_c/PANEL_C_FISCAL_CAP_SCAN.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/data/PANEL_C_FISCAL_CAP_SCAN.csv",
+    "source_sha256": "45e8bfa91ede226a3f2197fa321181f83a56919a8f3621474e48e2d65519e8ce",
+    "packaged_sha256": "45e8bfa91ede226a3f2197fa321181f83a56919a8f3621474e48e2d65519e8ce",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_c/PANEL_C_FULL_CAP_ANCHORS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/data/PANEL_C_FULL_CAP_ANCHORS.csv",
+    "source_sha256": "15d78ef0d5a0520d4c50e9bcd6c06d73c429e91ed8ff88bab4ec2153142bf153",
+    "packaged_sha256": "15d78ef0d5a0520d4c50e9bcd6c06d73c429e91ed8ff88bab4ec2153142bf153",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_c/PANEL_C_INDEPENDENT_REPLAY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/data/PANEL_C_INDEPENDENT_REPLAY.csv",
+    "source_sha256": "3caf34f2ab68d34a5132f8989232dafefe41aa8052cf4fba6644e252825475c4",
+    "packaged_sha256": "3caf34f2ab68d34a5132f8989232dafefe41aa8052cf4fba6644e252825475c4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/ALL_POLICY_LP_MODELS.jsonl.gz",
+    "source_sha256": "70a786af07be7dd2fdaafa282eddbc5674b4fcaa74ef599796d7e29912aee988",
+    "packaged_sha256": "5a2312d0be5eb61ea7cb4b6a80f3c914360052e71bc10cf6129ac90cb66c0e9e",
+    "transformation": "Lossless decompression and conversion of 4194 JSON Lines records to a JSON array"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/ANALYTIC_ENTRY_THRESHOLDS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/ANALYTIC_ENTRY_THRESHOLDS.csv",
+    "source_sha256": "f808470a5f3d512ed00ddae3ca247c08f25791c33f8860c70ac8d18e0bdf2a86",
+    "packaged_sha256": "f808470a5f3d512ed00ddae3ca247c08f25791c33f8860c70ac8d18e0bdf2a86",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/ANALYTIC_THRESHOLD_CHECKS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/ANALYTIC_THRESHOLD_CHECKS.csv",
+    "source_sha256": "2e9a1662f038d0eb926a6b291dfd96af64c0febf3efd65538012f129e7f4ab90",
+    "packaged_sha256": "2e9a1662f038d0eb926a6b291dfd96af64c0febf3efd65538012f129e7f4ab90",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/BASE_PHYSICAL_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/BASE_PHYSICAL_MODELS.json",
+    "source_sha256": "6d161fa59240194ec468d9a0db5b5ca81bec3db020ce04de5018c9c97096236a",
+    "packaged_sha256": "6d161fa59240194ec468d9a0db5b5ca81bec3db020ce04de5018c9c97096236a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/EXPORTED_POLICY_LP_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/EXPORTED_POLICY_LP_MODELS.json",
+    "source_sha256": "1716650d27fd2e9cd41ee97e014d1bccbc2b9521a41b48417a0fb79f044e5e52",
+    "packaged_sha256": "1716650d27fd2e9cd41ee97e014d1bccbc2b9521a41b48417a0fb79f044e5e52",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/FISCAL_COMPARISON_EXAMPLES.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/FISCAL_COMPARISON_EXAMPLES.csv",
+    "source_sha256": "3acb297f3c40987f63c101f2d8a22f4d566020bf59ad28044c81ec275d95b192",
+    "packaged_sha256": "3acb297f3c40987f63c101f2d8a22f4d566020bf59ad28044c81ec275d95b192",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/INDEPENDENT_REPLAY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/INDEPENDENT_REPLAY.csv",
+    "source_sha256": "80cfef25f8724a5f538a15d7de092cea0e291eb8e883be53574ac091be7b77b1",
+    "packaged_sha256": "80cfef25f8724a5f538a15d7de092cea0e291eb8e883be53574ac091be7b77b1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/MATCHED_PAYMENT_SCAN.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/MATCHED_PAYMENT_SCAN.csv",
+    "source_sha256": "f055d367ad264f39274bb67559378b394e3e25b7ccf7f4c933b66a80de374ab7",
+    "packaged_sha256": "f055d367ad264f39274bb67559378b394e3e25b7ccf7f4c933b66a80de374ab7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/ORIGINAL_60_ANCHOR_REPLAY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/ORIGINAL_60_ANCHOR_REPLAY.csv",
+    "source_sha256": "9977197d434422e8e5acd7f8a0cac91eefcd8b0066dc00a88f4286f3eeb92665",
+    "packaged_sha256": "9977197d434422e8e5acd7f8a0cac91eefcd8b0066dc00a88f4286f3eeb92665",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/PANEL_A_ARA_PAYMENT_RESPONSE.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/PANEL_A_ARA_PAYMENT_RESPONSE.csv",
+    "source_sha256": "bb7edcc2fe013190ed37e1474f46f22a4ffbf5f4ef1d4a5d39e9168119e4c36c",
+    "packaged_sha256": "bb7edcc2fe013190ed37e1474f46f22a4ffbf5f4ef1d4a5d39e9168119e4c36c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/RESOURCE_CAP_REDUNDANCY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/RESOURCE_CAP_REDUNDANCY.csv",
+    "source_sha256": "45cef84446bf5f607afea55680ec3fd9adc11fa5b6d614f160168d3d68d1c307",
+    "packaged_sha256": "45cef84446bf5f607afea55680ec3fd9adc11fa5b6d614f160168d3d68d1c307",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_a/SCENARIO_COMPARISON_CONDITIONS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_a/data/SCENARIO_COMPARISON_CONDITIONS.csv",
+    "source_sha256": "b6087d2a8070a613beb62fd50efd583dfef24c4070d3ffbc7daa5b168d1699cf",
+    "packaged_sha256": "b6087d2a8070a613beb62fd50efd583dfef24c4070d3ffbc7daa5b168d1699cf",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/ALL_POLICY_LP_MODELS.jsonl.gz",
+    "source_sha256": "6e527d0db80bf9a609eb523f835f0f070765b485477a324ac7b0be144568f5bc",
+    "packaged_sha256": "150e968ccfa1d158f8b4506f5b466b56128ad9e16b3f53af016703133fe78ee8",
+    "transformation": "Lossless decompression and conversion of 36900 JSON Lines records to a JSON array"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/ANALYTIC_TRANSMISSION_THRESHOLDS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/ANALYTIC_TRANSMISSION_THRESHOLDS.csv",
+    "source_sha256": "bc17bce9121be9bb9036cbc7a77c2ab7b12a08e78c62bca2ae52d114586ffe7f",
+    "packaged_sha256": "bc17bce9121be9bb9036cbc7a77c2ab7b12a08e78c62bca2ae52d114586ffe7f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/ENTRY_BRACKET_VERIFICATION.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/ENTRY_BRACKET_VERIFICATION.csv",
+    "source_sha256": "aea9548563434603f3b18be272d9205005a40ca7bdc41427ea771935a88df445",
+    "packaged_sha256": "aea9548563434603f3b18be272d9205005a40ca7bdc41427ea771935a88df445",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/FIGURE4A_MATCHED_ANCHORS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/FIGURE4A_MATCHED_ANCHORS.csv",
+    "source_sha256": "e3a1023e50f56678610a016a26f80ad2be8bb7e5483f97dc01f3bd03c02698ab",
+    "packaged_sha256": "e3a1023e50f56678610a016a26f80ad2be8bb7e5483f97dc01f3bd03c02698ab",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/FULL_TRANSMISSION_SCAN.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/FULL_TRANSMISSION_SCAN.csv",
+    "source_sha256": "cdc32dc33a40ca7dd8e86359cab6bacd09107ca6c5e2e4b2ce328b78a33bb783",
+    "packaged_sha256": "cdc32dc33a40ca7dd8e86359cab6bacd09107ca6c5e2e4b2ce328b78a33bb783",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/INDEPENDENT_REPLAY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/INDEPENDENT_REPLAY.csv",
+    "source_sha256": "19b162240c1f8d0d1f952d62908b2da0be23f92a0caae379e2fac67836030f26",
+    "packaged_sha256": "19b162240c1f8d0d1f952d62908b2da0be23f92a0caae379e2fac67836030f26",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/LEXICOGRAPHIC_TOLERANCE_CHECK.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/LEXICOGRAPHIC_TOLERANCE_CHECK.csv",
+    "source_sha256": "1ab70126d1f3b03b58f04f1dd2234dc7c7b14f10a2192faceb420c16d85da564",
+    "packaged_sha256": "1ab70126d1f3b03b58f04f1dd2234dc7c7b14f10a2192faceb420c16d85da564",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/MAIN_MECHANISM_EXAMPLES.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/MAIN_MECHANISM_EXAMPLES.csv",
+    "source_sha256": "a092c09e674fe8f4ca38590ab8486a072c443e3d48455b7854ccf5679bad7f44",
+    "packaged_sha256": "a092c09e674fe8f4ca38590ab8486a072c443e3d48455b7854ccf5679bad7f44",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/PANEL_B_ARA_TRANSMISSION.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/PANEL_B_ARA_TRANSMISSION.csv",
+    "source_sha256": "da0cd350417222e51178044c99e5a976b70e07e64fc1c39250f5e5a808b40257",
+    "packaged_sha256": "da0cd350417222e51178044c99e5a976b70e07e64fc1c39250f5e5a808b40257",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/QUALIFICATION_BOUNDARY_CONTROLS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/QUALIFICATION_BOUNDARY_CONTROLS.csv",
+    "source_sha256": "99ef00fcbb63ee6196f6ade22c67331f2ddd2745ab457b69ba43ad280f619791",
+    "packaged_sha256": "99ef00fcbb63ee6196f6ade22c67331f2ddd2745ab457b69ba43ad280f619791",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/main/Figure4/panel_b/RATE_AND_REGION_SENSITIVITY_SUMMARY.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/Figure4/reference/panel_b/data/RATE_AND_REGION_SENSITIVITY_SUMMARY.csv",
+    "source_sha256": "28cff2e1c2392cecef29af8bb9fd41a264fa05a996e1fb0bd20a80fe8c97c7bb",
+    "packaged_sha256": "28cff2e1c2392cecef29af8bb9fd41a264fa05a996e1fb0bd20a80fe8c97c7bb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/BOUNDARY_CERTIFICATES.json",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/BOUNDARY_CERTIFICATES.json",
+    "source_sha256": "34a9216fda59f25f2d5b6127a03750556faadce86f5ba1b646450e72d472aa77",
+    "packaged_sha256": "34a9216fda59f25f2d5b6127a03750556faadce86f5ba1b646450e72d472aa77",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/BOUNDARY_NEIGHBOURS.csv",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/BOUNDARY_NEIGHBOURS.csv",
+    "source_sha256": "43a065870a836230d0e70c62c08d1d6fa9bf21516eea0fe7512f2132784b5ec4",
+    "packaged_sha256": "43a065870a836230d0e70c62c08d1d6fa9bf21516eea0fe7512f2132784b5ec4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/COMMON_PRICE_RESOURCE_SLICES.csv",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/COMMON_PRICE_RESOURCE_SLICES.csv",
+    "source_sha256": "1e07d9b2163b42f536ef38ecab5afa444306a3fa59a4113a9b57d6b6d0b9d745",
+    "packaged_sha256": "1e07d9b2163b42f536ef38ecab5afa444306a3fa59a4113a9b57d6b6d0b9d745",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/DISPLAY_DATA.csv",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/DISPLAY_DATA.csv",
+    "source_sha256": "7fabc6fa5db48d719e2fb38d1bb9c5561c6f8e4b2ce69c62794bcb748a662039",
+    "packaged_sha256": "7fabc6fa5db48d719e2fb38d1bb9c5561c6f8e4b2ce69c62794bcb748a662039",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/ENCODING_AND_SLOPE_CHECK.json",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/ENCODING_AND_SLOPE_CHECK.json",
+    "source_sha256": "43f053d1febc0f85ff3bdeaa8f73bace86d434f779bb02625776362c8c18be5c",
+    "packaged_sha256": "43f053d1febc0f85ff3bdeaa8f73bace86d434f779bb02625776362c8c18be5c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/ENCODING_COMPARISON.csv",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/ENCODING_COMPARISON.csv",
+    "source_sha256": "4ecf38e969e49863f2cdb5701b9a746d1a89e0913f16d02830d6bc8c1320ce84",
+    "packaged_sha256": "4ecf38e969e49863f2cdb5701b9a746d1a89e0913f16d02830d6bc8c1320ce84",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/EXPORTED_JOINT_LP_EVIDENCE.json.gz",
+    "source_sha256": "16bef4261525f4e98941e9b630bcd9e38b767135c72c4c620dd4c33bef93be13",
+    "packaged_sha256": "96bcd3a13e9eac812c88499095777c4338de2d3fd8cda071fc99c711263a224f",
+    "transformation": "Lossless gzip decompression"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/JOINT_BUDGET_POWER_PRICE.csv",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/JOINT_BUDGET_POWER_PRICE.csv",
+    "source_sha256": "929d834dce0dd21699cb7579caeaa3c23af7334bb38ac043985c2cd7805d1ee0",
+    "packaged_sha256": "929d834dce0dd21699cb7579caeaa3c23af7334bb38ac043985c2cd7805d1ee0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/MAIN_ALLOCATION.csv",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/MAIN_ALLOCATION.csv",
+    "source_sha256": "ae58362bb727d83ab19cf5dae1b8f81a85e221c7ea7865c72e6dd3780cba79d4",
+    "packaged_sha256": "ae58362bb727d83ab19cf5dae1b8f81a85e221c7ea7865c72e6dd3780cba79d4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/Figures_S1_S2/REVISION_DATA_AUDIT.json",
+    "source_record": "locked_displays_20261028/Figure2/supplementary/ORIGINAL_PANEL_B/data/REVISION_DATA_AUDIT.json",
+    "source_sha256": "2c702726f7bd101c278d253ac5e8d2227c8250f6259def92b925be2cb8f80d17",
+    "packaged_sha256": "2c702726f7bd101c278d253ac5e8d2227c8250f6259def92b925be2cb8f80d17",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/policy_accounts/MATCHED_DUAL_METRICS_20.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/SI_POLICY_AUXILIARY/MATCHED_DUAL_METRICS_20.csv",
+    "source_sha256": "44aeb1b63a7e751ddec38a100988179af9a625e8250469b2a661757371983855",
+    "packaged_sha256": "44aeb1b63a7e751ddec38a100988179af9a625e8250469b2a661757371983855",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/policy_accounts/PANEL_B_PAYMENT_CHAIN.json",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/SI_POLICY_AUXILIARY/PANEL_B_PAYMENT_CHAIN.json",
+    "source_sha256": "2141b46a807f6545e9953a8ab40792b6694e61072a9d4fbfeeb225c87d5ddb41",
+    "packaged_sha256": "2141b46a807f6545e9953a8ab40792b6694e61072a9d4fbfeeb225c87d5ddb41",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/policy_accounts/PANEL_C_DUAL_METRICS.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/SI_POLICY_AUXILIARY/PANEL_C_DUAL_METRICS.csv",
+    "source_sha256": "75cb3e6f913c39ca2be47a9295ab33dfcca87f95d25887488db965071cf07ba7",
+    "packaged_sha256": "75cb3e6f913c39ca2be47a9295ab33dfcca87f95d25887488db965071cf07ba7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/supplement/policy_accounts/POLICY_DUAL_METRICS_600.csv",
+    "source_record": "word_pair_V6_20261028/source/source_data/displays/SI_POLICY_AUXILIARY/POLICY_DUAL_METRICS_600.csv",
+    "source_sha256": "37fbe174be47cc52b04a582aa0afb9b792b06ba9fde251c80607e2737b8bc5aa",
+    "packaged_sha256": "37fbe174be47cc52b04a582aa0afb9b792b06ba9fde251c80607e2737b8bc5aa",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/CENTRAL_LITERATURE_CONTROLS.csv",
+    "source_record": "revision_V7_20261030/calculations/CENTRAL_LITERATURE_CONTROLS.csv",
+    "source_sha256": "7100fea6028fd118e93bffbf46e57b7f6bad6181f0c31a5e561cfc3e2b7b0f99",
+    "packaged_sha256": "7100fea6028fd118e93bffbf46e57b7f6bad6181f0c31a5e561cfc3e2b7b0f99",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/ENTRY_CALIBRATED_SUPPORT.csv",
+    "source_record": "revision_V7_20261030/calculations/ENTRY_CALIBRATED_SUPPORT.csv",
+    "source_sha256": "c4bde66e19e959718b665a04927b460489c711856e08411d90678cb0eaa7c76a",
+    "packaged_sha256": "c4bde66e19e959718b665a04927b460489c711856e08411d90678cb0eaa7c76a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/FULL_CONTROL_SOLUTIONS.json",
+    "source_record": "revision_V7_20261030/calculations/FULL_CONTROL_SOLUTIONS.json",
+    "source_sha256": "6ee6167fbfe6d88fe994bec850c914bf7a77d919ce66f79764b8f575f444cae6",
+    "packaged_sha256": "6ee6167fbfe6d88fe994bec850c914bf7a77d919ce66f79764b8f575f444cae6",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/HYDROGEN_ACCESS.csv",
+    "source_record": "revision_V7_20261030/calculations/HYDROGEN_ACCESS.csv",
+    "source_sha256": "4271c51a6e3a4f883b8d62e3b0ff457378387ff0e97b2569217e59eebeae647b",
+    "packaged_sha256": "4271c51a6e3a4f883b8d62e3b0ff457378387ff0e97b2569217e59eebeae647b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/INVENTORY_EXTENSION.csv",
+    "source_record": "revision_V7_20261030/calculations/INVENTORY_EXTENSION.csv",
+    "source_sha256": "61eee2030710c31849e039678642ae831b55a943cd95a43bcfd1b9c9fe2725e9",
+    "packaged_sha256": "61eee2030710c31849e039678642ae831b55a943cd95a43bcfd1b9c9fe2725e9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/JOINT_INVENTORY_ELECTRICITY_COST.csv",
+    "source_record": "revision_V7_20261030/calculations/JOINT_INVENTORY_ELECTRICITY_COST.csv",
+    "source_sha256": "60f406539199dee2b1ad08d8595615a6080d9093101046cfb088be79107e952b",
+    "packaged_sha256": "60f406539199dee2b1ad08d8595615a6080d9093101046cfb088be79107e952b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/NORMALISED_ELECTRICITY.csv",
+    "source_record": "revision_V7_20261030/calculations/NORMALISED_ELECTRICITY.csv",
+    "source_sha256": "fcdb1f3990c003e218db8b31101f5004146bebc0c4844775fa0130fcd7360324",
+    "packaged_sha256": "fcdb1f3990c003e218db8b31101f5004146bebc0c4844775fa0130fcd7360324",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/controls/SUMMARY.json",
+    "source_record": "revision_V7_20261030/calculations/SUMMARY.json",
+    "source_sha256": "fdf9af866591fc4e95674a61bf01abe8e3b46a48d36b64cf7a7ddc9edd5ec24e",
+    "packaged_sha256": "fdf9af866591fc4e95674a61bf01abe8e3b46a48d36b64cf7a7ddc9edd5ec24e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/CENTRAL_RESULTS.json",
+    "source_record": "model_revision_V4_4_USD_20261025/CENTRAL_RESULTS.json",
+    "source_sha256": "2ee89883bffd110842b7e168ab903d2ff22c120ea442c743cb9e425255c7fa56",
+    "packaged_sha256": "2ee89883bffd110842b7e168ab903d2ff22c120ea442c743cb9e425255c7fa56",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/CENTRAL_LP_MODELS.json",
+    "source_record": "model_revision_V4_4_USD_20261025/CENTRAL_LP_MODELS.json",
+    "source_sha256": "ccb769b87829e01d04586d1e5cc8f0f8ad453c576ca7f5bbeb2b24bdb6ba2fbd",
+    "packaged_sha256": "ccb769b87829e01d04586d1e5cc8f0f8ad453c576ca7f5bbeb2b24bdb6ba2fbd",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/COMMON_BUDGET_FRONTIERS.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/COMMON_BUDGET_FRONTIERS.csv",
+    "source_sha256": "b7b683b44f9dc4e890beb5403c8f2d5d9139c3de53437ebf2ff11ec1200cb221",
+    "packaged_sha256": "b7b683b44f9dc4e890beb5403c8f2d5d9139c3de53437ebf2ff11ec1200cb221",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/COMMON_PRICE_FRONTIERS.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/COMMON_PRICE_FRONTIERS.csv",
+    "source_sha256": "b79d550fceac0a3e2ad5228cac0532bf73b43a91833ef3bf9050c4c9f2bde76e",
+    "packaged_sha256": "b79d550fceac0a3e2ad5228cac0532bf73b43a91833ef3bf9050c4c9f2bde76e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/ENGINEERING_SENSITIVITY.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/ENGINEERING_SENSITIVITY.csv",
+    "source_sha256": "a01e334602aba48bacaa69a48ca923ce5a332e4fc7f87016d006d15be2b3f193",
+    "packaged_sha256": "a01e334602aba48bacaa69a48ca923ce5a332e4fc7f87016d006d15be2b3f193",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/INSTITUTIONAL_QUALIFICATION_GATES.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/INSTITUTIONAL_QUALIFICATION_GATES.csv",
+    "source_sha256": "7f6c43683dc648bf87cb2b36cf63f3ee085c9981176a9b7fefb78331eeff9d5d",
+    "packaged_sha256": "7f6c43683dc648bf87cb2b36cf63f3ee085c9981176a9b7fefb78331eeff9d5d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/MATCHED_PAYMENT_MECHANISMS.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/MATCHED_PAYMENT_MECHANISMS.csv",
+    "source_sha256": "b818d10c03f8d5f3d7915cefd08579ef40e397e0f2853eac668a5d764ec797e4",
+    "packaged_sha256": "b818d10c03f8d5f3d7915cefd08579ef40e397e0f2853eac668a5d764ec797e4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/PAIRWISE_SWITCHING_BOUNDARIES.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/PAIRWISE_SWITCHING_BOUNDARIES.csv",
+    "source_sha256": "a57eb76d01650d4bbf130f670de153e4aa69d4b59019fb07750b6e88c3213d03",
+    "packaged_sha256": "a57eb76d01650d4bbf130f670de153e4aa69d4b59019fb07750b6e88c3213d03",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/RESOURCE_AND_MARKET_CONTROLS.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/RESOURCE_AND_MARKET_CONTROLS.csv",
+    "source_sha256": "21c96328d3004808e434c0019da190e7fb3cc4c7cdd80e9d5ec7631a42921ebd",
+    "packaged_sha256": "21c96328d3004808e434c0019da190e7fb3cc4c7cdd80e9d5ec7631a42921ebd",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/SWITCHING_SURFACES.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/SWITCHING_SURFACES.csv",
+    "source_sha256": "97188e460b7aaa9ad70e00761d532b7ecbd722d171e6f1c5f03a2e3f20a764b7",
+    "packaged_sha256": "97188e460b7aaa9ad70e00761d532b7ecbd722d171e6f1c5f03a2e3f20a764b7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/UK_SUPPORTED_GENERATION_DESIGN.csv",
+    "source_record": "model_revision_V4_4_USD_20261025/UK_SUPPORTED_GENERATION_DESIGN.csv",
+    "source_sha256": "b13130340b3c778b9cc2919a2a8573655d8dd0962208da6757b88d5becc85d73",
+    "packaged_sha256": "b13130340b3c778b9cc2919a2a8573655d8dd0962208da6757b88d5becc85d73",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/SI_MTU_DIAGNOSTICS.json",
+    "source_record": "model_revision_V4_4_USD_20261025/SI_MTU_DIAGNOSTICS.json",
+    "source_sha256": "483e9a5d84f04ca97be4a22adf1261e24cd97be6939bb706ba79dd6b16d7d0b9",
+    "packaged_sha256": "483e9a5d84f04ca97be4a22adf1261e24cd97be6939bb706ba79dd6b16d7d0b9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "data/original_scenario_grids/CURRENCY_INVARIANCE_VERIFICATION.json",
+    "source_record": "model_revision_V4_4_USD_20261025/CURRENCY_INVARIANCE_VERIFICATION.json",
+    "source_sha256": "b4e5c1d724056911efc333f8d4a0bef1df87c49892f16b67801b465092ae6da5",
+    "packaged_sha256": "b4e5c1d724056911efc333f8d4a0bef1df87c49892f16b67801b465092ae6da5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "file": "code/run_control_calculations.py",
+    "source_record": "revision_V7_20261030/run_revision_checks.py",
+    "source_sha256": "18ab44e15ba03bc6168b4f75990a18525af01ddb9f394f4b76ad26421d950d3a",
+    "packaged_sha256": "189fdefe8a85526e190b84a04f2465810b85d2ae3ab74ae6178158db32be8950",
+    "transformation": "Input/output path adaptation and --output argument only. Numerical kernel unchanged."
+  }
+]

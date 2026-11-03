@@ -1,0 +1,21 @@
+﻿group,parameter,EUR2026_09,USD2026_09,unit,source,conversion
+Scenario default,conventional_meoh_price,460.22125629126094,529.8631919421355,currency per relevant physical unit,Inherited harmonized scenario,EUR2026-09 × ECB target-period USD/EUR
+Scenario default,hfo_price,511.35695143473436,588.736879935706,currency per relevant physical unit,Inherited harmonized scenario,EUR2026-09 × ECB target-period USD/EUR
+Scenario default,new_product_delivery_cost,20.0,23.026454545454552,currency per relevant physical unit,Inherited harmonized scenario,EUR2026-09 × ECB target-period USD/EUR
+Scenario default,certification_cost_per_tH2,100.0,115.13227272727275,currency per relevant physical unit,Inherited harmonized scenario,EUR2026-09 × ECB target-period USD/EUR
+Scenario default,payment_rate,0.0,0.0,currency per relevant physical unit,Inherited harmonized scenario,EUR2026-09 × ECB target-period USD/EUR
+Scenario default,budget_per_source_t,50.0,57.566136363636375,currency per relevant physical unit,Inherited harmonized scenario,EUR2026-09 × ECB target-period USD/EUR
+Engineering default,water_USD2026_per_m3,2.0,2.302645454545455,per_m3,Inherited declared engineering assumption,EUR2026-09 × ECB target-period USD/EUR
+Engineering default,grid_connection_USD2026_per_kW,100.0,115.13227272727275,per_kW,Inherited declared engineering assumption,EUR2026-09 × ECB target-period USD/EUR
+Engineering default,qualification_cost_USD2026_per_t,10.0,11.513227272727276,per_t,Inherited declared engineering assumption,EUR2026-09 × ECB target-period USD/EUR
+Regional power,ARA,61.36283417216812,70.64842559228472,currency/MWh,"Inherited regional scenario or proxy, as traced in original evidence ledger",EUR2026-09 × ECB target-period USD/EUR
+Collection,ARA,20,23.026454545454552,currency/tCO2,Inherited collection tariff assumption,EUR2026-09 × ECB target-period USD/EUR
+Regional power,UK,102.27139028694688,117.74737598714123,currency/MWh,"Inherited regional scenario or proxy, as traced in original evidence ledger",EUR2026-09 × ECB target-period USD/EUR
+Collection,UK,25,28.783068181818187,currency/tCO2,Inherited collection tariff assumption,EUR2026-09 × ECB target-period USD/EUR
+Regional power,US,55.39212722805865,63.774214989646396,currency/MWh,"Inherited regional scenario or proxy, as traced in original evidence ledger",EUR2026-09 × ECB target-period USD/EUR
+Collection,US,15,17.269840909090913,currency/tCO2,Inherited collection tariff assumption,EUR2026-09 × ECB target-period USD/EUR
+Regional power,CN,28.51409492923298,32.828925539637964,currency/MWh,"Inherited regional scenario or proxy, as traced in original evidence ledger",EUR2026-09 × ECB target-period USD/EUR
+Collection,CN,5,5.756613636363638,currency/tCO2,Inherited collection tariff assumption,EUR2026-09 × ECB target-period USD/EUR
+Policy or control,ARA ETS,81.8171122295575,94.19790078971296,"currency/tCO2e for ETS, currency/MWh for power",Inherited declared policy or electricity control,EUR2026-09 × ECB target-period USD/EUR
+Policy or control,UK ETS,62.72358018719762,72.21508340543399,"currency/tCO2e for ETS, currency/MWh for power",Inherited declared policy or electricity control,EUR2026-09 × ECB target-period USD/EUR
+Policy or control,Common-price control,60,69.07936363636365,"currency/tCO2e for ETS, currency/MWh for power",Inherited declared policy or electricity control,EUR2026-09 × ECB target-period USD/EUR

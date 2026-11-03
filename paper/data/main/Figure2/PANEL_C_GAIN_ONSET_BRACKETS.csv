@@ -1,0 +1,5 @@
+region,lower_inventory_tCO2e_tMeOH,upper_inventory_tCO2e_tMeOH,status,positive_advantage_tolerance_tCO2e_y
+ARA,4.612,4.6516,first_positive_gain_bracket,0.05
+UK,4.216,4.2556,first_positive_gain_bracket,0.05
+US,,0.85,positive_at_lower_anchor,0.05
+CN,,0.85,positive_at_lower_anchor,0.05

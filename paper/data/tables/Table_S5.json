@@ -1,0 +1,91 @@
+{
+  "title": "Table S5. External material and energy benchmarks.",
+  "columns": [
+    "Model quantity and value",
+    "Published comparator and source",
+    "Interpretation and applicable boundary"
+  ],
+  "rows": [
+    [
+      "CO2 feed, 1.4 t/t methanol",
+      "IRENA: approximately 1.38. Rosental 1.441. Sollai 1.447 [S4,S5,S6].",
+      "Comparable feed requirements across different purge, by-product and yield assumptions. The exact coefficient is the DEA reference [11]."
+    ],
+    [
+      "Hydrogen feed, 0.1917 t/t methanol",
+      "IRENA: approximately 0.19. Rosental 0.203. Sollai 0.208 [S4,S5,S6].",
+      "The adopted process has relatively high hydrogen utilisation within these designs."
+    ],
+    [
+      "ARA methanol yield, 0.7129 t/t raw source CO2",
+      "Approximate stoichiometric ceiling: 32/44 = 0.7273 t/t. Independent process yields follow their reported feed requirements [S4,S5,S6].",
+      "The yield satisfies material conservation. Its exact value retains the 0.998 conditioning-recovery assumption."
+    ],
+    [
+      "Electrolysis and BoP, 54.5 kWh/kgH2",
+      "Low-temperature system electricity approximately 50–55 kWh/kgH2 [S7]. Sollai reports 55.8 for the initial proton exchange membrane (PEM) system [S6].",
+      "System electricity is supported at this scale. Delivery pressure and compression coverage require their own interface definition."
+    ],
+    [
+      "ARA electrolysis electricity, 7.448 MWh/t raw source CO2",
+      "Published hydrogen requirements and system electricity provide the component comparison [S4, S6, S7].",
+      "Derived from 0.1367 tH2 per raw source tonne. It equals 10.45 MWh per tonne of methanol."
+    ],
+    [
+      "Conversion module, 11.14 MWh/t methanol",
+      "IRENA 10–11 with supplied CO2. Rosental current electrolysis plus synthesis entries give 10.34 [S4, S5].",
+      "Source handling is outside this module. Electric steam, auxiliaries and heat recovery explain differences among configurations."
+    ],
+    [
+      "Full ARA methanol route, 8.811 MWh/t raw source CO2 or 12.36 MWh/t methanol",
+      "Sollai Table 7 gives 12.33 MWh/t methanol from reported annual electricity and production [S6].",
+      "Similar electricity scale with different capture-heat provision. The comparison retains that distinction."
+    ],
+    [
+      "Electrolysis share, 84.53% of ARA route electricity",
+      "Independent process studies identify electrolysis as the dominant electricity consumer [S4,S6].",
+      "The percentage is calculated for the present route. Electricity, expense and emissions shares have different denominators."
+    ],
+    [
+      "Capture regeneration heat, ARA 2.592 and UK 2.700 GJth/tCO2",
+      "Advanced-solvent references near 2.2–2.9. Conventional 30 wt% MEA near 3.6–4.0 [18,S8].",
+      "Advanced-capture engineering analogues. The values retain the chosen solvent and utility assumptions."
+    ],
+    [
+      "Full ARA storage route, 0.8609 MWh/t raw source CO2",
+      "Literature heat duties converted with the specified boiler efficiency, plus separate compression evidence [18,S9,S8,S10].",
+      "The complete-route balance includes capture. The remaining route modules consume 0.09854 MWh/t after capture is excluded."
+    ],
+    [
+      "Compression and drying, ARA 0.08465 and US 0.1097 MWh/tCO2",
+      "Post-combustion compression 292–425 kJ/kgCO2, equivalent to 0.0811–0.1181 MWh/t [S9].",
+      "A numerical engineering comparator with different inlet, cooling and drying conditions."
+    ],
+    [
+      "UK and US storage routes, 0.9546 and 0.1236 MWh/t",
+      "Capture-heat and compression studies support the component burdens [18,S9,S10].",
+      "UK includes additional separation and electric heat. The US decision inlet follows existing process separation."
+    ],
+    [
+      "Yulin high- and low-pressure storage routes, 0.02187 and 0.1962 MWh/t",
+      "Published native stream conditions and injection design [24]. Compression theory supplies the pressure response [S9].",
+      "High native pressure reduces additional compression. The exact route totals are model calculations under the retained interfaces."
+    ],
+    [
+      "ARA methanol-to-storage electricity ratio, 10.23",
+      "Literature establishes the additional electrolytic-hydrogen requirement and the distinct storage compression burden [S4,S9].",
+      "A ratio specific to the adopted source and heat supply."
+    ],
+    [
+      "Product, by-product and conditioning carbon, 0.9802, 0.01782 and 0.002 t corresponding CO2 mass/t source",
+      "DEA by-product allowance [11] and the 1.375 tCO2/t methanol oxidation factor in official fuel accounting.",
+      "The carbon balance closes to one raw source tonne. Product purity and conditioning recovery are different quantities."
+    ],
+    [
+      "Full-market substitution, 140 MtCO2 feed/y, 19.17 MtH2/y and 1045 TWh/y",
+      "Approximately 100 Mt/y methanol market reference [10] and process coefficients [11,S4].",
+      "Conditional scale multiplication. The electricity quantity covers electrolysis and BoP. It represents resource demand rather than net mitigation."
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

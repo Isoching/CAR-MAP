@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "calculation": "Elimination of the two binding resource equations from SI Eq F2b.6",
+  "Cs0": 84.8742893351,
+  "Es": 0.860894617197,
+  "Cc0": 0.816417379315,
+  "Ec": 8.811124579943,
+  "P_MWh_y": 1200000,
+  "B_USD_y": 143915340.90909094,
+  "Q_raw_t_y": 2500000,
+  "denominator": 747.1350876384553,
+  "mixed_branch_methanol_slope_raw_t_per_USD_MWh": 1382.7131903304648,
+  "mixed_branch_methanol_slope_percentage_points_per_USD_MWh": 0.0553085276132186,
+  "coal_branch_nodes_checked": 114,
+  "maximum_raw_flow_residual_t": 0.002365673453585515,
+  "new_LP_calls": 0,
+  "unchanged_main_data": true,
+  "main_data_identical_to_area_version": true
+}

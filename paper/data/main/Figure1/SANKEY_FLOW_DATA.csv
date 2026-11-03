@@ -1,0 +1,10 @@
+﻿flow_type,source,target,source_field,value,unit_per_t_raw_source_CO2,ribbon_width_mm
+Electricity,Storage electricity,Storage route,storage_power_MWh,0.860894617196701,MWh,1.2913419257950516
+Electricity,Methanol electricity,Source handling,source_handling_power_MWh,0.8689658459143905,MWh,1.303448768871586
+Electricity,Methanol electricity,Electrolysis + BoP,electrolysis_and_BoP_power_MWh,7.447681928571429,MWh,11.171522892857144
+Electricity,Methanol electricity,Other conversion utilities,other_conversion_power_MWh,0.49447680545745065,MWh,0.741715208186176
+Carbon,Source carbon,Product carbon,qualified_carbon_to_product_CO2_t,980.1785714285714,kg corresponding CO2,13.7225
+Carbon,Source carbon,By-product carbon,byproduct_carbon_CO2_t,17.821428571428573,kg corresponding CO2,0.24950000000000003
+Carbon,Source carbon,Conditioning vent,qualification_vent_CO2_t,2.000000000000113,kg corresponding CO2,0.02800000000000158
+Annotation,Electrolysis,Hydrogen,hydrogen_t_per_source_t,136.6547142857143,kg H2,
+Annotation,Methanol production,Methanol output,methanol_t_per_source_t,712.8571428571429,kg methanol,

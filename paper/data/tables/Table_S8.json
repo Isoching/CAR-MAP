@@ -1,0 +1,56 @@
+{
+  "title": "Table S8. Regional evidence and conditional allocation results.",
+  "columns": [
+    "Model quantity and value",
+    "Source or external support",
+    "Interpretation and applicable boundary"
+  ],
+  "rows": [
+    [
+      "Source cohorts, ARA 2.5, UK 2.0, US 2.0 and Yulin 0.4 MtCO2/y",
+      "Project-owner capacity anchors and the Yulin engineering design [21,22,23,24].",
+      "Prospective source cohorts with different project maturity. Capacity and annual operation remain distinct."
+    ],
+    [
+      "Hydrogen references, ARA 21,900, UK 8847 and Yulin 8630 t/y",
+      "HH1, historical Protium capacity and the Yulin electrolytic-hydrogen design [25,26,27]. the source-anchor derivation gives annualisation.",
+      "Operating hours and access by the added methanol module are separate model conditions."
+    ],
+    [
+      "US hydrogen quota, 20,000 t/y",
+      "Author-defined resource control. Project disclosure is retained for context [23].",
+      "A specified prospective quota. The historical 20 MW project supplies no numerical derivation for 20 kt/y."
+    ],
+    [
+      "Common electricity 1.2 TWh/y, methanol capacity 100 kt/y, chemical service 300 kt/y, shaft work 5 PJ/y and resource ceiling 57.57 USD/t source",
+      "Common-service and TEA comparison principles [7,9].",
+      "Experimental controls. Equal annual electricity creates different electricity per source tonne."
+    ],
+    [
+      "Central coal-reference utilisation, ARA 2.64%, UK 3.237%, US 0.6995% and Yulin 2.327%",
+      "Process coefficients, conventional inventories and constrained-resource comparison [11,17,28,29].",
+      "Optimised scenario fractions. They express the declared feasible sets and complete service backfills."
+    ],
+    [
+      "ARA electricity window, 21.34–72.51 USD/MWh",
+      "Analytical constraint intersections and relative abatement per expense in Section S7. Opportunity-cost literature supports the mechanism [17].",
+      "Region- and parameter-specific boundaries. The upper step switches between equal-primary-objective allocations."
+    ],
+    [
+      "Inventory entry brackets, ARA 4.612–4.652 and UK 4.216–4.256 tCO2e/t methanol",
+      "Guo's 4.81 inventory lies above the brackets [29]. IRENA's lower coal inventories lie below them [S4].",
+      "The first-positive-gain grid brackets identify substitution conditions under fixed resource controls."
+    ],
+    [
+      "Additional coal-reference mitigation, 3.11, 13.56, 22.90 and 72.39 kgCO2e/t source",
+      "Matched reoptimisation compares independently optimised all-route and storage-only portfolios.",
+      "System increments under matched controls. The Yulin value corresponds to its source combination and resource-to-source ratio."
+    ],
+    [
+      "Storage-access plateaus, ARA 389.6 and UK 356.5 kgCO2e/t source",
+      "Constraint binding and resource-limited deployment in Section S7.",
+      "Spending-limited model plateaus. The first sampled access values of 40.0% and 37.5% retain their saved grid brackets."
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

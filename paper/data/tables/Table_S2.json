@@ -1,0 +1,526 @@
+{
+  "title": "Table S2. Variables and units.",
+  "columns": [
+    "Symbol or term",
+    "Definition or registered value",
+    "Unit or domain"
+  ],
+  "rows": [
+    [
+      "i, r, k, j",
+      "Source-stream, route, currency or payment-mechanism, and scan-node or interim-state indices, respectively. The context-specific domains are stated below.",
+      "Indices"
+    ],
+    [
+      "Q_{i}, Q=∑_{i}^{​}Q_{i}",
+      "Annual raw-source CO2 cohort of stream i and its fixed total. Q is the denominator for source-normalised results.",
+      "t CO2/y"
+    ],
+    [
+      "x_{ir}, x",
+      "Annual raw-source CO2 assigned from stream i to route r, and the full portfolio vector.",
+      "t CO2/y"
+    ],
+    [
+      "S, C, F as route indices",
+      "Geological storage, chemical methanol and fuel methanol. F as an index differs from fuel-oil supply F.",
+      "Route labels"
+    ],
+    [
+      "D_{m}, D_{w}",
+      "Required chemical-methanol and useful shaft-work services. Central values are 300,000 t/y and 5,000,000 GJ/y.",
+      "t methanol/y, GJ/y"
+    ],
+    [
+      "F_{0}, F",
+      "Conventional fuel-oil supply in the baseline and selected portfolio, respectively.",
+      "t fuel oil/y"
+    ],
+    [
+      "m_{C}, m_{F}, m_{backfill}",
+      "Captured-carbon chemical methanol, captured-carbon fuel methanol and conventional chemical-methanol backfill.",
+      "t methanol/y"
+    ],
+    [
+      "L_{H}, L_{M}",
+      "Fuel-oil and methanol lower heating values, 40.5 and 19.9 GJ/t. The subscript H denotes fuel oil in this pair.",
+      "GJ/t fuel"
+    ],
+    [
+      "η_{H}, η_{M}",
+      "Fuel-oil and methanol engine efficiencies, each 0.45 in the central comparison.",
+      "Fraction"
+    ],
+    [
+      "I, I_{j}",
+      "Production inventory of displaced conventional methanol. Gas and coal anchors are 0.85 and 4.81 tCO2e/t methanol. I_{j} denotes a scanned value.",
+      "t CO2e/t methanol"
+    ],
+    [
+      "G_{0}, G(x)",
+      "Complete conventional baseline emissions and portfolio emissions.",
+      "t CO2e/y"
+    ],
+    [
+      "A(x), A",
+      "Net lifecycle abatement against complete conventional supply, equal to G0 − G(x).",
+      "t CO2e/y"
+    ],
+    [
+      "R_{0}, R(x), R",
+      "Baseline and portfolio annualised physical resource expense. Transfers are recorded separately.",
+      "USD/y"
+    ],
+    [
+      "p_{H}, p_{M}",
+      "Conventional fuel-oil and methanol procurement prices. p_{H} is a fuel-oil price, distinct from hydrogen H.",
+      "USD/t fuel oil, USD/t methanol"
+    ],
+    [
+      "g_{ir}, g_{r}",
+      "Incremental lifecycle-emissions coefficient for source i and route r, or a representative route. Negative values indicate abatement.",
+      "t CO2e/t raw source CO2"
+    ],
+    [
+      "c_{ir}, c_{r}",
+      "Incremental annualised resource-expense coefficient for source i and route r, or a representative route, including displaced procurement.",
+      "USD/t raw source CO2"
+    ],
+    [
+      "e_{E}",
+      "Lifecycle-emissions coefficient of supplied electricity. The registered ARA reference is 0.0186 tCO2e/MWh.",
+      "t CO2e/MWh"
+    ],
+    [
+      "E_{ir}, E_{r}",
+      "Route electricity requirement per raw-source tonne. ES and EC denote the storage and chemical-methanol coefficients.",
+      "MWh/t raw source CO2"
+    ],
+    [
+      "g_{iS}^{nonenergy}",
+      "Storage-route lifecycle emissions excluding electricity.",
+      "t CO2e/t raw source CO2"
+    ],
+    [
+      "q_{H}",
+      "Qualified hydrogen used by the conversion unit and admitted to support.",
+      "t H2/y"
+    ],
+    [
+      "c_{cert}",
+      "Additional certification resource expense per qualified hydrogen unit. Central value is 115.1 USD/t H2.",
+      "USD/t H2"
+    ],
+    [
+      "Q_{uncaptured}, Q_{stored}",
+      "Annual source CO2 released without capture and retained through the geological-storage route.",
+      "t corresponding CO2/y"
+    ],
+    [
+      "Q_{conditioning vent}, Q_{product release}, Q_{byproduct release}",
+      "Annual source-carbon destinations through conditioning vents and eventual product or by-product release, expressed as corresponding CO2 mass.",
+      "t corresponding CO2/y"
+    ],
+    [
+      "C_{private}",
+      "Annual private expense, equal to resource expense plus allowance expense minus converter support receipts.",
+      "USD/y"
+    ],
+    [
+      "T in the financial ledger",
+      "Annual allowance expense. Generic payment comparisons set this amount to zero. This use differs from the target price period T.",
+      "USD/y"
+    ],
+    [
+      "P_{public}, P_{converter}, P_{upstream}",
+      "Actual public support paid, converter receipts and upstream retained support. Public payment equals the sum of the two recipient amounts.",
+      "USD/y"
+    ],
+    [
+      "C_{k,t}, C_{USD,T}",
+      "Input amount in original currency k at source price period t, and the normalised amount at target price period T.",
+      "Original-currency units, USD2026–09"
+    ],
+    [
+      "t, T in monetary normalisation",
+      "Source price period and target price period. T is September 2026.",
+      "Calendar period"
+    ],
+    [
+      "FX_{k/EUR,t}, FX_{USD/EUR,T}",
+      "Source-period currency units per euro and target-period US dollars per euro. The target USD/EUR factor is 1.151.",
+      "Currency units/EUR"
+    ],
+    [
+      "H_{t}, H_{T}",
+      "Euro area all-items HICP at the source and target price periods, with 2025 = 100. H_{T} is 104.3. These indexed quantities differ from the hydrogen access H.",
+      "Index points"
+    ],
+    [
+      "p_{CN}",
+      "Delivered Chinese electricity-price scenario after separate component normalisation and the stated 5% loss adjustment.",
+      "USD/MWh"
+    ],
+    [
+      "i_{d}, n",
+      "Annual real discount rate and asset lifetime. Central i_{d} is 0.08. Registered lifetimes are 30 years for synthesis and 25 years for electrolyser and utility packages.",
+      "Fraction per annual period, y"
+    ],
+    [
+      "CRF(i_{d},n)",
+      "Capital-recovery factor applied to installed capital for annualised costs.",
+      "Annual payment/capital ratio"
+    ],
+    [
+      "K",
+      "Installed capital at the common monetary price basis.",
+      "USD2026–09"
+    ],
+    [
+      "F_{fix}",
+      "Annual fixed expenditure included in capital annualisation.",
+      "USD/y"
+    ],
+    [
+      "q_{annual}, v, c_{annual}",
+      "Annual module throughput, variable expenditure per output unit and total annualised unit cost. The module defines its physical output unit.",
+      "Output units/y, USD/output unit, USD/output unit"
+    ],
+    [
+      "χ_{FX}",
+      "Common September 2026 EUR-to-USD multiplier, 1.151.",
+      "USD/EUR"
+    ],
+    [
+      "C_{EUR}, C_{USD}",
+      "A harmonised monetary quantity before and after common currency scaling. Both quantities retain the same physical denominator.",
+      "EUR or USD per stated basis"
+    ],
+    [
+      "B_{EUR}, B_{USD}",
+      "Annual budget amount before and after common currency scaling. Its source-normalised counterpart is b.",
+      "EUR/y, USD/y"
+    ],
+    [
+      "C_{portfolio}, C_{baseline}",
+      "Portfolio and baseline resource expense in the monetary-conversion statement, equivalent to R and R0 in the unified accounting.",
+      "USD/y"
+    ],
+    [
+      "α",
+      "Qualified synthesis CO2-feed requirement, including the organic by-product allowance. Central value is 1.4 tCO2/t methanol.",
+      "t CO2 feed/t methanol"
+    ],
+    [
+      "β",
+      "Hydrogen requirement for synthesis. Central value is 0.1917 tH2/t methanol.",
+      "t H2/t methanol"
+    ],
+    [
+      "η_{q,i}, η_{q}",
+      "Conditioning recovery of source carbon for stream i or the ARA reference. The ARA value is 0.998.",
+      "Fraction"
+    ],
+    [
+      "m_{i}, m, μ",
+      "Methanol yield per raw source tonne. The ARA yield μ = ηq/α = 0.998/1.4. Annual product flows, mC and mF, have different time bases.",
+      "t methanol/t raw source CO2"
+    ],
+    [
+      "h_{i}, h_{ir}, h",
+      "Hydrogen requirement per raw source tonne for a source, source–route pair or representative conversion route. h = βμ in S30.",
+      "t H2/t raw source CO2"
+    ],
+    [
+      "E_{H,i}",
+      "Electrolysis and balance-of-plant electricity per raw source tonne. The synthesis reference uses 54.5 MWh/t H2.",
+      "MWh/t raw source CO2"
+    ],
+    [
+      "E, M_{C}, w_{E}, w_{C}",
+      "Electricity amount, source-carbon amount as corresponding CO2 mass, and their plotted ribbon widths. M_{C} here denotes carbon mass, distinct from chemical-methanol flow m_{C}.",
+      "MWh, kg corresponding CO2, mm, mm"
+    ],
+    [
+      "a_{r}=-g_{r}, a_{S}, a_{C}",
+      "Route abatement per raw source tonne, including the representative storage and chemical-methanol coefficients.",
+      "t CO2e/t raw source CO2"
+    ],
+    [
+      "η_{r}",
+      "Route abatement divided by additional resource expense, with the factor 1000 expressing expense in thousand USD.",
+      "t CO2e/kUSD"
+    ],
+    [
+      "s_{i}, q_{i}",
+      "Source-access fraction and fraction of accessible source gas admitted to utilisation. q_{i} differs from qualified hydrogen q_{H}.",
+      "Fractions"
+    ],
+    [
+      "K_{S}, K_{M}",
+      "Annual geological-storage access and methanol conversion capacity.",
+      "t CO2/y, t methanol/y"
+    ],
+    [
+      "P without a subscript in resource constraints",
+      "Annual electricity-access allowance. This quantity differs from all subscripted financial payment variables.",
+      "MWh/y"
+    ],
+    [
+      "H, H_{used}, overline(H)",
+      "Annual physical hydrogen access, hydrogen actually consumed and connected reference hydrogen access.",
+      "t H2/y"
+    ],
+    [
+      "ϕ",
+      "Eligible fraction of physically accessible hydrogen. It changes qualification while leaving physical access fixed.",
+      "Fraction"
+    ],
+    [
+      "X",
+      "Feasible set for non-negative source–route flows and qualified hydrogen, including source, power, hydrogen, storage, capacity and final-service constraints.",
+      "Feasible-set domain"
+    ],
+    [
+      "b",
+      "Additional annualised resource-spending ceiling per fixed source tonne.",
+      "USD/t fixed source CO2"
+    ],
+    [
+      "x^{*}, x_{all}^{*}, x_{storage}^{*}",
+      "Optimal portfolio, all-route optimum and independently reoptimised storage-only control under matched conditions.",
+      "Portfolio vectors"
+    ],
+    [
+      "ΔA_{util}",
+      "Additional system abatement from retaining utilisation options relative to the matched reoptimised storage-only portfolio.",
+      "t CO2e/y"
+    ],
+    [
+      "j, δ_{j} in the inventory scan",
+      "Inventory-node index from 0 to 100 and utilisation gain normalised per fixed source tonne, δ_{j} = 1000 ΔAutil,j/Q.",
+      "Index, kg CO2e/t source CO2"
+    ],
+    [
+      "z",
+      "Storage-access share defining KS = zQ. The scan uses 0 to 1 in increments of 0.025.",
+      "Fraction"
+    ],
+    [
+      "p, p_{L}, p_{U}",
+      "Electricity price and lower and upper switching boundaries. The certified ARA boundaries are 21.34 and 72.51 USD/MWh.",
+      "USD/MWh"
+    ],
+    [
+      "c_{S}(p), c_{C}(p), c_{S,0}, c_{C,0}",
+      "Electricity-price-dependent net resource coefficients for storage and chemical methanol, and their non-electricity intercepts.",
+      "USD/t raw source CO2"
+    ],
+    [
+      "B in the switching calculation",
+      "Total annual additional resource allowance, B = bQ. The source-normalised ceiling is b.",
+      "USD/y"
+    ],
+    [
+      "x_{S}, x_{C}",
+      "Annual raw-source CO2 sent to storage and chemical synthesis in the representative two-route switching calculation.",
+      "t raw source CO2/y"
+    ],
+    [
+      "m in the switching calculation",
+      "Annual methanol output corresponding to xC, equal to ηq xC/α. This annual output differs from the per-source yield m in S13–S14.",
+      "t methanol/y"
+    ],
+    [
+      "R_{low}, R_{high}",
+      "Lower and upper retained-CO2 endpoints obtained from the cited leakage-exceedance convention. These percentage quantities differ from resource expense R.",
+      "% retained CO2"
+    ],
+    [
+      "L_{P05}, L_{P95}",
+      "Cited leakage-exceedance percentile values used in Rlow = 100 − LP05 and Rhigh = 100 − LP95. The source percentile convention is retained.",
+      "% leaked CO2"
+    ],
+    [
+      "P_{captured}(t), P_{conventional}(t), ΔP(t)",
+      "Carbon stocks in paired captured-carbon and conventional products, and their stock difference, under equal quantities and survival profiles.",
+      "Same physical carbon-mass basis for both stocks"
+    ],
+    [
+      "t in connection and retention scenarios",
+      "Time at which access, or product-carbon stocks are evaluated. It differs from the monetary source period t.",
+      "Calendar year or stated model year"
+    ],
+    [
+      "τ_{H}, τ_{S}",
+      "Hydrogen and storage connection dates. These dates differ from the support pass-through fraction τ.",
+      "Calendar year"
+    ],
+    [
+      "1[⋅]",
+      "Indicator equal to one when the stated access condition holds and zero otherwise.",
+      "0 or 1"
+    ],
+    [
+      "d, j in delay scenarios",
+      "Number of delayed annual cohorts and interim access-state label. Registered d values range from 0 to 8.",
+      "y, state label"
+    ],
+    [
+      "a_{0}, a_{j}",
+      "Annual lifecycle abatement with both connections ready and in interim state j. These annual quantities differ from per-tonne route coefficients ar.",
+      "t CO2e/y"
+    ],
+    [
+      "A_{j,d}, L_{j,d}, D_{j,d}",
+      "Cumulative cohort mitigation, mitigation shortfall and percentage delivery against the fully connected 21-cohort benchmark.",
+      "t CO2e, t CO2e, %"
+    ],
+    [
+      "e_{S}, e_{C}, e_{U}, e_{F}, e_{H}",
+      "Supported activities for storage, capture, CO2 use, fuel and qualified hydrogen. In this payment-object list, C denotes capture.",
+      "t eligible CO2-feed equivalent/y"
+    ],
+    [
+      "s, P_{k}=se_{k}",
+      "Nominal support rate per eligible feed-equivalent tonne and annual support for payment object k under full realisation.",
+      "USD/t eligible CO2-feed equivalent, USD/y"
+    ],
+    [
+      "overline(F), overline(f)",
+      "Annual public fiscal authorisation and its source-normalised ceiling, with F̄ = f̄Q.",
+      "USD/y, USD/t fixed source CO2"
+    ],
+    [
+      "a_{kir}",
+      "Eligible-feed-equivalent payment coefficient for mechanism k, source i and route r. This coefficient differs from abatement coefficient ar.",
+      "t eligible CO2-feed equivalent/t raw source CO2"
+    ],
+    [
+      "s^{entry}, s_{entry}",
+      "Nominal support rate at route entry under the stated mechanism and qualification conditions.",
+      "USD/t eligible CO2-feed equivalent"
+    ],
+    [
+      "ρ, τ",
+      "Realised fraction of nominal support paid and fraction of actual payment passed to the converter.",
+      "Fractions"
+    ],
+    [
+      "c in the hydrogen-support entry equation",
+      "Incremental chemical-route expense excluding certification. The ARA value is 609.5 USD/t raw source.",
+      "USD/t raw source CO2"
+    ],
+    [
+      "τ_{entry}",
+      "Minimum converter pass-through fraction required for entry at the stated nominal rate and realisation fraction.",
+      "Fraction"
+    ],
+    [
+      "Δr, Δc",
+      "Additional resource expense and private-expense change relative to complete conventional supply, each normalised by fixed source Q.",
+      "USD/t fixed source CO2"
+    ],
+    [
+      "a=A/Q",
+      "Net lifecycle abatement per fixed source tonne in the matched-spending comparison. The figure may display the equivalent kg-per-tonne scale.",
+      "t CO2e/t fixed source CO2"
+    ],
+    [
+      "overline(c)_{R}, overline(c)_{F}",
+      "Average incremental resource expense and actual public outlay per net lifecycle tonne avoided, defined only for A > 0.",
+      "USD/t CO2e avoided"
+    ],
+    [
+      "0, all, storage as subscripts",
+      "Complete conventional baseline, all-route feasible optimum and matched storage-only optimum.",
+      "Subscript labels"
+    ],
+    [
+      "private, public, converter, upstream",
+      "Actor and financial-account labels distinguishing resource use, actual public payment and support recipients.",
+      "Subscript labels"
+    ],
+    [
+      "low, high, P05, P95",
+      "Retention-interval endpoints and source leakage-exceedance percentile labels.",
+      "Subscript labels"
+    ],
+    [
+      "CN, USD, EUR, cert, backfill",
+      "Chinese setting, currencies, hydrogen certification and conventional supply completing the fixed final service.",
+      "Subscript labels"
+    ],
+    [
+      "Fuel-oil complete emissions coefficient",
+      "3.71 tCO2e/t fuel oil",
+      "Registered coefficient or control"
+    ],
+    [
+      "Methanol fuel non-CO2 term",
+      "0.0491 tCO2e/t methanol",
+      "Registered coefficient or control"
+    ],
+    [
+      "Product-carbon eventual-release coefficient",
+      "1.375 tCO2/t methanol",
+      "Registered coefficient or control"
+    ],
+    [
+      "Common product delivery coefficient",
+      "0.02 tCO2e/t methanol",
+      "Registered coefficient or control"
+    ],
+    [
+      "Electrolysis and balance-of-plant demand",
+      "54.5 MWh/t H2 = 54.5 kWh/kg H2",
+      "Registered coefficient or control"
+    ],
+    [
+      "Normal-hydrogen density in the Yulin conversion",
+      "0.0899 kg/Nm3",
+      "Registered coefficient or control"
+    ],
+    [
+      "Normal-hydrogen density in the DEA synthesis note",
+      "0.09 kg/Nm3",
+      "Registered coefficient or control"
+    ],
+    [
+      "Electricity-ribbon width coefficient",
+      "1.5 mm/MWh",
+      "Registered coefficient or control"
+    ],
+    [
+      "Carbon-ribbon width coefficient",
+      "0.014 mm/kg corresponding CO2",
+      "Registered coefficient or control"
+    ],
+    [
+      "Production-cohort count",
+      "21 annual cohorts, 2030–2050 inclusive",
+      "Registered coefficient or control"
+    ],
+    [
+      "Matched actual fiscal outlay",
+      "20 USD/t fixed source CO2",
+      "Registered coefficient or control"
+    ],
+    [
+      "G^{*}",
+      "Optimal incremental emissions objective passed to the solver, G^{*}=[G(x^{*})-G_{0}]/1000.",
+      "kt CO2e/y"
+    ],
+    [
+      "c_{M,gross}",
+      "Gross methanol-route resource expense per tonne of product, with displaced conventional procurement restored.",
+      "USD/t methanol"
+    ],
+    [
+      "f_{2019→2026}",
+      "Monetary conversion factor from 2019 dollars to the September 2026 dollar basis along the common ECB and euro-area HICP path.",
+      "Dimensionless"
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

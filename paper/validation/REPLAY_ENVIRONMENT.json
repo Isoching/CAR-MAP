@@ -1,0 +1,11 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "python_version": "3.12.7",
+  "NumPy": "1.26.4",
+  "SciPy": "1.13.1",
+  "CoolProp": "8.0.0",
+  "system": "Darwin",
+  "machine": "arm64",
+  "release_date": "2026-11-02",
+  "record_type": "Environment used for the full 1700-control reproduction"
+}

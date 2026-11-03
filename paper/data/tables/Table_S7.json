@@ -1,0 +1,36 @@
+{
+  "title": "Table S7. Source and hydrogen anchors.",
+  "columns": [
+    "Setting",
+    "Source anchor",
+    "Hydrogen reference and conversion",
+    "Evidence and access distinction"
+  ],
+  "rows": [
+    [
+      "ARA",
+      "Porthos customer portfolio, 2.5 MtCO2/y [21]",
+      "Holland Hydrogen 1 design, 60 t/day × 365 = 21,900 tH2/y [25]",
+      "Original hydrogen commitment serves a refinery. Methanol-module access is a declared prospective condition."
+    ],
+    [
+      "Teesside–Endurance",
+      "Net Zero Teesside Power, up to 2 MtCO2/y [22]",
+      "Historical 68.8 MW Protium design × 8760 h/y × 0.8 ÷ 54.5 kWh/kg = 8847 tH2/y [26]",
+      "Utilisation is an author assumption. The reference preserves its historical design status."
+    ],
+    [
+      "US Gulf Coast",
+      "Donaldsonville ammonia dehydration/compression, 2 MtCO2/y [23]",
+      "20,000 tH2/y author quota",
+      "Dedicated-storage access and methanol hydrogen supply are comparison scenarios."
+    ],
+    [
+      "Yulin, China",
+      "Two coal-to-ethylene-glycol source streams, 0.1 + 0.3 MtCO2/y CCS design [24]",
+      "12,000 Nm³/h × 8000 h/y × 0.0899 kg/Nm³ = 8630 tH2/y [27]",
+      "Source design, electrolytic-hydrogen design and sustained 2030 access carry separate evidence records."
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

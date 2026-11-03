@@ -1,0 +1,21 @@
+{
+  "type": "Accounting schematic, without quantitative widths or new simulation results",
+  "equations": [
+    "S5",
+    "S27",
+    "S28",
+    "S29"
+  ],
+  "eligible_activity": "e_k in t eligible CO2-feed equivalent/y",
+  "nominal_support": "s * e_k in USD/y",
+  "public_outlay": "rho * s * e_k in USD/y",
+  "converter_receipts": "tau * P_public in USD/y",
+  "upstream_receipts": "(1 - tau) * P_public in USD/y",
+  "hydrogen_qualification": [
+    "q_H <= phi * H",
+    "q_H <= H_used"
+  ],
+  "authorisation": "F_bar is an expenditure ceiling",
+  "feedback": "The chosen portfolio determines its eligible activity.",
+  "definitions_update": "Eligibility is hydrogen-specific in the displayed phi example."
+}

@@ -1,0 +1,4 @@
+﻿scenario,model_time_year,leaked_median_pct,retained_median_pct,leaked_table_P95_pct,leaked_table_P05_pct,retained_low_pct,retained_high_pct,source_id,locator,evidence_id,monte_carlo_runs
+Offshore well-regulated,10000,1.89,98.11,0.483,6.29,93.71,99.517,alcalde2018,"Table 1, p.5",T04,10000
+Onshore well-regulated,10000,8.18,91.82,1.81,25.71,74.29,98.19,alcalde2018,"Table 1, p.5",T05,10000
+Onshore poorly regulated,10000,22.0,78.0,6.91,32.6,67.4,93.09,alcalde2018,"Table 1, p.5",T16,10000

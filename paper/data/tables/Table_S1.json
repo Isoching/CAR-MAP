@@ -1,0 +1,198 @@
+{
+  "title": "Table S1. Abbreviations.",
+  "columns": [
+    "Abbreviation",
+    "Expanded term"
+  ],
+  "rows": [
+    [
+      "AEC",
+      "Alkaline electrolysis cell"
+    ],
+    [
+      "ARA",
+      "Amsterdam–Rotterdam–Antwerp"
+    ],
+    [
+      "BoP",
+      "Balance of plant"
+    ],
+    [
+      "CCS",
+      "Carbon capture and storage"
+    ],
+    [
+      "CCU",
+      "Carbon capture and utilisation"
+    ],
+    [
+      "CCUS",
+      "Carbon capture, utilisation and storage"
+    ],
+    [
+      "CEPCI",
+      "Chemical Engineering Plant Cost Index"
+    ],
+    [
+      "CN",
+      "China"
+    ],
+    [
+      "CNY",
+      "Chinese yuan"
+    ],
+    [
+      "CO2",
+      "Carbon dioxide"
+    ],
+    [
+      "CO2e",
+      "Carbon dioxide equivalent"
+    ],
+    [
+      "CRF",
+      "Capital-recovery factor"
+    ],
+    [
+      "DEA",
+      "Danish Energy Agency"
+    ],
+    [
+      "DECHEMA",
+      "Society for Chemical Engineering and Biotechnology"
+    ],
+    [
+      "ECB",
+      "European Central Bank"
+    ],
+    [
+      "EIA",
+      "US Energy Information Administration"
+    ],
+    [
+      "EU",
+      "European Union"
+    ],
+    [
+      "EPC",
+      "Engineering, procurement and construction"
+    ],
+    [
+      "EUR",
+      "Euro"
+    ],
+    [
+      "FX",
+      "Foreign-exchange rate"
+    ],
+    [
+      "GBP",
+      "Pound sterling"
+    ],
+    [
+      "GHG",
+      "Greenhouse gas"
+    ],
+    [
+      "H2",
+      "Hydrogen"
+    ],
+    [
+      "HFO",
+      "Heavy fuel oil"
+    ],
+    [
+      "HICP",
+      "Harmonised Index of Consumer Prices"
+    ],
+    [
+      "IEA",
+      "International Energy Agency"
+    ],
+    [
+      "LCA",
+      "Life-cycle assessment"
+    ],
+    [
+      "LHV",
+      "Lower heating value"
+    ],
+    [
+      "LP",
+      "Linear programme"
+    ],
+    [
+      "MeOH",
+      "Methanol"
+    ],
+    [
+      "MUSD",
+      "Million US dollars"
+    ],
+    [
+      "OPIS",
+      "Oil Price Information Service"
+    ],
+    [
+      "NGCC",
+      "Natural-gas combined cycle"
+    ],
+    [
+      "SI",
+      "Supplementary Information"
+    ],
+    [
+      "UK",
+      "United Kingdom"
+    ],
+    [
+      "US",
+      "United States"
+    ],
+    [
+      "USD",
+      "US dollars"
+    ],
+    [
+      "USD2026–09",
+      "US dollars at the September 2026 price basis"
+    ],
+    [
+      "Nm³",
+      "Normal cubic metre"
+    ],
+    [
+      "BEC",
+      "Bioenergy with capture"
+    ],
+    [
+      "DAC",
+      "Direct air capture"
+    ],
+    [
+      "IEAGHG",
+      "IEA Greenhouse Gas R&D Programme"
+    ],
+    [
+      "IRENA",
+      "International Renewable Energy Agency"
+    ],
+    [
+      "JRC",
+      "Joint Research Centre"
+    ],
+    [
+      "LCOM",
+      "Levelised cost of methanol"
+    ],
+    [
+      "MEA",
+      "Monoethanolamine"
+    ],
+    [
+      "PEM",
+      "Proton exchange membrane"
+    ]
+  ],
+  "precision": "Transcribed displayed values. Full-precision computational data are separate."
+}

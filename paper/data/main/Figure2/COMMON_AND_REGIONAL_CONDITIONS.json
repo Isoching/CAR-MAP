@@ -1,0 +1,50 @@
+[
+  {
+    "region": "ARA",
+    "source_cohort_t": 2500000.0,
+    "nominal_H2_t": 21900.0,
+    "electricity_GHG_tCO2e_MWh": 0.0186,
+    "electricity_price_USD_MWh": 69.07936363636365,
+    "budget_USD_source_t": 57.566136363636375,
+    "power_GWh": 1200.0,
+    "source_share": 1.0,
+    "quality_share": 1.0,
+    "full_storage_access_t": 2500000.0
+  },
+  {
+    "region": "UK",
+    "source_cohort_t": 2000000.0,
+    "nominal_H2_t": 8846.79633027523,
+    "electricity_GHG_tCO2e_MWh": 0.0186,
+    "electricity_price_USD_MWh": 69.07936363636365,
+    "budget_USD_source_t": 57.566136363636375,
+    "power_GWh": 1200.0,
+    "source_share": 1.0,
+    "quality_share": 1.0,
+    "full_storage_access_t": 2000000.0
+  },
+  {
+    "region": "US",
+    "source_cohort_t": 2000000.0,
+    "nominal_H2_t": 20000.0,
+    "electricity_GHG_tCO2e_MWh": 0.017652631578947368,
+    "electricity_price_USD_MWh": 69.07936363636365,
+    "budget_USD_source_t": 57.566136363636375,
+    "power_GWh": 1200.0,
+    "source_share": 1.0,
+    "quality_share": 1.0,
+    "full_storage_access_t": 2000000.0
+  },
+  {
+    "region": "CN",
+    "source_cohort_t": 400000.0,
+    "nominal_H2_t": 8630.4,
+    "electricity_GHG_tCO2e_MWh": 0.017652631578947368,
+    "electricity_price_USD_MWh": 69.07936363636365,
+    "budget_USD_source_t": 57.566136363636375,
+    "power_GWh": 1200.0,
+    "source_share": 1.0,
+    "quality_share": 1.0,
+    "full_storage_access_t": 400000.0
+  }
+]

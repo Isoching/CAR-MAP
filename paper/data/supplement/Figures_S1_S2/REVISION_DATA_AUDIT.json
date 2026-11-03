@@ -1,0 +1,649 @@
+{
+  "status": "PASS",
+  "date": "2026-10-27",
+  "main_rows_preserved": 280,
+  "main_original_nodes": 62,
+  "joint_grid_rows": 3224,
+  "joint_and_boundary_scenario_count": 3232,
+  "new_linprog_calls": 6464,
+  "source_hashes_unchanged": true,
+  "carbon_and_finance_closure": true,
+  "monotonic_optimal_abatement_with_budget_and_power": true,
+  "matched_storage_only_control": true,
+  "primary_replays": [
+    {
+      "inventory": 0.85,
+      "price": 11.513227272727276,
+      "primary_vs_refined_abatement_gap_t": 0.013618215220049024
+    },
+    {
+      "inventory": 0.85,
+      "price": 17.269840909090913,
+      "primary_vs_refined_abatement_gap_t": 0.013618215220049024
+    },
+    {
+      "inventory": 0.85,
+      "price": 23.026454545454552,
+      "primary_vs_refined_abatement_gap_t": 0.01342947781085968
+    },
+    {
+      "inventory": 0.85,
+      "price": 28.783068181818187,
+      "primary_vs_refined_abatement_gap_t": 0.012822526507079601
+    },
+    {
+      "inventory": 0.85,
+      "price": 34.539681818181826,
+      "primary_vs_refined_abatement_gap_t": 0.012268065707758069
+    },
+    {
+      "inventory": 0.85,
+      "price": 40.296295454545465,
+      "primary_vs_refined_abatement_gap_t": 0.011759568704292178
+    },
+    {
+      "inventory": 0.85,
+      "price": 46.052909090909104,
+      "primary_vs_refined_abatement_gap_t": 0.01129154721274972
+    },
+    {
+      "inventory": 0.85,
+      "price": 51.80952272727274,
+      "primary_vs_refined_abatement_gap_t": 0.010859353467822075
+    },
+    {
+      "inventory": 0.85,
+      "price": 57.566136363636375,
+      "primary_vs_refined_abatement_gap_t": 0.010459025390446186
+    },
+    {
+      "inventory": 0.85,
+      "price": 63.32275000000001,
+      "primary_vs_refined_abatement_gap_t": 0.010087163420394063
+    },
+    {
+      "inventory": 0.85,
+      "price": 69.07936363636365,
+      "primary_vs_refined_abatement_gap_t": 0.009740836452692747
+    },
+    {
+      "inventory": 0.85,
+      "price": 74.83597727272729,
+      "primary_vs_refined_abatement_gap_t": 0.009417501627467573
+    },
+    {
+      "inventory": 0.85,
+      "price": 80.59259090909093,
+      "primary_vs_refined_abatement_gap_t": 0.009114942280575633
+    },
+    {
+      "inventory": 0.85,
+      "price": 86.34920454545457,
+      "primary_vs_refined_abatement_gap_t": 0.008831218467094004
+    },
+    {
+      "inventory": 0.85,
+      "price": 92.10581818181821,
+      "primary_vs_refined_abatement_gap_t": 0.008564624702557921
+    },
+    {
+      "inventory": 0.85,
+      "price": 97.86243181818185,
+      "primary_vs_refined_abatement_gap_t": 0.008313654689118266
+    },
+    {
+      "inventory": 0.85,
+      "price": 103.61904545454549,
+      "primary_vs_refined_abatement_gap_t": 0.008076975005678833
+    },
+    {
+      "inventory": 0.85,
+      "price": 109.37565909090912,
+      "primary_vs_refined_abatement_gap_t": 0.007853397517465055
+    },
+    {
+      "inventory": 0.85,
+      "price": 115.13227272727275,
+      "primary_vs_refined_abatement_gap_t": 0.007641864591278136
+    },
+    {
+      "inventory": 0.85,
+      "price": 120.88888636363639,
+      "primary_vs_refined_abatement_gap_t": 0.00744142837356776
+    },
+    {
+      "inventory": 0.85,
+      "price": 126.64550000000003,
+      "primary_vs_refined_abatement_gap_t": 0.007251237519085407
+    },
+    {
+      "inventory": 0.85,
+      "price": 132.40211363636368,
+      "primary_vs_refined_abatement_gap_t": 0.007070526480674744
+    },
+    {
+      "inventory": 0.85,
+      "price": 138.1587272727273,
+      "primary_vs_refined_abatement_gap_t": 0.006898602820001543
+    },
+    {
+      "inventory": 0.85,
+      "price": 143.91534090909096,
+      "primary_vs_refined_abatement_gap_t": 0.006734842783771455
+    },
+    {
+      "inventory": 0.85,
+      "price": 149.67195454545458,
+      "primary_vs_refined_abatement_gap_t": 0.006578676751814783
+    },
+    {
+      "inventory": 0.85,
+      "price": 155.4285681818182,
+      "primary_vs_refined_abatement_gap_t": 0.006429588771425188
+    },
+    {
+      "inventory": 0.85,
+      "price": 161.18518181818186,
+      "primary_vs_refined_abatement_gap_t": 0.006287108059041202
+    },
+    {
+      "inventory": 0.85,
+      "price": 166.94179545454548,
+      "primary_vs_refined_abatement_gap_t": 0.006150805274955928
+    },
+    {
+      "inventory": 0.85,
+      "price": 172.69840909090914,
+      "primary_vs_refined_abatement_gap_t": 0.006020287401042879
+    },
+    {
+      "inventory": 0.85,
+      "price": 178.45502272727276,
+      "primary_vs_refined_abatement_gap_t": 0.005895193200558424
+    },
+    {
+      "inventory": 0.85,
+      "price": 184.21163636363642,
+      "primary_vs_refined_abatement_gap_t": 0.005775192752480507
+    },
+    {
+      "inventory": 4.81,
+      "price": 11.513227272727276,
+      "primary_vs_refined_abatement_gap_t": 0.013618215220049024
+    },
+    {
+      "inventory": 4.81,
+      "price": 17.269840909090913,
+      "primary_vs_refined_abatement_gap_t": 0.013618215220049024
+    },
+    {
+      "inventory": 4.81,
+      "price": 23.026454545454552,
+      "primary_vs_refined_abatement_gap_t": 0.013484065188094974
+    },
+    {
+      "inventory": 4.81,
+      "price": 28.783068181818187,
+      "primary_vs_refined_abatement_gap_t": 0.013025888707488775
+    },
+    {
+      "inventory": 4.81,
+      "price": 34.539681818181826,
+      "primary_vs_refined_abatement_gap_t": 0.012567710597068071
+    },
+    {
+      "inventory": 4.81,
+      "price": 40.296295454545465,
+      "primary_vs_refined_abatement_gap_t": 0.012109532719478011
+    },
+    {
+      "inventory": 4.81,
+      "price": 46.052909090909104,
+      "primary_vs_refined_abatement_gap_t": 0.011651354841887951
+    },
+    {
+      "inventory": 4.81,
+      "price": 51.80952272727274,
+      "primary_vs_refined_abatement_gap_t": 0.011193177662789822
+    },
+    {
+      "inventory": 4.81,
+      "price": 57.566136363636375,
+      "primary_vs_refined_abatement_gap_t": 0.010735001415014267
+    },
+    {
+      "inventory": 4.81,
+      "price": 63.32275000000001,
+      "primary_vs_refined_abatement_gap_t": 0.010276823537424207
+    },
+    {
+      "inventory": 4.81,
+      "price": 69.07936363636365,
+      "primary_vs_refined_abatement_gap_t": 0.0098186464747414
+    },
+    {
+      "inventory": 4.81,
+      "price": 74.83597727272729,
+      "primary_vs_refined_abatement_gap_t": 0.00941750209312886
+    },
+    {
+      "inventory": 4.81,
+      "price": 80.59259090909093,
+      "primary_vs_refined_abatement_gap_t": 0.009114942280575633
+    },
+    {
+      "inventory": 4.81,
+      "price": 86.34920454545457,
+      "primary_vs_refined_abatement_gap_t": 0.008831218117848039
+    },
+    {
+      "inventory": 4.81,
+      "price": 92.10581818181821,
+      "primary_vs_refined_abatement_gap_t": 0.008564624236896634
+    },
+    {
+      "inventory": 4.81,
+      "price": 97.86243181818185,
+      "primary_vs_refined_abatement_gap_t": 0.008313654689118266
+    },
+    {
+      "inventory": 4.81,
+      "price": 103.61904545454549,
+      "primary_vs_refined_abatement_gap_t": 0.008076974074356258
+    },
+    {
+      "inventory": 4.81,
+      "price": 109.37565909090912,
+      "primary_vs_refined_abatement_gap_t": 0.007853397517465055
+    },
+    {
+      "inventory": 4.81,
+      "price": 115.13227272727275,
+      "primary_vs_refined_abatement_gap_t": 0.007641864591278136
+    },
+    {
+      "inventory": 4.81,
+      "price": 120.88888636363639,
+      "primary_vs_refined_abatement_gap_t": 0.00744142837356776
+    },
+    {
+      "inventory": 4.81,
+      "price": 126.64550000000003,
+      "primary_vs_refined_abatement_gap_t": 0.007251237635500729
+    },
+    {
+      "inventory": 4.81,
+      "price": 132.40211363636368,
+      "primary_vs_refined_abatement_gap_t": 0.007070526364259422
+    },
+    {
+      "inventory": 4.81,
+      "price": 138.1587272727273,
+      "primary_vs_refined_abatement_gap_t": 0.006898602820001543
+    },
+    {
+      "inventory": 4.81,
+      "price": 143.91534090909096,
+      "primary_vs_refined_abatement_gap_t": 0.006734842783771455
+    },
+    {
+      "inventory": 4.81,
+      "price": 149.67195454545458,
+      "primary_vs_refined_abatement_gap_t": 0.006578676286153495
+    },
+    {
+      "inventory": 4.81,
+      "price": 155.4285681818182,
+      "primary_vs_refined_abatement_gap_t": 0.006429589120671153
+    },
+    {
+      "inventory": 4.81,
+      "price": 161.18518181818186,
+      "primary_vs_refined_abatement_gap_t": 0.006287108524702489
+    },
+    {
+      "inventory": 4.81,
+      "price": 166.94179545454548,
+      "primary_vs_refined_abatement_gap_t": 0.006150805274955928
+    },
+    {
+      "inventory": 4.81,
+      "price": 172.69840909090914,
+      "primary_vs_refined_abatement_gap_t": 0.006020287401042879
+    },
+    {
+      "inventory": 4.81,
+      "price": 178.45502272727276,
+      "primary_vs_refined_abatement_gap_t": 0.005895193666219711
+    },
+    {
+      "inventory": 4.81,
+      "price": 184.21163636363642,
+      "primary_vs_refined_abatement_gap_t": 0.00577519228681922
+    }
+  ],
+  "lower_boundary_USD_MWh": 21.34097356227764,
+  "upper_boundary_USD_MWh": 72.51294223276287,
+  "coefficients": {
+    "Es": 0.860894617196701,
+    "Ec": 8.81112457994327,
+    "Cs0": 84.87428933505188,
+    "Cc0": 0.8164173793150553,
+    "As": 0.9769873601201413,
+    "Ac": 4.243134511384484
+  },
+  "reference_extra_budget_USD_y": 143915340.90909094,
+  "reference_power_MWh_y": 1200000.0,
+  "source_cohort_t": 2500000.0,
+  "common_price_USD_MWh": 69.07936363636365,
+  "summary": [
+    {
+      "inventory": 0.85,
+      "power_GWh": 210.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 0,
+      "min_price_with_advantage": null,
+      "max_price_with_advantage": null,
+      "maximum_utilization_pct": 0.0
+    },
+    {
+      "inventory": 0.85,
+      "power_GWh": 600.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 1,
+      "min_price_with_advantage": 11.513227272727276,
+      "max_price_with_advantage": 11.513227272727276,
+      "maximum_utilization_pct": 1.3865012462004926
+    },
+    {
+      "inventory": 0.85,
+      "power_GWh": 1200.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 3,
+      "min_price_with_advantage": 11.513227272727276,
+      "max_price_with_advantage": 11.513227272727276,
+      "maximum_utilization_pct": 4.431282827117176
+    },
+    {
+      "inventory": 0.85,
+      "power_GWh": 2400.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 89,
+      "min_price_with_advantage": 11.513227272727276,
+      "max_price_with_advantage": 166.94179545454548,
+      "maximum_utilization_pct": 5.611222444889783
+    },
+    {
+      "inventory": 4.81,
+      "power_GWh": 210.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 0,
+      "min_price_with_advantage": null,
+      "max_price_with_advantage": null,
+      "maximum_utilization_pct": 0.0
+    },
+    {
+      "inventory": 4.81,
+      "power_GWh": 600.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 20,
+      "min_price_with_advantage": 11.513227272727276,
+      "max_price_with_advantage": 69.07936363636365,
+      "maximum_utilization_pct": 2.6600605432625284
+    },
+    {
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 46,
+      "min_price_with_advantage": 11.513227272727276,
+      "max_price_with_advantage": 69.07936363636365,
+      "maximum_utilization_pct": 5.386452299913702
+    },
+    {
+      "inventory": 4.81,
+      "power_GWh": 2400.0,
+      "nodes": 403,
+      "nodes_with_strict_advantage": 165,
+      "min_price_with_advantage": 11.513227272727276,
+      "max_price_with_advantage": 166.94179545454548,
+      "maximum_utilization_pct": 5.611222444889788
+    }
+  ],
+  "boundary_neighbours": [
+    {
+      "label": "boundary_lower_-0.1",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 21.240973562277638,
+      "stored_CO2_t": 1393898.8303905479,
+      "raw_CO2_to_methanol_t": 0.0,
+      "utilization_pct": 0.0,
+      "chemical_methanol_t": 0.0,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 1393898.8303905479,
+      "uncaptured_CO2_t": 1106101.1696094521,
+      "electricity_MWh": 1200000.0,
+      "hydrogen_t": 0.0,
+      "abatement_tCO2e": 1361821.538577814,
+      "storage_only_abatement_tCO2e": 1361821.538577814,
+      "extra_abatement_tCO2e": 0.0,
+      "strict_advantage": false,
+      "power_slack_GWh": 0.0,
+      "budget_slack_USD": 120000.00000000454,
+      "active_constraints": "electricity|qualified_H2_is_actually_used|qualified_fuel_uses_qualified_hydrogen",
+      "carbon_balance_residual_t": 0.0,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "lower",
+      "boundary_value_USD_MWh": 21.34097356227764,
+      "offset_USD_MWh": -0.1
+    },
+    {
+      "label": "boundary_lower_-0.01",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 21.330973562277638,
+      "stored_CO2_t": 1393898.8303905479,
+      "raw_CO2_to_methanol_t": 0.0,
+      "utilization_pct": 0.0,
+      "chemical_methanol_t": 0.0,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 1393898.8303905479,
+      "uncaptured_CO2_t": 1106101.1696094521,
+      "electricity_MWh": 1200000.0,
+      "hydrogen_t": 0.0,
+      "abatement_tCO2e": 1361821.538577814,
+      "storage_only_abatement_tCO2e": 1361821.538577814,
+      "extra_abatement_tCO2e": 0.0,
+      "strict_advantage": false,
+      "power_slack_GWh": 0.0,
+      "budget_slack_USD": 12000.000000000455,
+      "active_constraints": "electricity|qualified_H2_is_actually_used|qualified_fuel_uses_qualified_hydrogen",
+      "carbon_balance_residual_t": 0.0,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "lower",
+      "boundary_value_USD_MWh": 21.34097356227764,
+      "offset_USD_MWh": -0.01
+    },
+    {
+      "label": "boundary_lower_0.01",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 21.35097356227764,
+      "stored_CO2_t": 1393757.3118128383,
+      "raw_CO2_to_methanol_t": 13.827131903264672,
+      "utilization_pct": 0.0005530852761305869,
+      "chemical_methanol_t": 9.856769742519157,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 1393771.1389447416,
+      "uncaptured_CO2_t": 1106228.8610552584,
+      "electricity_MWh": 1200000.0,
+      "hydrogen_t": 1.8895427596409224,
+      "abatement_tCO2e": 1361741.947096742,
+      "storage_only_abatement_tCO2e": 1361707.9961587032,
+      "extra_abatement_tCO2e": 33.950938038760796,
+      "strict_advantage": true,
+      "power_slack_GWh": 0.0,
+      "budget_slack_USD": 0.0,
+      "active_constraints": "electricity|qualified_fuel_uses_qualified_hydrogen|resource_budget",
+      "carbon_balance_residual_t": 0.0,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "lower",
+      "boundary_value_USD_MWh": 21.34097356227764,
+      "offset_USD_MWh": 0.01
+    },
+    {
+      "label": "boundary_lower_0.1",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 21.44097356227764,
+      "stored_CO2_t": 1392483.6446134537,
+      "raw_CO2_to_methanol_t": 138.27131903311238,
+      "utilization_pct": 0.005530852761324495,
+      "chemical_methanol_t": 98.56769742502783,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 1392621.9159324868,
+      "uncaptured_CO2_t": 1107378.0840675132,
+      "electricity_MWh": 1200000.0,
+      "hydrogen_t": 18.895427596377836,
+      "abatement_tCO2e": 1361025.6237670952,
+      "storage_only_abatement_tCO2e": 1360686.965745911,
+      "extra_abatement_tCO2e": 338.65802118415013,
+      "strict_advantage": true,
+      "power_slack_GWh": 0.0,
+      "budget_slack_USD": 0.0,
+      "active_constraints": "electricity|qualified_fuel_uses_qualified_hydrogen|resource_budget",
+      "carbon_balance_residual_t": 0.0,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "lower",
+      "boundary_value_USD_MWh": 21.34097356227764,
+      "offset_USD_MWh": 0.1
+    },
+    {
+      "label": "boundary_upper_-0.1",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 72.41294223276287,
+      "stored_CO2_t": 671135.5936839792,
+      "raw_CO2_to_methanol_t": 70617.88473683759,
+      "utilization_pct": 2.8247153894735035,
+      "chemical_methanol_t": 50340.463548117055,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 741753.4784208168,
+      "uncaptured_CO2_t": 1758246.5215791832,
+      "electricity_MWh": 1200000.0,
+      "hydrogen_t": 9650.266862174041,
+      "abatement_tCO2e": 955332.1758038219,
+      "storage_only_abatement_tCO2e": 955094.4646993567,
+      "extra_abatement_tCO2e": 237.71110446518287,
+      "strict_advantage": true,
+      "power_slack_GWh": 0.0,
+      "budget_slack_USD": 0.0,
+      "active_constraints": "electricity|qualified_fuel_uses_qualified_hydrogen|resource_budget",
+      "carbon_balance_residual_t": 4.656612873077393e-10,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "upper",
+      "boundary_value_USD_MWh": 72.51294223276287,
+      "offset_USD_MWh": -0.1
+    },
+    {
+      "label": "boundary_upper_-0.01",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 72.50294223276286,
+      "stored_CO2_t": 669861.9264845948,
+      "raw_CO2_to_methanol_t": 70742.32892396732,
+      "utilization_pct": 2.8296931569586925,
+      "chemical_methanol_t": 50429.17447579954,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 740604.2554085621,
+      "uncaptured_CO2_t": 1759395.7445914377,
+      "electricity_MWh": 1200000.0,
+      "hydrogen_t": 9667.272747010771,
+      "abatement_tCO2e": 954615.8524741749,
+      "storage_only_abatement_tCO2e": 954592.0520002837,
+      "extra_abatement_tCO2e": 23.800473891198635,
+      "strict_advantage": true,
+      "power_slack_GWh": 0.0,
+      "budget_slack_USD": 0.0,
+      "active_constraints": "electricity|qualified_fuel_uses_qualified_hydrogen|resource_budget",
+      "carbon_balance_residual_t": 4.656612873077393e-10,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "upper",
+      "boundary_value_USD_MWh": 72.51294223276287,
+      "offset_USD_MWh": -0.01
+    },
+    {
+      "label": "boundary_upper_0.01",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 72.52294223276287,
+      "stored_CO2_t": 976962.9735942164,
+      "raw_CO2_to_methanol_t": 0.0,
+      "utilization_pct": 0.0,
+      "chemical_methanol_t": 0.0,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 976962.9735942164,
+      "uncaptured_CO2_t": 1523037.0264057836,
+      "electricity_MWh": 841062.1651677436,
+      "hydrogen_t": 0.0,
+      "abatement_tCO2e": 954480.4765069366,
+      "storage_only_abatement_tCO2e": 954480.4765069366,
+      "extra_abatement_tCO2e": 0.0,
+      "strict_advantage": false,
+      "power_slack_GWh": 358.9378348322564,
+      "budget_slack_USD": 0.0,
+      "active_constraints": "qualified_H2_is_actually_used|qualified_fuel_uses_qualified_hydrogen|resource_budget",
+      "carbon_balance_residual_t": 0.0,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "upper",
+      "boundary_value_USD_MWh": 72.51294223276287,
+      "offset_USD_MWh": 0.01
+    },
+    {
+      "label": "boundary_upper_0.1",
+      "inventory": 4.81,
+      "power_GWh": 1200.0,
+      "budget_USD_source_t": 57.566136363636375,
+      "electricity_price_USD_MWh": 72.61294223276286,
+      "stored_CO2_t": 976449.3875041174,
+      "raw_CO2_to_methanol_t": 0.0,
+      "utilization_pct": 0.0,
+      "chemical_methanol_t": 0.0,
+      "source_cohort_t": 2500000.0,
+      "captured_raw_CO2_t": 976449.3875041174,
+      "uncaptured_CO2_t": 1523550.6124958824,
+      "electricity_MWh": 840620.0216673104,
+      "hydrogen_t": 0.0,
+      "abatement_tCO2e": 953978.709388577,
+      "storage_only_abatement_tCO2e": 953978.709388577,
+      "extra_abatement_tCO2e": 0.0,
+      "strict_advantage": false,
+      "power_slack_GWh": 359.3799783326896,
+      "budget_slack_USD": 0.0,
+      "active_constraints": "qualified_H2_is_actually_used|qualified_fuel_uses_qualified_hydrogen|resource_budget",
+      "carbon_balance_residual_t": 0.0,
+      "finance_ledger_residual_USD": 0.0,
+      "primal_residual_scaled": 0.0,
+      "boundary": "upper",
+      "boundary_value_USD_MWh": 72.51294223276287,
+      "offset_USD_MWh": 0.1
+    }
+  ],
+  "evidence_scope": "Full deterministic grid of declared scenarios, no means or stochastic CIs.",
+  "boundary_scope": "Analytical pairwise boundaries apply to the reference active constraints. The joint grid retains source, hydrogen, capacity and all other route constraints."
+}

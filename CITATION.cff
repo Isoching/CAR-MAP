@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite CAR-MAP and the V7 source-data version when using this release."
+type: software
+title: "CAR-MAP: Carbon Allocation under Resource constraints for Mitigation Assessment and Policy"
+version: 1.0.0
+license: MIT
+date-released: 2026-11-03
+authors:
+  - family-names: Zhao
+    given-names: Yuanjing
+    affiliation: University of Surrey
+  - family-names: Xuan
+    given-names: Jin
+    affiliation: University of Surrey
+  - family-names: Xing
+    given-names: Lei
+    affiliation: University of Surrey
+repository-code: "https://github.com/Isoching/CAR-MAP"
+url: "https://github.com/Isoching/CAR-MAP"
+abstract: "Annual carbon allocation under shared resource constraints, matched-service lifecycle mitigation assessment, independently reoptimised storage-only comparisons, and policy payment accounting. Includes the V7 numerical source-data record dated 2 November 2026."
+keywords:
+  - carbon allocation
+  - carbon capture and storage
+  - carbon capture and utilisation
+  - methanol
+  - lifecycle assessment
+  - linear programming
+  - resource constraints
+  - policy

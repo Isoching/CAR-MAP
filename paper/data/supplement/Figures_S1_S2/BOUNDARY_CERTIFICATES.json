@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "date": "2026-10-27",
+  "new_LP_solves": 0,
+  "lower_boundary_USD_MWh": 21.34097356227764,
+  "upper_boundary_USD_MWh": 72.51294223276287,
+  "lower": {
+    "basis": "Power-efficiency bound",
+    "global_abatement_bound_kt": 1361.821538577814,
+    "reduced_coefficients": {
+      "portfolio::storage": -1.1102230246251565e-16,
+      "portfolio::fuel": 8.915019344784726,
+      "portfolio::fuel_qualified": 8.915019344784726,
+      "portfolio::chemical": 5.7561815153314635,
+      "qualified_H2": 0.0
+    },
+    "feasible_optimum": {
+      "flows_t_y": {
+        "portfolio::storage": 1393898.8303905479,
+        "portfolio::fuel": 0.0,
+        "portfolio::fuel_qualified": 0.0,
+        "portfolio::chemical": 0.0,
+        "qualified_H2": 0.0
+      },
+      "abatement_tCO2e_y": 1361821.538577814,
+      "electricity_GWh_y": 1200.0,
+      "extra_resource_MUSD_y": 143.91534090909093,
+      "minimum_physical_slack": 0.0,
+      "budget_slack_MUSD": 0.0
+    }
+  },
+  "upper": {
+    "basis": "Budget-efficiency bound",
+    "global_abatement_bound_kt": 954.5362609931029,
+    "reduced_coefficients": {
+      "portfolio::storage": 0.0,
+      "portfolio::fuel": 4.296339551277554,
+      "portfolio::fuel_qualified": 4.296339551277554,
+      "portfolio::chemical": 8.881784197001252e-16,
+      "qualified_H2": 0.7636290087944824
+    },
+    "storage_only_optimum": {
+      "flows_t_y": {
+        "portfolio::storage": 977020.0720669739,
+        "portfolio::fuel": 0.0,
+        "portfolio::fuel_qualified": 0.0,
+        "portfolio::chemical": 0.0,
+        "qualified_H2": 0.0
+      },
+      "abatement_tCO2e_y": 954536.260993103,
+      "electricity_GWh_y": 841.1113209355907,
+      "extra_resource_MUSD_y": 143.91534090909093,
+      "minimum_physical_slack": 0.0,
+      "budget_slack_MUSD": 0.0
+    },
+    "mixed_optimum": {
+      "flows_t_y": {
+        "portfolio::storage": 669720.4079068851,
+        "portfolio::fuel": 0.0,
+        "portfolio::fuel_qualified": 0.0,
+        "portfolio::chemical": 70756.15605587064,
+        "qualified_H2": 0.0
+      },
+      "abatement_tCO2e_y": 954536.2609931029,
+      "electricity_GWh_y": 1200.0,
+      "extra_resource_MUSD_y": 143.91534090909093,
+      "minimum_physical_slack": 0.0,
+      "budget_slack_MUSD": 0.0
+    },
+    "exact_tie_allocation_nonunique": true,
+    "storage_cost_USD_raw_t": 147.30029098033276,
+    "chemical_cost_USD_raw_t": 639.7369850504184,
+    "abatement_tCO2e_per_1000_USD": 6.632623422655605
+  },
+  "chemical_feasible_above_upper": {
+    "flows_t_y": {
+      "portfolio::storage": 0.0,
+      "portfolio::fuel": 0.0,
+      "portfolio::fuel_qualified": 0.0,
+      "portfolio::chemical": 1000.0,
+      "qualified_H2": 0.0
+    },
+    "abatement_tCO2e_y": 4243.134511384484,
+    "electricity_GWh_y": 8.81112457994327,
+    "extra_resource_MUSD_y": 0.6398250962962178,
+    "minimum_physical_slack": 0.0,
+    "budget_slack_MUSD": 143.2755158127947
+  },
+  "argument": "Every route benefit is bounded by a common resource multiplier. The displayed feasible candidates attain that bound. This checks all full-LP routes and constraints, rather than fitting a curve through sampled prices.",
+  "scope": "Reference ARA resource budgets only. Different active constraints require corresponding full-LP analysis."
+}

@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.work/
+reproduced/
+paper/reproduced/
+dist/
+*.log
+/paper/data/controls/CONTROL_LP_MATRICES.json
+/paper/data/controls/FULL_CONTROL_SOLUTIONS.json
+/paper/data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json
+/paper/data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json
+/paper/data/main/Figure4/panel_b/FULL_TRANSMISSION_SCAN.csv
+/paper/data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json

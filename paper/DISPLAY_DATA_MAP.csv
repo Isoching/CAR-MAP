@@ -1,0 +1,49 @@
+﻿display,file,contents
+Figure 1a,data/main/Figure1/RESOURCE_PLOT_INPUTS.csv,Physical commitments per raw-source tonne
+Figure 1a,data/main/Figure1/physical_commitments.json,Physical commitments per raw-source tonne
+Figure 1a,data/main/Figure1/route_coefficients.csv,Physical commitments per raw-source tonne
+Figure 1b,data/main/Figure1/SANKEY_FLOW_DATA.csv,Resource and carbon flow schematic coefficients
+Figure 1c–d,data/main/Figure1/frontier_solves.csv,Retained resource–abatement frontiers
+Figure 2a,data/main/Figure2/CORE_COMPARISONS.csv,Eight regional gas/coal central portfolios
+Figure 2b,data/main/Figure2/PANEL_B_DISPLAY_DATA.csv,ARA paired price-response curves and analytical switching boundaries
+Figure 2b,data/supplement/Figures_S1_S2/BOUNDARY_CERTIFICATES.json,ARA paired price-response curves and analytical switching boundaries
+Figure 2c,data/main/Figure2/PANEL_C_COMPLETE_INVENTORY_RESPONSE.csv,All 404 original nodes plus 28 extension nodes
+Figure 2c,data/main/Figure2/PANEL_C_INVENTORY_RESPONSE.csv,All 404 original nodes plus 28 extension nodes
+Figure 2c,data/controls/INVENTORY_EXTENSION.csv,All 404 original nodes plus 28 extension nodes
+Figure 2d,data/main/Figure2/STORAGE_ACCESS_SWEEP.csv,164 storage-access scenarios and active constraints
+Figure 2d,data/main/Figure2/PANEL_D_CONSTRAINT_DIAGNOSTICS.csv,164 storage-access scenarios and active constraints
+Figure 3a,data/main/Figure3/GEOLOGICAL_ENDPOINTS.csv,Three published geological-retention scenarios and intervals
+Figure 3b,data/main/Figure3/PANEL_B_CONNECTION_STATES.csv,Four ARA annual interim-access states with route contributions
+Figure 3b,data/main/Figure3/STATE_FLOW_CONTRIBUTIONS.csv,Four ARA annual interim-access states with route contributions
+Figure 3c,data/main/Figure3/PANEL_C_DELAY_SHORTFALL.csv,Twenty-one production cohorts and independent connection-delay scenarios
+Figure 3c,data/main/Figure3/YEARLY_COHORT_LCA.csv,Twenty-one production cohorts and independent connection-delay scenarios
+Figure 4a,data/main/Figure4/panel_a/PANEL_A_ARA_PAYMENT_RESPONSE.csv,"1047 ARA payment-response records, preserved within 4194 regional cases"
+Figure 4a,data/main/Figure4/panel_a/ANALYTIC_ENTRY_THRESHOLDS.csv,"1047 ARA payment-response records, preserved within 4194 regional cases"
+Figure 4b,data/main/Figure4/panel_b/PANEL_B_ARA_TRANSMISSION.csv,"Qualification, realisation and pass-through scan, 36900 cases"
+Figure 4b,data/main/Figure4/panel_b/FULL_TRANSMISSION_SCAN.csv,"Qualification, realisation and pass-through scan, 36900 cases"
+Figure 4c,data/main/Figure4/panel_c/PANEL_C_DISPLAY.csv,Matched actual-outlay coordinates and regional fiscal controls
+Figure 4c,data/main/Figure4/panel_c/PANEL_C_FISCAL_CAP_SCAN.csv,Matched actual-outlay coordinates and regional fiscal controls
+Figures S1 and S2,data/supplement/Figures_S1_S2/JOINT_BUDGET_POWER_PRICE.csv,"3224 paired gas/coal nodes, 1612 per inventory and 403 per panel"
+Figures S1 and S2,data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json,"3224 paired gas/coal nodes, 1612 per inventory and 403 per panel"
+Figure S3a–b,data/controls/JOINT_INVENTORY_ELECTRICITY_COST.csv,Select ARA and UK at synthesis_cost_multiplier=1
+Figure S3c,data/controls/NORMALISED_ELECTRICITY.csv,Select inventory=4.81 and the three electricity/source levels
+Figure S4,data/supplement/Figure_S4_SUPPORT_DEFINITIONS.json,"Accounting definitions, no quantitative panel data"
+Figure S5,data/supplement/policy_accounts/PANEL_B_PAYMENT_CHAIN.json,"Authorisation, payment and recipient account reconciliation"
+Figure S6,data/controls/ENTRY_CALIBRATED_SUPPORT.csv,Uniform-rate and route-entry-calibrated private allocations
+Figure S6,data/main/Figure4/panel_c/PANEL_C_ARA_MATCHED_ACTUAL.csv,Uniform-rate and route-entry-calibrated private allocations
+Table 1,data/tables/Table_1.csv,"Table 1. Scale, resources and delivery benchmarks."
+Table 2,data/tables/Table_2.csv,Table 2. Regional anchors and prospective access conditions. *
+Table 3,data/tables/Table_3.csv,Table 3. Conditions governing allocation and policy conclusions. * 
+Table S1,data/tables/Table_S1.csv,Table S1. Abbreviations.
+Table S2,data/tables/Table_S2.csv,Table S2. Variables and units.
+Table S3,data/tables/Table_S3.csv,Table S3. Exchange rates and price indices.
+Table S4,data/tables/Table_S4.csv,Table S4. Worked monetary conversions.
+Table S5,data/tables/Table_S5.csv,Table S5. External material and energy benchmarks.
+Table S6,data/tables/Table_S6.csv,Table S6. External expense and lifecycle benchmarks.
+Table S7,data/tables/Table_S7.csv,Table S7. Source and hydrogen anchors.
+Table S8,data/tables/Table_S8.csv,Table S8. Regional evidence and conditional allocation results.
+Table S9,data/tables/Table_S9.csv,Table S9. Normalised resource controls at the high-coal reference.
+Table S10,data/tables/Table_S10.csv,Table S10. Joint sensitivity of additional utilisation abatement.
+Table S11,data/tables/Table_S11.csv,"Table S11. Retention, deployment and payment evidence."
+Table S12,data/tables/Table_S12.csv,Table S12. Matched actual-outlay coordinates.
+Table S13,data/tables/Table_S13.csv,Table S13. Route-entry-calibrated support at a 1% premium. 

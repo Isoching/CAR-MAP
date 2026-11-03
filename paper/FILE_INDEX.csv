@@ -1,0 +1,184 @@
+﻿file,format,bytes,data_rows_or_top_level_records,purpose,precision
+DATA_DICTIONARY.csv,CSV,180686,,"Archive navigation, reproducibility guidance or field dictionary",Not applicable or mixed metadata
+DISPLAY_DATA_MAP.csv,CSV,5202,48,"Archive navigation, reproducibility guidance or field dictionary",Not applicable or mixed metadata
+README.md,MD,9579,,"Archive navigation, reproducibility guidance or field dictionary",Not applicable or mixed metadata
+REPRODUCE.md,MD,4269,,"Archive navigation, reproducibility guidance or field dictionary",Not applicable or mixed metadata
+code/check_derived_accounts.py,PY,3072,,Portable numerical reconstruction or verification script,Not applicable or mixed metadata
+code/compare_controls.py,PY,2724,,Portable numerical reconstruction or verification script,Not applicable or mixed metadata
+code/export_control_matrices.py,PY,3135,,Portable numerical reconstruction or verification script,Not applicable or mixed metadata
+code/replay_matrix_examples.py,PY,3024,,Portable numerical reconstruction or verification script,Not applicable or mixed metadata
+code/run_control_calculations.py,PY,7805,,Portable numerical reconstruction or verification script,Not applicable or mixed metadata
+code/validate_archive.py,PY,4386,,Portable numerical reconstruction or verification script,Not applicable or mixed metadata
+data/controls/CENTRAL_LITERATURE_CONTROLS.csv,CSV,4172,24,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/CONTROL_LP_MATRICES.json,JSON,12555089,1700,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/ENTRY_CALIBRATED_SUPPORT.csv,CSV,2186,12,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/FULL_CONTROL_SOLUTIONS.json,JSON,9773936,1700,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/HYDROGEN_ACCESS.csv,CSV,6055,36,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/INVENTORY_EXTENSION.csv,CSV,5262,28,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/JOINT_INVENTORY_ELECTRICITY_COST.csv,CSV,105534,720,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/NORMALISED_ELECTRICITY.csv,CSV,6031,36,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/controls/SUMMARY.json,JSON,36788,9,"V7 control inputs, solutions, explicit LPs and residual/hash summary",Retained computational precision
+data/evidence/SOURCE_INPUT_LEDGER_USD.csv,CSV,117062,209,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/TIME_EVIDENCE_LEDGER.csv,CSV,6865,15,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/ECB_USD_EUR_2026_09.csv,CSV,543,1,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/HICP_FRESH_SOURCE.json,JSON,288,3,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/MONEY_SOURCE_REPLAY.json,JSON,10186,4,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/ecb_CNY_fresh.csv,CSV,19471,81,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/ecb_GBP_fresh.csv,CSV,18358,81,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/ecb_USD_fresh.csv,CSV,17538,81,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/ecb_annual_fresh.csv,CSV,4179,18,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/hicp_EA_TOTAL_fresh.json,JSON,8067,10,Input provenance or archived external-source evidence,Retained computational precision
+data/evidence/monetary_sources/hicp_fresh.json,JSON,163,1,Input provenance or archived external-source evidence,Retained computational precision
+data/main/Figure1/RESOURCE_PLOT_INPUTS.csv,CSV,375,4,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure1/SANKEY_FLOW_DATA.csv,CSV,1118,9,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure1/frontier_solves.csv,CSV,190039,820,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure1/physical_commitments.json,JSON,613,12,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure1/route_coefficients.csv,CSV,903,3,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/ALL_SOLUTIONS.json,JSON,909669,344,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/COMMON_AND_REGIONAL_CONDITIONS.json,JSON,1426,4,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/CORE_COMPARISONS.csv,CSV,3527,8,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/EXPORTED_LP_MODELS.json,JSON,1485702,172,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_B_ALLOCATION.csv,CSV,37856,280,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_B_DISPLAY_DATA.csv,CSV,31931,560,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_CD_DIAGNOSTICS_AUDIT.json,JSON,1446,9,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_COMPLETE_INVENTORY_RESPONSE.csv,CSV,14001,432,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_GAIN_ONSET_BRACKETS.csv,CSV,289,4,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_GAIN_SUMMARY.csv,CSV,448,4,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_INDEPENDENT_REPLAYS.json,JSON,150787,808,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_INVENTORY_RESPONSE.csv,CSV,93340,404,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_LP_MODELS.json,JSON,2134966,404,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_SCAN_AUDIT.json,JSON,3554,18,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_C_SOLUTIONS.json,JSON,1650958,808,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_D_CONSTRAINT_DIAGNOSTICS.csv,CSV,121866,164,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/PANEL_D_PLATEAU_BRACKETS.csv,CSV,565,2,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure2/STORAGE_ACCESS_SWEEP.csv,CSV,62481,164,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/ALL_SOLUTIONS.json,JSON,84774,32,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/ANNUAL_STATES.csv,CSV,5711,32,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/DELAY_SENSITIVITY.csv,CSV,42680,216,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/EXPORTED_LP_MODELS.json,JSON,276271,32,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/GEOLOGICAL_ENDPOINTS.csv,CSV,495,3,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/HYDROGEN_PIPELINE.csv,CSV,200,2,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/PANEL_B_CONNECTION_STATES.csv,CSV,1024,4,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/PANEL_C_DELAY_SHORTFALL.csv,CSV,3442,27,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/STATE_FLOW_CONTRIBUTIONS.csv,CSV,14210,192,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/STATE_ROUTE_CONTRIBUTIONS.csv,CSV,5182,32,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure3/YEARLY_COHORT_LCA.csv,CSV,898372,4536,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json,JSON,23731913,4194,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/ANALYTIC_ENTRY_THRESHOLDS.csv,CSV,6973,38,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/ANALYTIC_THRESHOLD_CHECKS.csv,CSV,1211,20,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/BASE_PHYSICAL_MODELS.json,JSON,33349,4,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/EXPORTED_POLICY_LP_MODELS.json,JSON,1026812,120,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/FISCAL_COMPARISON_EXAMPLES.csv,CSV,21554,25,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/INDEPENDENT_REPLAY.csv,CSV,189067,4194,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/MATCHED_PAYMENT_SCAN.csv,CSV,3436542,4194,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/ORIGINAL_60_ANCHOR_REPLAY.csv,CSV,2724,60,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/PANEL_A_ARA_PAYMENT_RESPONSE.csv,CSV,828614,1047,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/RESOURCE_CAP_REDUNDANCY.csv,CSV,3356,120,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_a/SCENARIO_COMPARISON_CONDITIONS.csv,CSV,58265,20,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json,JSON,209552970,36900,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/ANALYTIC_TRANSMISSION_THRESHOLDS.csv,CSV,10415,72,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/ENTRY_BRACKET_VERIFICATION.csv,CSV,9544,144,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/FIGURE4A_MATCHED_ANCHORS.csv,CSV,340,12,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/FULL_TRANSMISSION_SCAN.csv,CSV,28051022,36900,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/INDEPENDENT_REPLAY.csv,CSV,1077084,36900,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/LEXICOGRAPHIC_TOLERANCE_CHECK.csv,CSV,339816,3428,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/MAIN_MECHANISM_EXAMPLES.csv,CSV,15219,16,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/PANEL_B_ARA_TRANSMISSION.csv,CSV,315868,416,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/QUALIFICATION_BOUNDARY_CONTROLS.csv,CSV,17376,20,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_b/RATE_AND_REGION_SENSITIVITY_SUMMARY.csv,CSV,4894,48,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_c/MATCHED_ACTUAL_SPENDING_FOUR_REGIONS.csv,CSV,18299,20,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_c/PANEL_C_ALL_POLICY_LP_MODELS.json,JSON,3317063,600,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_c/PANEL_C_ARA_MATCHED_ACTUAL.csv,CSV,5076,5,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_c/PANEL_C_DISPLAY.csv,CSV,4371,4,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_c/PANEL_C_FISCAL_CAP_SCAN.csv,CSV,504741,600,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_c/PANEL_C_FULL_CAP_ANCHORS.csv,CSV,1261,60,Main-figure computational source data or saved matrices,Retained computational precision
+data/main/Figure4/panel_c/PANEL_C_INDEPENDENT_REPLAY.csv,CSV,19839,600,Main-figure computational source data or saved matrices,Retained computational precision
+data/original_scenario_grids/CENTRAL_LP_MODELS.json,JSON,111130,12,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/CENTRAL_RESULTS.json,JSON,29277,4,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/COMMON_BUDGET_FRONTIERS.csv,CSV,41113,80,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/COMMON_PRICE_FRONTIERS.csv,CSV,43612,80,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/CURRENCY_INVARIANCE_VERIFICATION.json,JSON,3459,13,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/ENGINEERING_SENSITIVITY.csv,CSV,431573,892,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/INSTITUTIONAL_QUALIFICATION_GATES.csv,CSV,19006,46,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/MATCHED_PAYMENT_MECHANISMS.csv,CSV,23419,60,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/PAIRWISE_SWITCHING_BOUNDARIES.csv,CSV,1901,8,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/RESOURCE_AND_MARKET_CONTROLS.csv,CSV,98985,201,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/SI_MTU_DIAGNOSTICS.json,JSON,41726,4,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/SWITCHING_SURFACES.csv,CSV,2425159,5456,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/original_scenario_grids/UK_SUPPORTED_GENERATION_DESIGN.csv,CSV,3318,6,Retained original model-suite numerical grid or diagnostic,Retained computational precision
+data/supplement/Figure_S4_SUPPORT_DEFINITIONS.json,JSON,708,11,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/BOUNDARY_CERTIFICATES.json,JSON,3281,10,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/BOUNDARY_NEIGHBOURS.csv,CSV,3548,8,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/COMMON_PRICE_RESOURCE_SLICES.csv,CSV,8867,24,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/DISPLAY_DATA.csv,CSV,31931,560,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/ENCODING_AND_SLOPE_CHECK.json,JSON,666,17,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/ENCODING_COMPARISON.csv,CSV,17348,280,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json,JSON,32826830,3232,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/JOINT_BUDGET_POWER_PRICE.csv,CSV,1117021,3224,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/MAIN_ALLOCATION.csv,CSV,37856,280,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/Figures_S1_S2/REVISION_DATA_AUDIT.json,JSON,21131,23,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/policy_accounts/MATCHED_DUAL_METRICS_20.csv,CSV,2606,20,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/policy_accounts/PANEL_B_PAYMENT_CHAIN.json,JSON,336,11,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/policy_accounts/PANEL_C_DUAL_METRICS.csv,CSV,662,4,Supplementary figure source data or accounting definitions,Retained computational precision
+data/supplement/policy_accounts/POLICY_DUAL_METRICS_600.csv,CSV,69580,600,Supplementary figure source data or accounting definitions,Retained computational precision
+data/tables/Table_1.csv,CSV,518,7,Table transcribed from the current review documents,Display precision
+data/tables/Table_1.json,JSON,996,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_2.csv,CSV,451,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_2.json,JSON,862,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_3.csv,CSV,517,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_3.json,JSON,900,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S1.csv,CSV,1398,47,Table transcribed from the current review documents,Display precision
+data/tables/Table_S1.json,JSON,2940,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S10.csv,CSV,204,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S10.json,JSON,630,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S11.csv,CSV,4233,15,Table transcribed from the current review documents,Display precision
+data/tables/Table_S11.json,JSON,4987,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S12.csv,CSV,247,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S12.json,JSON,647,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S13.csv,CSV,192,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S13.json,JSON,655,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S2.csv,CSV,14979,103,Table transcribed from the current review documents,Display precision
+data/tables/Table_S2.json,JSON,18843,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S3.csv,CSV,335,9,Table transcribed from the current review documents,Display precision
+data/tables/Table_S3.json,JSON,1060,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S4.csv,CSV,449,6,Table transcribed from the current review documents,Display precision
+data/tables/Table_S4.json,JSON,1003,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S5.csv,CSV,4491,16,Table transcribed from the current review documents,Display precision
+data/tables/Table_S5.json,JSON,5251,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S6.csv,CSV,4472,14,Table transcribed from the current review documents,Display precision
+data/tables/Table_S6.json,JSON,5172,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S7.csv,CSV,1017,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S7.json,JSON,1398,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S8.csv,CSV,2598,9,Table transcribed from the current review documents,Display precision
+data/tables/Table_S8.json,JSON,3143,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S9.csv,CSV,160,4,Table transcribed from the current review documents,Display precision
+data/tables/Table_S9.json,JSON,587,4,Table transcribed from the current review documents,Display precision
+metadata/ABBREVIATIONS.csv,CSV,1398,47,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/CONTROL_COUNTS.csv,CSV,673,6,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/DATASET_METADATA.json,JSON,1623,18,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/EQUATIONS.csv,CSV,3339,39,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/EQUATION_DATA_MAP.csv,CSV,401,3,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/EVIDENCE_TYPES.json,JSON,713,6,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/FILE_SCHEMAS.json,JSON,58439,107,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/MANUSCRIPT_SNAPSHOTS.json,JSON,285,2,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/REFERENCES.csv,CSV,29205,105,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/SOURCE_PROVENANCE.json,JSON,49906,122,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/TABLE_INDEX.csv,CSV,1752,16,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+metadata/VARIABLES_AND_UNITS.csv,CSV,14979,103,"Data, notation, reference, evidence or provenance metadata",Not applicable or mixed metadata
+model/EFFECTIVE_MODULE_COEFFICIENTS.csv,CSV,1683,5,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/MONETARY_PARAMETER_REGISTER.csv,CSV,3435,20,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/MONEY_LOOKUP.json,JSON,1782,9,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/REGISTERED_PROTOCOL.json,JSON,125362,25,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/RUNTIME.json,JSON,284,5,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/allocation.py,PY,22412,,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/engineering.py,PY,26838,,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/inputs/ARA_engineering.json,JSON,27043,2,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/inputs/CN_engineering.json,JSON,33784,2,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/inputs/UK_engineering.json,JSON,29444,2,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/inputs/US_engineering.json,JSON,30313,2,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+model/requirements.txt,TXT,60,,"Frozen numerical model, engineering/monetary input or protocol",Not applicable or mixed metadata
+validation/ARCHIVE_CONTENT_CHECK.json,JSON,462,11,Release verification result,Not applicable or mixed metadata
+validation/CONTROL_REPRODUCTION.json,JSON,1670,8,Release verification result,Not applicable or mixed metadata
+validation/DERIVED_ACCOUNTS.json,JSON,784,12,Release verification result,Not applicable or mixed metadata
+validation/MATRIX_REPLAY.json,JSON,9241,5,Release verification result,Not applicable or mixed metadata
+validation/REPLAY_ENVIRONMENT.json,JSON,349,9,Release verification result,Not applicable or mixed metadata

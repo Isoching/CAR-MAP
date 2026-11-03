@@ -1,0 +1,7 @@
+{
+  "CoolProp": "8.0.0",
+  "CoolProp_revision": "ae81610e7d23efc57f9d051c8e70a4d66e87537f",
+  "numpy": "1.26.4",
+  "EOS": "HEOS SpanWagner pureCO2 and availableCO2/N2binarymodel",
+  "mixture_scope": "binary drysurrogate, no assertion of measured mixture composition or injectivity"
+}

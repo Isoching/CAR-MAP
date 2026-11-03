@@ -1,0 +1,263 @@
+{
+  "compared": 32,
+  "mismatch_threshold": 1e-09,
+  "mismatches": [],
+  "rows": [
+    {
+      "key": "CNY@2020",
+      "model": 7.8746972762646,
+      "source": 7.8746972762646,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "CNY@2023",
+      "model": 7.6600223529412,
+      "source": 7.6600223529412,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "CNY@2025",
+      "model": 8.1185043137255,
+      "source": 8.1185043137255,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "GBP@2020",
+      "model": 0.8897040856031,
+      "source": 0.8897040856031,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "GBP@2023",
+      "model": 0.8697865098039,
+      "source": 0.8697865098039,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "GBP@2025",
+      "model": 0.8567923137255,
+      "source": 0.8567923137255,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "USD@2020",
+      "model": 1.1421961089494,
+      "source": 1.1421961089494,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "USD@2023",
+      "model": 1.081268627451,
+      "source": 1.081268627451,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "USD@2025",
+      "model": 1.1299831372549,
+      "source": 1.1299831372549,
+      "difference": 0.0,
+      "kind": "ECB annualEXR",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY+USD+GBP.EUR.SP00.A?startPeriod=2020&endPeriod=2025&format=csvdata"
+    },
+    {
+      "key": "CNY@2026H1",
+      "model": 8.009860057720058,
+      "source": 8.009860057720058,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.CNY.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "CNY@2025-01",
+      "model": 7.556,
+      "source": 7.556,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.CNY.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "CNY@2025-09",
+      "model": 8.358618181818182,
+      "source": 8.358618181818182,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.CNY.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "CNY@2026-03",
+      "model": 7.970263636363637,
+      "source": 7.970263636363637,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.CNY.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "CNY@2026-07",
+      "model": 7.737056521739129,
+      "source": 7.737056521739129,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.CNY.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "CNY@2026-09",
+      "model": 7.724186363636364,
+      "source": 7.724186363636364,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.CNY.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "USD@2026H1",
+      "model": 1.166968437950938,
+      "source": 1.166968437950938,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "USD@2026-03",
+      "model": 1.1558318181818181,
+      "source": 1.1558318181818181,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "USD@2026-07",
+      "model": 1.1417478260869562,
+      "source": 1.1417478260869562,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "USD@2026-09",
+      "model": 1.1513227272727276,
+      "source": 1.1513227272727276,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "GBP@2026H1",
+      "model": 0.8672679769119769,
+      "source": 0.8672679769119769,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.GBP.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "GBP@2026-03",
+      "model": 0.8663109090909092,
+      "source": 0.8663109090909092,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.GBP.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "GBP@2026-07",
+      "model": 0.8539152173913043,
+      "source": 0.8539152173913043,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.GBP.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "GBP@2026-09",
+      "model": 0.8581249999999998,
+      "source": 0.8581249999999998,
+      "difference": 0.0,
+      "kind": "ECB monthlyEXR ormeanH1",
+      "URL": "https://data-api.ecb.europa.eu/service/data/EXR/M.GBP.EUR.SP00.A?startPeriod=2020-01&endPeriod=2026-09&format=csvdata"
+    },
+    {
+      "key": "HICP@2020",
+      "model": 81.60333333333334,
+      "source": 81.60333333333334,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2023",
+      "model": 95.65166666666667,
+      "source": 95.65166666666667,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2025",
+      "model": 100.0,
+      "source": 100.0,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2026H1",
+      "model": 101.99333333333333,
+      "source": 101.99333333333333,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2025-01",
+      "model": 98.42,
+      "source": 98.42,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2025-09",
+      "model": 100.52,
+      "source": 100.52,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2026-03",
+      "model": 101.99,
+      "source": 101.99,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2026-07",
+      "model": 103.24,
+      "source": 103.24,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    },
+    {
+      "key": "HICP@2026-09",
+      "model": 104.31,
+      "source": 104.31,
+      "difference": 0.0,
+      "kind": "EurostatEA TOTAL I25",
+      "URL": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?lang=en&freq=M&unit=I25&coicop18=TOTAL&geo=EA&sinceTimePeriod=2020-01&untilTimePeriod=2026-09"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "new_LP_calls": 0,
+  "complete_d_rows": 164,
+  "plateau_count": 2,
+  "plateaus": [
+    {
+      "region": "ARA",
+      "last_rising_access_pct": 37.5,
+      "first_saved_plateau_access_pct": 40.0,
+      "plateau_abatement_kg_per_source_t": 389.6334722464148,
+      "unconstrained_storage_allocation_pct": 39.8811170083614,
+      "plateau_power_GWh": 858.3359740072532,
+      "plateau_hydrogen_t": 0.0,
+      "interpretation": "Storage access becomes slack while expenditure remains binding",
+      "threshold_precision": "Grid bracket at 2.5 percentage-point spacing"
+    },
+    {
+      "region": "UK",
+      "last_rising_access_pct": 35.0,
+      "first_saved_plateau_access_pct": 37.5,
+      "plateau_abatement_kg_per_source_t": 356.5111416616976,
+      "unconstrained_storage_allocation_pct": 36.55607753386373,
+      "plateau_power_GWh": 697.9256182332679,
+      "plateau_hydrogen_t": 0.0,
+      "interpretation": "Storage access becomes slack while expenditure remains binding",
+      "threshold_precision": "Grid bracket at 2.5 percentage-point spacing"
+    }
+  ],
+  "c_regions": 4,
+  "input_rows_unchanged": true,
+  "precision": "Plateau onset remains a grid bracket. Endpoint storage shares are separate allocation statistics.",
+  "active_constraints": "Saved primal activity and saved duals are both retained. Primary duals identify constraints with nonzero marginal value despite lexicographic slack tolerance."
+}

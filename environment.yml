@@ -1,0 +1,11 @@
+name: car-map
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.7
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - scipy==1.13.1
+      - CoolProp==8.0.0
+      - openpyxl==3.1.5

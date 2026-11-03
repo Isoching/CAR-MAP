@@ -1,0 +1,9 @@
+﻿region,source,conventional_production_tCO2e_t,electricity_GHG_switch_tCO2e_MWh,electricity_price_switch_chem_vs_storage_USD_MWh,electricity_price_switch_chem_vs_vent_USD_MWh,meaning
+ARA,portfolio,0.85,0.0743509490451183,10.573011390817335,-0.0926575684985163,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.
+ARA,portfolio,4.81,0.4294242360999561,10.573011390817335,-0.0926575684985163,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.
+UK,NGCC,0.85,0.07434960335833017,11.251438118166924,-0.23329530188883202,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.
+UK,NGCC,4.81,0.4294164638989494,11.251438118166924,-0.23329530188883202,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.
+US,ammonia,0.85,0.07433782517552058,9.791289334887287,3.978567722979435,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.
+US,ammonia,4.81,0.42934843736774014,9.791289334887287,3.978567722979435,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.
+CN,EG_high,0.85,0.06939647363222713,8.649725377354416,4.945506981224478,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.
+CN,EG_high,4.81,0.42446731368643237,8.649725377354416,4.945506981224478,Pairwise physical/resource-cost crossing for the same rawsourcecarbon. Not globalLPpriority when budgets/power/H2/service constraints bind.

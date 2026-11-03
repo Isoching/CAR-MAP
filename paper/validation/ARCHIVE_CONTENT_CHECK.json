@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "files_hash_checked": 183,
+  "csv_files": 107,
+  "json_files": 65,
+  "evidence_rows": 209,
+  "control_solutions": 1700,
+  "control_matrices": 1700,
+  "main_equations": [
+    "1",
+    "2",
+    "3"
+  ],
+  "supplementary_equations": 36,
+  "errors": [],
+  "scope": "Frozen payload checksums, CSV and JSON integrity, display links, evidence/control dimensions and frozen model hashes. Scientific result regeneration is reported separately."
+}

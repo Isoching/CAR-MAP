@@ -1,0 +1,7 @@
+﻿file,scenario_rows,LP_solves,design
+CENTRAL_LITERATURE_CONTROLS.csv,24,48,"4 regions × 6 literature inventory anchors, each paired"
+NORMALISED_ELECTRICITY.csv,36,72,"4 regions × 3 electricity/source levels × 3 inventories, each paired"
+JOINT_INVENTORY_ELECTRICITY_COST.csv,720,1440,"4 regions × 10 inventories × 6 electricity intensities × 3 synthesis cost factors, each paired"
+HYDROGEN_ACCESS.csv,36,72,"4 regions × 3 physical-access shares × 3 inventories, each paired"
+INVENTORY_EXTENSION.csv,28,56,"4 regions × 7 additional inventory nodes, each paired"
+ENTRY_CALIBRATED_SUPPORT.csv,12,12,"4 support objects × 3 entry premiums, private allocation"

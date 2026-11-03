@@ -1,0 +1,5 @@
+﻿metric,value,unit,source_field
+Storage electricity,0.860894617196701,MWh/t source CO2 routed,storage_power_MWh
+Methanol electricity,8.81112457994327,MWh/t source CO2 routed,methanol_power_MWh
+Hydrogen input,136.6547142857143,kg/t source CO2 routed,hydrogen_t_per_source_t * 1000
+Methanol output,712.8571428571429,kg/t source CO2 routed,methanol_t_per_source_t * 1000

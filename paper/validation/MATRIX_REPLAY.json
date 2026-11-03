@@ -1,0 +1,303 @@
+{
+  "status": "PASS",
+  "scope": "Five deterministic matrix examples per family, selected at the first, quarter, middle, three-quarter and last record.",
+  "matrix_examples": 40,
+  "families": 8,
+  "results": [
+    {
+      "file": "data/controls/CONTROL_LP_MATRICES.json",
+      "index": 0,
+      "records_in_family": 1700,
+      "primary_objective": -974.0836903568736,
+      "primal_violation": 0.0,
+      "saved_refined_minus_replayed_primary": 9.740836844684964e-06,
+      "allowed_lexicographic_gap": 1.081492059392561e-05
+    },
+    {
+      "file": "data/controls/CONTROL_LP_MATRICES.json",
+      "index": 425,
+      "records_in_family": 1700,
+      "primary_objective": -974.0836903568736,
+      "primal_violation": 0.0,
+      "saved_refined_minus_replayed_primary": 9.740836844684964e-06,
+      "allowed_lexicographic_gap": 1.081492059392561e-05
+    },
+    {
+      "file": "data/controls/CONTROL_LP_MATRICES.json",
+      "index": 850,
+      "records_in_family": 1700,
+      "primary_objective": -1985.1030577553247,
+      "primal_violation": 0.0,
+      "saved_refined_minus_replayed_primary": 1.9851030401696335e-05,
+      "allowed_lexicographic_gap": 2.193613363530857e-05
+    },
+    {
+      "file": "data/controls/CONTROL_LP_MATRICES.json",
+      "index": 1275,
+      "records_in_family": 1700,
+      "primary_objective": -396.58961418185686,
+      "primal_violation": 0.0,
+      "saved_refined_minus_replayed_primary": 3.9658962123212405e-06,
+      "allowed_lexicographic_gap": 4.462485756000425e-06
+    },
+    {
+      "file": "data/controls/CONTROL_LP_MATRICES.json",
+      "index": 1699,
+      "records_in_family": 1700,
+      "primary_objective": -2.3809523809523805,
+      "primal_violation": 0.0,
+      "saved_refined_minus_replayed_primary": 2.3809523685969225e-08,
+      "allowed_lexicographic_gap": 1.261904761904762e-07
+    },
+    {
+      "file": "data/main/Figure2/EXPORTED_LP_MODELS.json",
+      "index": 0,
+      "records_in_family": 172,
+      "primary_objective": -974.0836903568736,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure2/EXPORTED_LP_MODELS.json",
+      "index": 43,
+      "records_in_family": 172,
+      "primary_objective": -713.0222904536176,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure2/EXPORTED_LP_MODELS.json",
+      "index": 86,
+      "records_in_family": 172,
+      "primary_objective": -1987.941278913989,
+      "primal_violation": 9.947598300641403e-14
+    },
+    {
+      "file": "data/main/Figure2/EXPORTED_LP_MODELS.json",
+      "index": 129,
+      "records_in_family": 172,
+      "primary_objective": -399.80532200094433,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure2/EXPORTED_LP_MODELS.json",
+      "index": 171,
+      "records_in_family": 172,
+      "primary_objective": -399.80532200094433,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure2/PANEL_C_LP_MODELS.json",
+      "index": 0,
+      "records_in_family": 404,
+      "primary_objective": -974.0836903568736,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure2/PANEL_C_LP_MODELS.json",
+      "index": 101,
+      "records_in_family": 404,
+      "primary_objective": -713.0222904536176,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure2/PANEL_C_LP_MODELS.json",
+      "index": 202,
+      "records_in_family": 404,
+      "primary_objective": -1987.941278913989,
+      "primal_violation": 9.947598300641403e-14
+    },
+    {
+      "file": "data/main/Figure2/PANEL_C_LP_MODELS.json",
+      "index": 303,
+      "records_in_family": 404,
+      "primary_objective": -399.80532200094433,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure2/PANEL_C_LP_MODELS.json",
+      "index": 403,
+      "records_in_family": 404,
+      "primary_objective": -425.0771160164008,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure3/EXPORTED_LP_MODELS.json",
+      "index": 0,
+      "records_in_family": 32,
+      "primary_objective": -974.0836903568736,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure3/EXPORTED_LP_MODELS.json",
+      "index": 8,
+      "records_in_family": 32,
+      "primary_objective": -713.0222904536176,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure3/EXPORTED_LP_MODELS.json",
+      "index": 16,
+      "records_in_family": 32,
+      "primary_objective": -1987.941278913989,
+      "primal_violation": 9.947598300641403e-14
+    },
+    {
+      "file": "data/main/Figure3/EXPORTED_LP_MODELS.json",
+      "index": 24,
+      "records_in_family": 32,
+      "primary_objective": -399.80532200094433,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure3/EXPORTED_LP_MODELS.json",
+      "index": 31,
+      "records_in_family": 32,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json",
+      "index": 0,
+      "records_in_family": 3232,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0,
+      "saved_primary_minus_replayed_primary": 0.0
+    },
+    {
+      "file": "data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json",
+      "index": 808,
+      "records_in_family": 3232,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0,
+      "saved_primary_minus_replayed_primary": 0.0
+    },
+    {
+      "file": "data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json",
+      "index": 1616,
+      "records_in_family": 3232,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0,
+      "saved_primary_minus_replayed_primary": 0.0
+    },
+    {
+      "file": "data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json",
+      "index": 2424,
+      "records_in_family": 3232,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0,
+      "saved_primary_minus_replayed_primary": 0.0
+    },
+    {
+      "file": "data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json",
+      "index": 3231,
+      "records_in_family": 3232,
+      "primary_objective": -953.9787093885766,
+      "primal_violation": 0.0,
+      "saved_primary_minus_replayed_primary": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json",
+      "index": 0,
+      "records_in_family": 4194,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json",
+      "index": 1048,
+      "records_in_family": 4194,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json",
+      "index": 2097,
+      "records_in_family": 4194,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json",
+      "index": 3145,
+      "records_in_family": 4194,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json",
+      "index": 4193,
+      "records_in_family": 4194,
+      "primary_objective": -10.865491372054429,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json",
+      "index": 0,
+      "records_in_family": 36900,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json",
+      "index": 9225,
+      "records_in_family": 36900,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json",
+      "index": 18450,
+      "records_in_family": 36900,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json",
+      "index": 27675,
+      "records_in_family": 36900,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json",
+      "index": 36899,
+      "records_in_family": 36900,
+      "primary_objective": -10.865491372054429,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_c/PANEL_C_ALL_POLICY_LP_MODELS.json",
+      "index": 0,
+      "records_in_family": 600,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_c/PANEL_C_ALL_POLICY_LP_MODELS.json",
+      "index": 150,
+      "records_in_family": 600,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_c/PANEL_C_ALL_POLICY_LP_MODELS.json",
+      "index": 300,
+      "records_in_family": 600,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_c/PANEL_C_ALL_POLICY_LP_MODELS.json",
+      "index": 450,
+      "records_in_family": 600,
+      "primary_objective": 0.0,
+      "primal_violation": 0.0
+    },
+    {
+      "file": "data/main/Figure4/panel_c/PANEL_C_ALL_POLICY_LP_MODELS.json",
+      "index": 599,
+      "records_in_family": 600,
+      "primary_objective": -10.865491372054429,
+      "primal_violation": 0.0
+    }
+  ]
+}

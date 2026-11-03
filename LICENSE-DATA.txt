@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+CAR-MAP author-generated simulation data, optimisation matrices, numerical
+certificates and derived scenario results are licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0).
+
+Creators: Yuanjing Zhao, Jin Xuan and Lei Xing, University of Surrey.
+Software/repository release: CAR-MAP v1.0.0, 3 November 2026.
+Numerical source-data version: V7, 2 November 2026.
+
+License: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Retain creator attribution, identify the versions, link the licence and
+indicate changes. This notice applies to author-owned data under paper/ and
+inside datasets/Energy_Source_Data_V7_20261102.zip. It does not relicense
+cited papers, third-party source data, published third-party summary evidence,
+official source documents, third-party software or fonts. Their original
+rights and terms remain with their respective owners.
+
+Author-generated software and reproduction documentation are covered
+separately by the MIT License in LICENSE. The manuscript and correspondence
+are not licensed by this data notice.

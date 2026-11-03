@@ -1,0 +1,765 @@
+{
+  "sources": [
+    {
+      "source": {
+        "name": "NGCC",
+        "Q": 2000000.0,
+        "pin": 160000.0,
+        "Tin": 313.15,
+        "y": 0.9995,
+        "dry": true,
+        "separate": true,
+        "storageP": 15000000.0,
+        "quality": true
+      },
+      "storage": {
+        "electricity": 0.9545958775072959,
+        "nonpower": 91.53062707683671,
+        "nonenergy_ghg": 0.007,
+        "modules": {
+          "separator": {
+            "electricity": 0.8426406364684912,
+            "nonpower": 34.91183355547486,
+            "capital_specific": 1861682.6421408444,
+            "heat": 0.75,
+            "capture_auxiliary": 0.08131487889273356,
+            "heat_electric_equivalent": 0.7613257575757576,
+            "cooling_fan": 0.0,
+            "status": "DEA scope-adjusted generic separator cost; UK matchedIEAGHG energy analogy, not site measurement"
+          },
+          "pressure": {
+            "electricity": 0.09806635214991592,
+            "nonpower": 6.295162763678523,
+            "capital": 88434943.0812752,
+            "compression": {
+              "pin_Pa": 160000.0,
+              "pout_Pa": 15000000.0,
+              "y_CO2": 0.9995,
+              "mass_mixture_per_mass_CO2": 1.0003184233255646,
+              "shaft_MWh_tCO2": 0.08936303454242012,
+              "electric_MWh_tCO2": 0.09406635214991592,
+              "cooling_heat_MWhth_tCO2": 0.15397749243098882,
+              "pre_cooling_MWhth_tCO2": 0.0,
+              "terminal_T_K": 313.15,
+              "stages": [
+                {
+                  "stage": 1,
+                  "p_in_Pa": 160000.0,
+                  "p_hot_Pa": 309168.3088657573,
+                  "p_after_cooler_Pa": 306076.62577709975,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 360.92815854894724,
+                  "T_hot_K": 372.22072548053825,
+                  "shaft_MWh_tCO2": 0.014446907616553385,
+                  "electric_MWh_tCO2": 0.015207271175319352,
+                  "inlet_density_kg_m3": 2.7224236264528114,
+                  "rejected_heat_MWhth_tCO2": 0.014788971882125456,
+                  "inlet_phase": 5,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 2,
+                  "p_in_Pa": 306076.62577709975,
+                  "p_hot_Pa": 591432.4548427701,
+                  "p_after_cooler_Pa": 585518.1302943424,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 361.21597417374363,
+                  "T_hot_K": 372.3140623773653,
+                  "shaft_MWh_tCO2": 0.014353342634778507,
+                  "electric_MWh_tCO2": 0.015108781720819482,
+                  "inlet_density_kg_m3": 5.24084238410448,
+                  "rejected_heat_MWhth_tCO2": 0.015017831405295369,
+                  "inlet_phase": 5,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 3,
+                  "p_in_Pa": 585518.1302943424,
+                  "p_hot_Pa": 1131397.8134583875,
+                  "p_after_cooler_Pa": 1120083.8353238036,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 361.76147931834623,
+                  "T_hot_K": 372.48831228012347,
+                  "shaft_MWh_tCO2": 0.014172834958499437,
+                  "electric_MWh_tCO2": 0.014918773640525724,
+                  "inlet_density_kg_m3": 10.149748042255055,
+                  "rejected_heat_MWhth_tCO2": 0.015483527754362684,
+                  "inlet_phase": 5,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 4,
+                  "p_in_Pa": 1120083.8353238036,
+                  "p_hot_Pa": 2164340.1572183236,
+                  "p_after_cooler_Pa": 2142696.7556461403,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 362.7815570773508,
+                  "T_hot_K": 372.8016804820891,
+                  "shaft_MWh_tCO2": 0.013821592231320385,
+                  "electric_MWh_tCO2": 0.014549044454021458,
+                  "inlet_density_kg_m3": 19.898806207461437,
+                  "rejected_heat_MWhth_tCO2": 0.01649428009679564,
+                  "inlet_phase": 5,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 5,
+                  "p_in_Pa": 2142696.7556461403,
+                  "p_hot_Pa": 4140337.077220389,
+                  "p_after_cooler_Pa": 4098933.7064481853,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 364.60586738233087,
+                  "T_hot_K": 373.2918762619106,
+                  "shaft_MWh_tCO2": 0.01312494699527397,
+                  "electric_MWh_tCO2": 0.013815733679235758,
+                  "inlet_density_kg_m3": 40.067400382298636,
+                  "rejected_heat_MWhth_tCO2": 0.019056055238632342,
+                  "inlet_phase": 5,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 6,
+                  "p_in_Pa": 4098933.7064481853,
+                  "p_hot_Pa": 7920377.513596474,
+                  "p_after_cooler_Pa": 7841173.738460509,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 367.20246693464844,
+                  "T_hot_K": 373.4438228680395,
+                  "shaft_MWh_tCO2": 0.011672368741212002,
+                  "electric_MWh_tCO2": 0.012286703938117897,
+                  "inlet_density_kg_m3": 86.39717801169424,
+                  "rejected_heat_MWhth_tCO2": 0.0311134341401758,
+                  "inlet_phase": 5,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 7,
+                  "p_in_Pa": 7841173.738460509,
+                  "p_hot_Pa": 15151515.151515152,
+                  "p_after_cooler_Pa": 15000000.0,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 360.455375629173,
+                  "T_hot_K": 362.68140133316,
+                  "shaft_MWh_tCO2": 0.007771041364782429,
+                  "electric_MWh_tCO2": 0.008180043541876241,
+                  "inlet_density_kg_m3": 260.57314984920646,
+                  "rejected_heat_MWhth_tCO2": 0.042023391913601535,
+                  "inlet_phase": 5,
+                  "device": "compressor"
+                }
+              ],
+              "electricity_fans_MWh_tCO2": 0.0013857974318788992,
+              "surrogate": "drybinaryCO2_N2; other dry noncondensables represented byN2"
+            },
+            "compressor_cost_parts": [
+              {
+                "capital": 12044631.632801155,
+                "units": 1,
+                "effective_unit_size": 3611.7269041383465,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 4007682.6185916876,
+                "correlation": "centrifugal",
+                "range": [
+                  2.0,
+                  4000.0
+                ],
+                "stage": 1,
+                "shaft_kW": 3611.7269041383465,
+                "device": "compressor"
+              },
+              {
+                "capital": 11974402.804862991,
+                "units": 1,
+                "effective_unit_size": 3588.3356586946265,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 3984314.958904582,
+                "correlation": "centrifugal",
+                "range": [
+                  2.0,
+                  4000.0
+                ],
+                "stage": 2,
+                "shaft_kW": 3588.3356586946265,
+                "device": "compressor"
+              },
+              {
+                "capital": 11838786.077074286,
+                "units": 1,
+                "effective_unit_size": 3543.208739624859,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 3939190.3906057114,
+                "correlation": "centrifugal",
+                "range": [
+                  2.0,
+                  4000.0
+                ],
+                "stage": 3,
+                "shaft_kW": 3543.208739624859,
+                "device": "compressor"
+              },
+              {
+                "capital": 11574397.272815716,
+                "units": 1,
+                "effective_unit_size": 3455.3980578300966,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 3851218.7159476215,
+                "correlation": "centrifugal",
+                "range": [
+                  2.0,
+                  4000.0
+                ],
+                "stage": 4,
+                "shaft_kW": 3455.3980578300966,
+                "device": "compressor"
+              },
+              {
+                "capital": 11048006.4368994,
+                "units": 1,
+                "effective_unit_size": 3281.2367488184923,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 3676069.5318129514,
+                "correlation": "centrifugal",
+                "range": [
+                  2.0,
+                  4000.0
+                ],
+                "stage": 5,
+                "shaft_kW": 3281.2367488184923,
+                "device": "compressor"
+              },
+              {
+                "capital": 9941209.249281708,
+                "units": 1,
+                "effective_unit_size": 2918.0921853030004,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 3307798.256580103,
+                "correlation": "centrifugal",
+                "range": [
+                  2.0,
+                  4000.0
+                ],
+                "stage": 6,
+                "shaft_kW": 2918.0921853030004,
+                "device": "compressor"
+              },
+              {
+                "capital": 6893303.733525699,
+                "units": 1,
+                "effective_unit_size": 1942.7603411956075,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 2293650.349778216,
+                "correlation": "centrifugal",
+                "range": [
+                  2.0,
+                  4000.0
+                ],
+                "stage": 7,
+                "shaft_kW": 1942.7603411956075,
+                "device": "compressor"
+              }
+            ],
+            "drycooler": {
+              "capital": 950061.6214683207,
+              "units": 1,
+              "effective_unit_size": 5132.583081032962,
+              "floor": false,
+              "raw_bare_EUR_CEPCI1000": 316119.7090146396,
+              "correlation": "dry_cooler",
+              "range": [
+                10.0,
+                10000.0
+              ]
+            },
+            "dryer_capital": 9347493.75227269,
+            "dryer_electricity": 0.004,
+            "cold": {
+              "electricity": 0.0,
+              "nonpower": 0.0,
+              "capital": 0.0,
+              "heat": 0.0,
+              "cycle": {
+                "refrigerant": "R717",
+                "P_evap_Pa": 429247.7987205488,
+                "P_cond_Pa": 1554533.227914083,
+                "q_evap_J_kg": 1109144.730160357,
+                "w_shaft_J_kg": 252666.40253322502,
+                "w_electric_J_kg": 265964.6342455,
+                "COP_electric": 4.170271484804085,
+                "q_cond_per_q_evap": 1.2278029148609806,
+                "eta_isentropic": 0.75,
+                "eta_motor": 0.95,
+                "superheat_K": 5,
+                "subcool_K": 5,
+                "status": "declared utility cycle, not measured four-site refrigeration performance"
+              }
+            },
+            "additional_compression_fan_electricity": 0.0,
+            "fan_extra_fraction": 0.0,
+            "grid_connection_capital": 2822650.5002732226,
+            "feed_temperature_K": 313.15,
+            "status": "explicit reference sizing, with binary impurity/utility assumptions"
+          },
+          "receiving": {
+            "nonpower": 21.540562575865135,
+            "electricity": 0.013888888888888888,
+            "lifetime_capacity_t": 30000000.0,
+            "annual_reference_t": 1000000.0,
+            "life": 30.0,
+            "kind": "onshore",
+            "scope": "DEA cold-liquid tanker receiving/tanks/heating/localpipeline/injection cost kernel. Reuse at150bar40C is a bounded author service-cost analogy, NOT an exactly compatible inlet package or actualfour-site tariff.",
+            "PV_capital_USD2026": 161673413.93503615
+          },
+          "collection_tariff": 28.783068181818187
+        },
+        "cost_basis": "generic_modular"
+      },
+      "utilization": {
+        "recovery": 0.998,
+        "electricity_per_raw_t": 0.962811000999674,
+        "nonpower_per_raw_t": 55.285745007354116,
+        "nonenergy_ghg_per_raw_t": 0.002,
+        "modules": {
+          "separator": {
+            "electricity": 0.8426406364684912,
+            "nonpower": 34.91183355547486,
+            "capital_specific": 1861682.6421408444,
+            "heat": 0.75,
+            "capture_auxiliary": 0.08131487889273356,
+            "heat_electric_equivalent": 0.7613257575757576,
+            "cooling_fan": 0.0,
+            "status": "DEA scope-adjusted generic separator cost; UK matchedIEAGHG energy analogy, not site measurement"
+          },
+          "qualification": {
+            "energy": 0.02,
+            "nonpower": 11.513227272727276,
+            "recovery": 0.998,
+            "scope": "conditional delivered quality at declared pressure, feed-spec acceptance assumed, not an engineering purification design"
+          },
+          "pressure": {
+            "electricity": 0.10037110674467213,
+            "nonpower": 8.878441061274529,
+            "capital": 8834477.351897197,
+            "compression": {
+              "pin_Pa": 160000.0,
+              "pout_Pa": 10000000.0,
+              "y_CO2": 0.999999,
+              "mass_mixture_per_mass_CO2": 1.0000006365288643,
+              "shaft_MWh_tCO2": 0.0845063311067516,
+              "electric_MWh_tCO2": 0.08895403274394906,
+              "cooling_heat_MWhth_tCO2": 0.14150033402688333,
+              "pre_cooling_MWhth_tCO2": 0.0,
+              "terminal_T_K": 313.15,
+              "stages": [
+                {
+                  "stage": 1,
+                  "p_in_Pa": 160000.0,
+                  "p_hot_Pa": 291768.95253664604,
+                  "p_after_cooler_Pa": 288851.2630112796,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 356.54225118219034,
+                  "T_hot_K": 366.82679735585884,
+                  "shaft_MWh_tCO2": 0.013087398032458142,
+                  "electric_MWh_tCO2": 0.013776208455219098,
+                  "inlet_density_kg_m3": 2.7229134929044014,
+                  "rejected_heat_MWhth_tCO2": 0.013388926243350877,
+                  "inlet_phase": 2,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 2,
+                  "p_in_Pa": 288851.2630112796,
+                  "p_hot_Pa": 526736.4402980518,
+                  "p_after_cooler_Pa": 521469.0758950713,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 356.7678027247114,
+                  "T_hot_K": 366.89724800277963,
+                  "shaft_MWh_tCO2": 0.013012804270875426,
+                  "electric_MWh_tCO2": 0.013697688706184659,
+                  "inlet_density_kg_m3": 4.943108980550766,
+                  "rejected_heat_MWhth_tCO2": 0.013564291486311117,
+                  "inlet_phase": 2,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 3,
+                  "p_in_Pa": 521469.0758950713,
+                  "p_hot_Pa": 950928.0378384857,
+                  "p_after_cooler_Pa": 941418.7574601008,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 357.17210033778616,
+                  "T_hot_K": 367.021879164116,
+                  "shaft_MWh_tCO2": 0.012877122634429423,
+                  "electric_MWh_tCO2": 0.01355486593097834,
+                  "inlet_density_kg_m3": 9.015453679174211,
+                  "rejected_heat_MWhth_tCO2": 0.013897224980385474,
+                  "inlet_phase": 2,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 4,
+                  "p_in_Pa": 941418.7574601008,
+                  "p_hot_Pa": 1716729.7797655277,
+                  "p_after_cooler_Pa": 1699562.4819678725,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 357.8904650619984,
+                  "T_hot_K": 367.23671682139684,
+                  "shaft_MWh_tCO2": 0.012628685823685594,
+                  "electric_MWh_tCO2": 0.013293353498616416,
+                  "inlet_density_kg_m3": 16.58885569620732,
+                  "rejected_heat_MWhth_tCO2": 0.01455848426427516,
+                  "inlet_phase": 2,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 5,
+                  "p_in_Pa": 1699562.4819678725,
+                  "p_hot_Pa": 3099247.282089679,
+                  "p_after_cooler_Pa": 3068254.8092687824,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 359.13557627640694,
+                  "T_hot_K": 367.57884805555415,
+                  "shaft_MWh_tCO2": 0.012167653274677316,
+                  "electric_MWh_tCO2": 0.012808056078607702,
+                  "inlet_density_kg_m3": 31.06675559351256,
+                  "rejected_heat_MWhth_tCO2": 0.016002998995205218,
+                  "inlet_phase": 2,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 6,
+                  "p_in_Pa": 3068254.8092687824,
+                  "p_hot_Pa": 5595134.323849244,
+                  "p_after_cooler_Pa": 5539182.980610752,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 361.10348762008664,
+                  "T_hot_K": 367.9474930129141,
+                  "shaft_MWh_tCO2": 0.01128602758044878,
+                  "electric_MWh_tCO2": 0.011880029032051348,
+                  "inlet_density_kg_m3": 60.47893631071403,
+                  "rejected_heat_MWhth_tCO2": 0.020042027838409304,
+                  "inlet_phase": 2,
+                  "device": "compressor"
+                },
+                {
+                  "stage": 7,
+                  "p_in_Pa": 5539182.980610752,
+                  "p_hot_Pa": 10101010.1010101,
+                  "p_after_cooler_Pa": 10000000.0,
+                  "T_in_K": 313.15,
+                  "T_isentropic_K": 362.5760866069207,
+                  "T_hot_K": 366.7147627977368,
+                  "shaft_MWh_tCO2": 0.009446639490176921,
+                  "electric_MWh_tCO2": 0.009943831042291497,
+                  "inlet_density_kg_m3": 131.47367194025566,
+                  "rejected_heat_MWhth_tCO2": 0.05004638021894619,
+                  "inlet_phase": 2,
+                  "device": "compressor"
+                }
+              ],
+              "electricity_fans_MWh_tCO2": 0.00127350300624195,
+              "surrogate": "pureCO2"
+            },
+            "compressor_cost_parts": [
+              {
+                "capital": 981072.8206974866,
+                "units": 1,
+                "effective_unit_size": 229.02946556801749,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 326438.2515754558,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ],
+                "stage": 1,
+                "shaft_kW": 229.02946556801749,
+                "device": "compressor"
+              },
+              {
+                "capital": 976596.8374029347,
+                "units": 1,
+                "effective_unit_size": 227.72407474031994,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 324948.9307728311,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ],
+                "stage": 2,
+                "shaft_kW": 227.72407474031994,
+                "device": "compressor"
+              },
+              {
+                "capital": 968442.1002568697,
+                "units": 1,
+                "effective_unit_size": 225.3496461025149,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 322235.55610801635,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ],
+                "stage": 3,
+                "shaft_kW": 225.3496461025149,
+                "device": "compressor"
+              },
+              {
+                "capital": 953465.8062772601,
+                "units": 1,
+                "effective_unit_size": 221.0020019144979,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 317252.40387033834,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ],
+                "stage": 4,
+                "shaft_kW": 221.0020019144979,
+                "device": "compressor"
+              },
+              {
+                "capital": 925516.2664407932,
+                "units": 1,
+                "effective_unit_size": 212.93393230685302,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 307952.5856263997,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ],
+                "stage": 5,
+                "shaft_kW": 212.93393230685302,
+                "device": "compressor"
+              },
+              {
+                "capital": 871468.0737346839,
+                "units": 1,
+                "effective_unit_size": 197.50548265785363,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 289968.80587470694,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ],
+                "stage": 6,
+                "shaft_kW": 197.50548265785363,
+                "device": "compressor"
+              },
+              {
+                "capital": 755858.4437600835,
+                "units": 1,
+                "effective_unit_size": 165.31619107809613,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 251501.31938643238,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ],
+                "stage": 7,
+                "shaft_kW": 165.31619107809613,
+                "device": "compressor"
+              }
+            ],
+            "drycooler": {
+              "capital": 317037.82484113466,
+              "units": 1,
+              "effective_unit_size": 330.1674460627277,
+              "floor": false,
+              "raw_bare_EUR_CEPCI1000": 105489.899466227,
+              "correlation": "dry_cooler",
+              "range": [
+                10.0,
+                10000.0
+              ]
+            },
+            "dryer_capital": 654324.5626590882,
+            "dryer_electricity": 0.004,
+            "cold": {
+              "electricity": 0.00741707400072307,
+              "nonpower": 1.1676328325782088,
+              "capital": 1228465.4272027104,
+              "heat": 0.02956861803975116,
+              "compressor": {
+                "capital": 576674.6208481785,
+                "units": 1,
+                "effective_unit_size": 117.87680411266003,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 191880.4098800579,
+                "correlation": "reciprocating",
+                "range": [
+                  1.0,
+                  10000.0
+                ]
+              },
+              "evaporator": {
+                "capital": 467801.75991914654,
+                "units": 1,
+                "effective_unit_size": 344.9672104637636,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 155654.48901475064,
+                "correlation": "shell_tube",
+                "range": [
+                  20.0,
+                  2000.0
+                ]
+              },
+              "condenser": {
+                "capital": 183989.04643538524,
+                "units": 1,
+                "effective_unit_size": 84.71034930777407,
+                "floor": false,
+                "raw_bare_EUR_CEPCI1000": 61219.78038766024,
+                "correlation": "dry_cooler",
+                "range": [
+                  10.0,
+                  10000.0
+                ]
+              },
+              "cycle": {
+                "refrigerant": "R717",
+                "P_evap_Pa": 429247.7987205488,
+                "P_cond_Pa": 1554533.227914083,
+                "q_evap_J_kg": 1109144.730160357,
+                "w_shaft_J_kg": 252666.40253322502,
+                "w_electric_J_kg": 265964.6342455,
+                "COP_electric": 4.170271484804085,
+                "q_cond_per_q_evap": 1.2278029148609806,
+                "eta_isentropic": 0.75,
+                "eta_motor": 0.95,
+                "superheat_K": 5,
+                "subcool_K": 5,
+                "status": "declared utility cycle, not measured four-site refrigeration performance"
+              }
+            },
+            "additional_compression_fan_electricity": 0.0,
+            "fan_extra_fraction": 0.0,
+            "grid_connection_capital": 202229.18862415146,
+            "feed_temperature_K": 278.15,
+            "status": "explicit reference sizing, with binary impurity/utility assumptions"
+          }
+        }
+      }
+    }
+  ],
+  "methanol": {
+    "alpha": 1.4,
+    "beta": 0.1917,
+    "electricity_MWh_tMeOH": 11.141304837315062,
+    "hydrogen_kWh_kg": 54.5,
+    "process_cooling_fan_MWh_tMeOH": 0.0,
+    "synthesis_auxiliary_scope": "DEA0.1MWh/t includes process pumping andcooling; feedconditioningoutside declaredinlet isseparate",
+    "boiler_nonenergy_VOM_scope": "unknownresidual fraction0..1 ofgross.58EUR2025/MWhheat, withphysicalauxelectricitypricedonce",
+    "hydrogen_quote_scope_exception": null,
+    "hydrogen_booster_MWh_tMeOH": 0.0,
+    "steam_electricity_MWh_tMeOH": 0.5887585858585859,
+    "water_m3_tMeOH": 1.9848124003846155,
+    "nonpower_USD_tMeOH": 432.1958953459859,
+    "nonpower_components": {
+      "synthesis": 161.31077301106657,
+      "electrolysis": 231.2455731924832,
+      "steam": 0.9233507421013014,
+      "hydrogen_cooling": 0.9643592119269141,
+      "process_cooling": 0.8606573111173597,
+      "other_OSBL": 15.55884925367244,
+      "water": 4.570319251871089,
+      "wastewater": 0.138109377132303,
+      "grid_connection": 16.623903994614725
+    },
+    "hydrogen_nonpower_USD_kg": 1.2062888533775857,
+    "hydrogen_cold": {
+      "electricity": 0.004896251456476404,
+      "nonpower": 0.9643592119269141,
+      "capital": 728623.3693371231,
+      "heat": 0.019519205164868565,
+      "compressor": {
+        "capital": 316033.62421724026,
+        "units": 1,
+        "effective_unit_size": 55.58164790408206,
+        "floor": false,
+        "raw_bare_EUR_CEPCI1000": 105155.7657617972,
+        "correlation": "reciprocating",
+        "range": [
+          1.0,
+          10000.0
+        ]
+      },
+      "evaporator": {
+        "capital": 276384.6998155829,
+        "units": 1,
+        "effective_unit_size": 162.66004304057137,
+        "floor": false,
+        "raw_bare_EUR_CEPCI1000": 91963.14102949365,
+        "correlation": "shell_tube",
+        "range": [
+          20.0,
+          2000.0
+        ]
+      },
+      "condenser": {
+        "capital": 136205.04530429997,
+        "units": 1,
+        "effective_unit_size": 39.94289499532522,
+        "floor": false,
+        "raw_bare_EUR_CEPCI1000": 45320.322719042524,
+        "correlation": "dry_cooler",
+        "range": [
+          10.0,
+          10000.0
+        ]
+      },
+      "cycle": {
+        "refrigerant": "R717",
+        "P_evap_Pa": 429247.7987205488,
+        "P_cond_Pa": 1554533.227914083,
+        "q_evap_J_kg": 1109144.730160357,
+        "w_shaft_J_kg": 252666.40253322502,
+        "w_electric_J_kg": 265964.6342455,
+        "COP_electric": 4.170271484804085,
+        "q_cond_per_q_evap": 1.2278029148609806,
+        "eta_isentropic": 0.75,
+        "eta_motor": 0.95,
+        "superheat_K": 5,
+        "subcool_K": 5,
+        "status": "declared utility cycle, not measured four-site refrigeration performance"
+      }
+    },
+    "reference_tph": 12.5,
+    "reference_output_t_y": 100000.0,
+    "reference_installed_nameplate_t_y": 100000.0,
+    "synthesis_capital_USD2026": 136866787.12972215,
+    "ancillary_capital_USD2026": 13686678.712972216,
+    "process_cooling_capital": {
+      "capital": 695881.1509254335,
+      "units": 1,
+      "effective_unit_size": 2356.6453666666666,
+      "floor": false,
+      "raw_bare_EUR_CEPCI1000": 231544.71454108274,
+      "correlation": "dry_cooler",
+      "range": [
+        10.0,
+        10000.0
+      ]
+    },
+    "grid_connection_capital": 16034046.83834301,
+    "fixed_reference_hours": 8000.0,
+    "stack_replacement_years": [
+      9.125,
+      18.25
+    ],
+    "uniform_exclusions": [
+      "land",
+      "VAT/taxes",
+      "owner corporate cost",
+      "construction finance",
+      "districtheat export",
+      "longdistance methanol delivery"
+    ],
+    "uncertainty": "OSBL,waterprice,installationfactor and gridconnection are explicit bounded reference assumptions, not observed site quotations"
+  }
+}

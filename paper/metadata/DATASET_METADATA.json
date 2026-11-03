@@ -1,0 +1,37 @@
+{
+  "title": "Source data and reproducibility record for Rethinking captured carbon allocation across storage, fuels and chemicals under resource and policy constraints",
+  "version": "V7 numerical source-data release, 2026-11-02",
+  "creators": [
+    "Yuanjing Zhao",
+    "Jin Xuan",
+    "Lei Xing"
+  ],
+  "affiliation": "School of Chemistry and Chemical Engineering, University of Surrey, United Kingdom",
+  "target_journal": "Energy",
+  "article_type": "Perspective",
+  "language": "English",
+  "technical_scenario_year": 2030,
+  "monetary_basis": "September 2026 USD",
+  "regions": {
+    "ARA": "Amsterdam–Rotterdam–Antwerp",
+    "UK": "Teesside–Endurance",
+    "US": "US Gulf Coast",
+    "CN": "Yulin, China"
+  },
+  "source_cohorts_tCO2_y": {
+    "ARA": 2500000,
+    "UK": 2000000,
+    "US": 2000000,
+    "CN": 400000
+  },
+  "fixed_services": {
+    "chemical_methanol_t_y": 300000,
+    "shaft_work_GJ_y": 5000000
+  },
+  "evidence_access": "Files supplied as a journal submission attachment. Third-party publications are identified through their source locators and URLs.",
+  "licence": "No additional licence is assigned by this packaging step. Original third-party rights remain with their respective owners.",
+  "persistent_identifier": null,
+  "full_precision": "Original numerical values are retained. Display tables preserve their published rounding.",
+  "source_data_type": "Deterministic prospective scenario results, published evidence summaries and input records",
+  "excluded_material": "Full third-party articles, browser caches, temporary files, editable manuscripts and duplicate figure artwork."
+}

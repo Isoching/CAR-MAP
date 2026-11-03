@@ -1,0 +1,7 @@
+﻿Input,Original amount and currency,Price period,Model value,Unit
+ARA electricity reference,60 EUR,2026H1,70.65,USD/MWh
+Matched electricity control,60 EUR,2026-09,69.08,USD/MWh
+Texas industrial electricity proxy,62.6 USD,2026-03,63.77,USD/MWh
+Conventional methanol procurement scenario,450 EUR,2026H1,529.9,USD/t methanol
+Fuel-oil procurement scenario,500 EUR,2026H1,588.7,USD/t fuel oil
+Same-period USD payment,85 USD,2026-09,85,USD/t CO2

@@ -1,0 +1,14 @@
+{
+  "methanol_t_per_source_t": 0.7128571428571429,
+  "hydrogen_t_per_source_t": 0.1366547142857143,
+  "quality_recovery": 0.9979999999999999,
+  "storage_power_MWh": 0.860894617196701,
+  "methanol_power_MWh": 8.81112457994327,
+  "source_handling_power_MWh": 0.8689658459143905,
+  "electrolysis_and_BoP_power_MWh": 7.447681928571429,
+  "other_conversion_power_MWh": 0.49447680545745065,
+  "electrolyser_share_of_total_electricity_pct": 84.52589520212392,
+  "qualified_carbon_to_product_CO2_t": 0.9801785714285715,
+  "byproduct_carbon_CO2_t": 0.01782142857142857,
+  "qualification_vent_CO2_t": 0.002000000000000113
+}

@@ -1,0 +1,4 @@
+﻿route,column,source_unit,abatement_tCO2e_per_source_t,extra_resource_USD_per_source_t,electricity_MWh_per_source_t,hydrogen_t_per_source_t,methanol_t_per_source_t,abatement_tCO2e_per_kUSD,saturation_budget_USD_per_source_t,saturation_constraint,source_file,source_label
+storage,0,t raw source CO2,0.9769873601201413,145.69513864087145,0.860894617196701,0.0,0.0,6.705696354964515,81.23371333803976,electricity,CENTRAL_LP_MODELS.json,ARA common_budget_reference
+chemical,3,t raw source CO2,1.4202202256701981,623.3084966497883,8.81112457994327,0.1366547142857143,0.7128571428571429,2.2785189569911513,33.95571991717596,electricity,CENTRAL_LP_MODELS.json,ARA common_budget_reference
+fuel,1,t raw source CO2,1.0842966819312208,794.8095226146925,8.81112457994327,0.1366547142857143,0.7128571428571429,1.364222057083815,43.298510580985194,electricity,CENTRAL_LP_MODELS.json,ARA common_budget_reference

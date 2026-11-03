@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "date": "2026-10-27",
+  "scenarios": 404,
+  "matched_full_control_solutions": 808,
+  "all_nodes_retained": true,
+  "new_grid_is_direct_optimization": true,
+  "identical_feasible_sets_across_inventory": true,
+  "source_hashes_unchanged": true,
+  "call_counts": {
+    "model_linprog_calls": 1616,
+    "model_failed_calls": 0,
+    "independent_replay_calls": 808
+  },
+  "total_linprog_calls": 2424,
+  "max_independent_objective_gap_tCO2e": 0.0202743328827637,
+  "endpoint_checks": [
+    {
+      "region": "ARA",
+      "inventory": 0.85,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    },
+    {
+      "region": "ARA",
+      "inventory": 4.81,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    },
+    {
+      "region": "UK",
+      "inventory": 0.85,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    },
+    {
+      "region": "UK",
+      "inventory": 4.81,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    },
+    {
+      "region": "US",
+      "inventory": 0.85,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    },
+    {
+      "region": "US",
+      "inventory": 4.81,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    },
+    {
+      "region": "CN",
+      "inventory": 0.85,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    },
+    {
+      "region": "CN",
+      "inventory": 4.81,
+      "differences": {
+        "stored_tCO2": 0.0,
+        "chemical_methanol_t": 0.0,
+        "full_abatement_tCO2e": 0.0,
+        "extra_abatement_tCO2e": 0.0
+      }
+    }
+  ],
+  "shape_checks": [
+    {
+      "region": "ARA",
+      "monotone": true,
+      "convex_within_solver_tolerance": true,
+      "minimum_adjacent_gain_tCO2e": 0.0,
+      "storage_control_variation_tCO2e": 0.0
+    },
+    {
+      "region": "UK",
+      "monotone": true,
+      "convex_within_solver_tolerance": true,
+      "minimum_adjacent_gain_tCO2e": 0.0,
+      "storage_control_variation_tCO2e": 4.656612873077393e-10
+    },
+    {
+      "region": "US",
+      "monotone": true,
+      "convex_within_solver_tolerance": true,
+      "minimum_adjacent_gain_tCO2e": 394.9202026966959,
+      "storage_control_variation_tCO2e": 4.656612873077393e-10
+    },
+    {
+      "region": "CN",
+      "monotone": true,
+      "convex_within_solver_tolerance": true,
+      "minimum_adjacent_gain_tCO2e": 252.71793762687594,
+      "storage_control_variation_tCO2e": 4.0745362639427185e-10
+    }
+  ],
+  "inventory_step_tCO2e_per_tMeOH": 0.03959999999999997,
+  "intermediate_values": "Declared deterministic sensitivity settings between the two literature anchors.",
+  "scipy_version": "1.13.1",
+  "numpy_version": "1.26.4",
+  "statistics": "Deterministic scenario results with solver tolerance. No averaging or confidence intervals."
+}

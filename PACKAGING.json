@@ -1,0 +1,56 @@
+{
+  "format_version": 1,
+  "source_archive": "Energy_Source_Data_V7_20261102.zip",
+  "source_archive_sha256": "3acf65c81a15e1c6ca265b3d115206c2310dd71ccc5dce0504148a400d872c5f",
+  "transformation": "Lossless gzip for files larger than 5,000,000 bytes; all decompressed file bytes match the original V7 attachment.",
+  "compressed_files": [
+    {
+      "path": "paper/data/controls/CONTROL_LP_MATRICES.json",
+      "gzip_path": "paper/data/controls/CONTROL_LP_MATRICES.json.gz",
+      "sha256": "9e539afe5a94ddea34431590c1450788853c6e19eb7e813d4c7d177e6c0c0d5d",
+      "gzip_sha256": "4dabb59bf2ae955672bf8f5b2c738dc3c2b4d4d882b1b19ebc163d412e751818",
+      "bytes": 12555089,
+      "gzip_bytes": 167227
+    },
+    {
+      "path": "paper/data/controls/FULL_CONTROL_SOLUTIONS.json",
+      "gzip_path": "paper/data/controls/FULL_CONTROL_SOLUTIONS.json.gz",
+      "sha256": "6ee6167fbfe6d88fe994bec850c914bf7a77d919ce66f79764b8f575f444cae6",
+      "gzip_sha256": "b12886991424ce02168f77f2de69d0dbbe83c59534da9b8e4e610c9592ce5af4",
+      "bytes": 9773936,
+      "gzip_bytes": 185909
+    },
+    {
+      "path": "paper/data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json",
+      "gzip_path": "paper/data/main/Figure4/panel_a/ALL_POLICY_LP_MODELS.json.gz",
+      "sha256": "5a2312d0be5eb61ea7cb4b6a80f3c914360052e71bc10cf6129ac90cb66c0e9e",
+      "gzip_sha256": "fe903e5f1a823985564af6f0960da52f46e1b88dc0885c3bd8c4bcd2dc6f0070",
+      "bytes": 23731913,
+      "gzip_bytes": 293633
+    },
+    {
+      "path": "paper/data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json",
+      "gzip_path": "paper/data/main/Figure4/panel_b/ALL_POLICY_LP_MODELS.json.gz",
+      "sha256": "150e968ccfa1d158f8b4506f5b466b56128ad9e16b3f53af016703133fe78ee8",
+      "gzip_sha256": "62a2b55bdab5f104001cc62184099f144c23b455bcff77fa24d45be6cf9f0f35",
+      "bytes": 209552970,
+      "gzip_bytes": 2523974
+    },
+    {
+      "path": "paper/data/main/Figure4/panel_b/FULL_TRANSMISSION_SCAN.csv",
+      "gzip_path": "paper/data/main/Figure4/panel_b/FULL_TRANSMISSION_SCAN.csv.gz",
+      "sha256": "cdc32dc33a40ca7dd8e86359cab6bacd09107ca6c5e2e4b2ce328b78a33bb783",
+      "gzip_sha256": "5df6bd65fad22efd1e1c131376e5078c2816951c060c76f834dc52ac91819f3f",
+      "bytes": 28051022,
+      "gzip_bytes": 813239
+    },
+    {
+      "path": "paper/data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json",
+      "gzip_path": "paper/data/supplement/Figures_S1_S2/EXPORTED_JOINT_LP_EVIDENCE.json.gz",
+      "sha256": "96bcd3a13e9eac812c88499095777c4338de2d3fd8cda071fc99c711263a224f",
+      "gzip_sha256": "a90140bbf6afe64c413e2c2e34e14e8215a45d8cadd6e3a409c0fffbd0c6f5bb",
+      "bytes": 32826830,
+      "gzip_bytes": 706364
+    }
+  ]
+}

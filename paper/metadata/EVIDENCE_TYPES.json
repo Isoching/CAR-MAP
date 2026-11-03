@@ -1,0 +1,8 @@
+{
+  "geological_retention": "Published Monte Carlo summary endpoints, not new Monte Carlo runs or source-study raw samples.",
+  "hydrogen_maturity": "Published external project/pipeline observations with their stated cohort and dates.",
+  "allocation_grids": "Deterministic optimised scenarios. Grid nodes are not statistical replicates.",
+  "commissioning": "Independent prescribed connection-date and production-cohort scenarios, not regional construction forecasts.",
+  "policy": "Declared generic support experiments. Realisation, qualification and pass-through are deterministic controls.",
+  "monetary": "Source-period currencies, archived ECB series and euro-area HICP, converted to September 2026 USD."
+}

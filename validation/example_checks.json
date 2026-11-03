@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "example": "example.json",
+      "comparison": "Figure 2 retained ARA core comparison",
+      "inventory": 0.85,
+      "status": "PASS",
+      "all_route_abatement_tCO2e": 974083.6806160369,
+      "storage_only_abatement_tCO2e": 974083.6806160369
+    },
+    {
+      "example": "ara_coal.json",
+      "comparison": "Figure 2 retained ARA core comparison",
+      "inventory": 4.81,
+      "status": "PASS",
+      "all_route_abatement_tCO2e": 981864.6117608642,
+      "storage_only_abatement_tCO2e": 974083.6806160369
+    },
+    {
+      "example": "ara_figure1.json",
+      "comparison": "Figure 1 retained ARA frontier at reference budget",
+      "status": "PASS",
+      "abatement_tCO2e": 965052.567307041
+    },
+    {
+      "example": "policy.json",
+      "comparison": "Figure 4c retained ARA utilization support, nominal rate 800, fiscal cap 20",
+      "status": "PASS",
+      "abatement_tCO2e": 88941.64650976927,
+      "public_fiscal_USD": 49999999.5
+    }
+  ]
+}
